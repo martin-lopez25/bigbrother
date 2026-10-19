@@ -43,3 +43,5 @@ Instagram, Reddit, Facebook, X y XiaoHongShu permanecen condicionados a lo que i
 ## GitHub Pages
 
 La acción de `.github/workflows/pages.yml` publica la interfaz desde `main` en `https://martin-lopez25.github.io/bigbrother/`. GitHub Pages solo aloja archivos estáticos: las búsquedas y los resúmenes requieren el servidor Python ejecutándose localmente con Agent Reach instalado. La página pública no puede acceder por sí sola a la sesión de Chrome ni al daemon OpenCLI.
+
+El workflow genera el frontend de producción en la raíz (`index.html`, `assets/` y `logo.jpg`) para la publicación de Pages desde la rama `main`.
