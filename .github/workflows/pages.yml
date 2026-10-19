@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
@@ -16,6 +18,9 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -31,6 +36,12 @@ jobs:
       - name: Build frontend
         run: npm run build
         working-directory: frontend
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
       - name: Publish static site to main root
         run: |
           cp -R frontend/dist/. .
@@ -44,3 +55,6 @@ jobs:
             git commit -m "Build GitHub Pages site"
             git push origin main
           fi
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
