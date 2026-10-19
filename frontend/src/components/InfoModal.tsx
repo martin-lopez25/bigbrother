@@ -20,7 +20,7 @@ export const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
         {/* Header */}
         <div className="p-5 border-b border-[#E8E4DD] bg-[#FAF8F5] flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo.jpg" alt="" aria-hidden="true" className="w-8 h-8 rounded-full bg-black object-contain" />
+            <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="" aria-hidden="true" className="w-8 h-8 rounded-full bg-black object-contain" />
             <span className="text-xl font-serif font-black text-[#1C1C1C]">BIGBROTHER</span>
             <span className="w-1.5 h-1.5 rounded-full bg-[#6B1F32]"></span>
             <span className="text-xs text-[#777777] font-serif italic pl-2 border-l border-[#DDD8CF]">

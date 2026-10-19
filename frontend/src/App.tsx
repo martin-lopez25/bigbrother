@@ -111,6 +111,10 @@ export default function App() {
 
   // Query only the backends exposed by the local Agent Reach dashboard API.
   const handlePerformSearch = async (queryToSearch: string) => {
+    if (isStaticPreview) {
+      showToast('Las búsquedas requieren el servidor local de BIGBROTHER.', 'warning');
+      return;
+    }
     if (!queryToSearch.trim()) return;
 
     const trimmedQuery = queryToSearch.trim();

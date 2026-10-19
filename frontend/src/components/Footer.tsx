@@ -19,7 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenInfoModal }) =
           {/* Brand info */}
           <div className="md:col-span-2 space-y-3">
             <div className="flex items-center gap-2.5">
-              <img src="/logo.jpg" alt="" aria-hidden="true" className="w-9 h-9 flex-none rounded-full bg-black object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="" aria-hidden="true" className="w-9 h-9 flex-none rounded-full bg-black object-contain" />
               <span className="text-2xl font-serif font-black tracking-tight text-[#1C1C1C]">
                 BIGBROTHER
               </span>

@@ -64,7 +64,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="flex items-center gap-2.5">
               <img
-                src="/logo.jpg"
+                src={`${import.meta.env.BASE_URL}logo.jpg`}
                 alt=""
                 aria-hidden="true"
                 className="w-11 h-11 flex-none rounded-full bg-black object-contain"
