@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2f4ee" />
+    <title>Ojo de Dios | Búsqueda abierta</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-frame">
+      <aside class="sidebar" aria-label="Navegación principal">
+        <a class="brand" href="/" aria-label="Ojo de Dios, inicio">
+          <img class="brand-mark" src="/logo.jpg" alt="" aria-hidden="true" />
+          <span class="brand-copy">
+            <strong>ojo de dios</strong>
+            <small>INVESTIGACIÓN ABIERTA</small>
+          </span>
+        </a>
+
+        <div class="sidebar-rule"></div>
+        <p class="sidebar-label">ESPACIO DE TRABAJO</p>
+        <div class="nav-current" aria-current="page">
+          <span class="nav-indicator" aria-hidden="true"></span>
+          <span>Explorar internet</span>
+        </div>
+
+        <div class="sidebar-bottom">
+          <span class="sidebar-label">FUENTES PÚBLICAS</span>
+          <div class="sidebar-source"><span>01</span> Noticias abiertas</div>
+          <div class="sidebar-source"><span>02</span> Videos públicos</div>
+          <div class="sidebar-source"><span>03</span> Comunidad y referencias</div>
+          <div class="sidebar-note">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Sin API de pago. Sin cuenta.</span>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div class="breadcrumb"><span>OJO DE DIOS</span><span class="crumb-divider">/</span> BUSCADOR</div>
+          <div class="topbar-actions">
+            <span class="live-label"><span class="status-dot" aria-hidden="true"></span> Fuentes en vivo</span>
+            <button class="export-button" id="exportButton" type="button" disabled>Exportar JSON</button>
+          </div>
+        </header>
+
+        <div class="page-wrap">
+          <section class="search-hero" aria-labelledby="pageTitle">
+            <div class="hero-topline">
+              <span class="eyebrow"><span class="eyebrow-mark">01</span> INTERNET ABIERTO · FUENTES GRATUITAS</span>
+              <span class="hero-date" id="todayLabel"></span>
+            </div>
+            <h1 id="pageTitle">Una pregunta.<br /><span>Muchas perspectivas.</span></h1>
+            <p class="hero-description">Cruza noticias, videos, conversación tecnológica y conocimiento libre. Encuentra el resumen, los conceptos clave y las cifras que importan.</p>
+
+            <form class="search-form" id="searchForm" role="search">
+              <label class="visually-hidden" for="searchInput">¿Qué quieres investigar?</label>
+              <span class="search-glyph" aria-hidden="true">↳</span>
+              <input id="searchInput" name="q" type="search" maxlength="180" placeholder="Ej. impacto de la energía solar en México" autocomplete="off" required />
+              <button class="search-button" id="searchButton" type="submit">
+                <span>Buscar</span><span class="button-arrow" aria-hidden="true">↗</span>
+              </button>
+            </form>
+
+            <div class="search-options">
+              <span class="option-label">INCLUIR</span>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="news" checked />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code news-code">GN</span>
+                <span>Noticias</span>
+              </label>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="hackernews" checked />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code hn-code">HN</span>
+                <span>Hacker News</span>
+              </label>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="wikipedia" checked />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code wiki-code">W</span>
+                <span>Wikipedia</span>
+              </label>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="youtube" checked />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code youtube-code">YT</span>
+                <span>YouTube</span>
+              </label>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="bilibili" />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code bilibili-code">B</span>
+                <span>Bilibili</span>
+              </label>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="instagram" />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code instagram-code">IG</span>
+                <span>Instagram Explore</span>
+              </label>
+              <label class="source-option">
+                <input type="checkbox" name="source" value="reddit" />
+                <span class="source-check" aria-hidden="true"></span>
+                <span class="source-code reddit-code">R</span>
+                <span>Reddit</span>
+              </label>
+              <span class="free-note">Todas gratuitas</span>
+            </div>
+            <p class="source-caveat">Instagram Explore es personalizado; Reddit e Instagram requieren una sesión iniciada.</p>
+
+            <div class="suggestions" aria-label="Búsquedas sugeridas">
+              <span>PRUEBA</span>
+              <button type="button" data-query="energía solar en México">energía solar</button>
+              <button type="button" data-query="inteligencia artificial en educación">IA y educación</button>
+              <button type="button" data-query="agua potable ciudades">agua en las ciudades</button>
+            </div>
+          </section>
+
+          <section class="results-toolbar" aria-live="polite">
+            <div>
+              <p class="eyebrow section-kicker">BÚSQUEDA Y CONTEXTO</p>
+              <h2 id="resultsHeading">Explora un tema</h2>
+            </div>
+            <div class="result-count" id="resultCount">Listo para buscar</div>
+          </section>
+
+          <div class="dashboard-grid">
+            <section class="results-column" aria-label="Resultados de búsqueda">
+              <div class="source-status" id="sourceStatus" hidden></div>
+
+              <section class="summary-panel" id="summaryPanel" hidden aria-labelledby="summaryTitle">
+                <div class="summary-heading">
+                  <div>
+                    <p class="eyebrow">SÍNTESIS LOCAL</p>
+                    <h3 id="summaryTitle">Lo que dicen las fuentes</h3>
+                  </div>
+                  <span class="extractive-tag">EXTRACTIVA · SIN IA EXTERNA</span>
+                </div>
+                <p class="summary-copy" id="summaryText"></p>
+                <p class="summary-footnote">Fragmentos seleccionados de los resultados; abre cada fuente para verificar el contexto.</p>
+              </section>
+
+              <div class="results-list" id="resultsList">
+                <div class="welcome-state">
+                  <div class="welcome-index">01 <span>/ 03</span></div>
+                  <div>
+                    <h3>El conocimiento está en la red.</h3>
+                    <p>Busca una pregunta para reunir artículos recientes, conversaciones y referencias en un solo lugar.</p>
+                  </div>
+                  <span class="welcome-arrow" aria-hidden="true">↓</span>
+                </div>
+              </div>
+            </section>
+
+            <aside class="insights-column" aria-label="Hallazgos destacados">
+              <div class="insights-header">
+                <p class="eyebrow">LECTURA RÁPIDA</p>
+                <h2>Señales<br />del tema<span class="accent-period">.</span></h2>
+              </div>
+
+              <section class="insight-section" aria-labelledby="keywordsTitle">
+                <div class="insight-title-row">
+                  <h3 id="keywordsTitle">Palabras clave</h3>
+                  <span class="insight-index">A</span>
+                </div>
+                <div class="keyword-list" id="keywordList">
+                  <p class="insight-placeholder">Aparecerán los conceptos más repetidos.</p>
+                </div>
+              </section>
+
+              <section class="insight-section facts-section" aria-labelledby="factsTitle">
+                <div class="insight-title-row">
+                  <h3 id="factsTitle">Datos importantes</h3>
+                  <span class="insight-index">B</span>
+                </div>
+                <div class="fact-list" id="factList">
+                  <p class="insight-placeholder">Cifras, porcentajes y años detectados en los textos.</p>
+                </div>
+              </section>
+
+              <div class="method-note">
+                <span class="method-mark" aria-hidden="true">i</span>
+                <p>El resumen y las señales se calculan aquí, desde los fragmentos públicos recibidos. No se envían datos a un modelo de pago.</p>
+              </div>
+            </aside>
+          </div>
+
+          <footer class="page-footer">
+            <span>OJO DE DIOS <span class="footer-divider">/</span> BÚSQUEDA ABIERTA</span>
+            <span>Instagram Explore no equivale a tendencias globales. Ninguna fuente cubre todo internet.</span>
+          </footer>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "BIGBROTHER - Búsqueda y análisis editorial",
+  "description": "Buscador editorial inteligente que analiza y sintetiza noticias de prensa digital, YouTube, X e Instagram con verificación y trazabilidad de fuentes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
