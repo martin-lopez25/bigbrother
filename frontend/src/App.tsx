@@ -50,6 +50,8 @@ import { InfoModal } from './components/InfoModal';
 import { Footer } from './components/Footer';
 
 export default function App() {
+  const isStaticPreview = window.location.hostname.endsWith('.github.io');
+
   // Navigation & state
   const [activeNavView, setActiveNavView] = useState<
     'home' | 'explore' | 'trending' | 'history' | 'saved'
@@ -154,7 +156,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    void handlePerformSearch(PRIMARY_SEARCH_QUERY);
+    if (!isStaticPreview) void handlePerformSearch(PRIMARY_SEARCH_QUERY);
     return () => searchController.current?.abort();
   }, []);
 
@@ -347,6 +349,11 @@ export default function App() {
                 onSearch={handlePerformSearch}
                 isLoading={false}
               />
+              {isStaticPreview && (
+                <p className="mt-3 text-center text-xs text-[#777777]">
+                  Previsualización pública: las búsquedas requieren el servidor local de BIGBROTHER.
+                </p>
+              )}
             </div>
 
             {/* Platform Scope Pills */}

@@ -194,6 +194,11 @@ export async function searchDashboard(query: string, signal?: AbortSignal): Prom
     sources: 'news,hackernews,wikipedia,youtube,bilibili,instagram,reddit,twitter,facebook,xiaohongshu',
   });
   const response = await fetch(`/api/search?${params}`, { signal });
+  if (!response.headers.get('content-type')?.includes('application/json')) {
+    throw new Error(
+      'La búsqueda necesita el servidor Python de BIGBROTHER; esta página pública solo sirve la interfaz.',
+    );
+  }
   const payload = await response.json();
   if (!response.ok) {
     throw new Error(payload.error || 'No se pudo completar la búsqueda.');
