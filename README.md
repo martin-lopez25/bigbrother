@@ -39,3 +39,7 @@ Las fuentes se consultan en paralelo y pueden fallar o limitar solicitudes de fo
 El resumen selecciona fragmentos de los resultados. Las palabras clave, años, porcentajes y cantidades se extraen localmente con reglas simples; no se generan hechos y conviene verificar cifras en la fuente original. La búsqueda se envía a los proveedores públicos para obtener resultados. El dashboard no guarda historial ni envía datos a un modelo.
 
 Instagram, Reddit, Facebook, X y XiaoHongShu permanecen condicionados a lo que indique `agent-reach doctor --json`. OpenCLI requiere extensión de Chrome y sesión iniciada manualmente. El dashboard nunca inicia sesión ni extrae cookies. YouTube funciona con metadatos públicos; los subtítulos y el resumen se obtienen a petición.
+
+## GitHub Pages
+
+La acción de `.github/workflows/pages.yml` publica la interfaz desde `main` en `https://martin-lopez25.github.io/bigbrother/`. GitHub Pages solo aloja archivos estáticos: las búsquedas y los resúmenes requieren el servidor Python ejecutándose localmente con Agent Reach instalado. La página pública no puede acceder por sí sola a la sesión de Chrome ni al daemon OpenCLI.

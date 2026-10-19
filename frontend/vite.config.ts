@@ -14,7 +14,7 @@ export default defineConfig(() => {
         '@': projectRoot,
       },
     },
-    base: '/',
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/bigbrother/' : '/',
     build: {
       outDir: 'dist',
       emptyOutDir: true,
