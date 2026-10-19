@@ -10,6 +10,7 @@ from server import (
     _news_title,
     _parse_vtt,
     _reddit_result,
+    _requested_sources,
     _youtube_result,
     clean_text,
     extract_facts,
@@ -23,6 +24,13 @@ from server import (
 
 
 class TextAnalysisTests(unittest.TestCase):
+    def test_public_api_mode_excludes_authenticated_social_sources(self):
+        with patch("server.PUBLIC_API_MODE", True):
+            requested = _requested_sources(
+                "news,facebook,instagram,reddit,twitter,wikipedia"
+            )
+        self.assertEqual(requested, ["news", "wikipedia"])
+
     def test_clean_text_removes_markup_and_normalizes_spaces(self):
         self.assertEqual(clean_text("<b>Solar</b>&nbsp;  energía"), "Solar energía")
 

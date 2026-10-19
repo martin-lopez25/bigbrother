@@ -6,6 +6,7 @@
 import React, { useState } from 'react';
 import { Play, Clock, Eye, ThumbsUp, ExternalLink, FileText, Loader2 } from 'lucide-react';
 import { PublicationItem } from '../types';
+import { API_BASE_URL } from '../data/searchApi';
 import { YouTubeLogo, InternetLogo } from './PlatformIcons';
 
 interface YouTubeCardProps {
@@ -29,7 +30,7 @@ export const YouTubeCard: React.FC<YouTubeCardProps> = ({
     setSummaryState('loading');
     setSummaryError('');
     try {
-      const response = await fetch(`/api/youtube-summary?id=${encodeURIComponent(item.videoId)}`);
+      const response = await fetch(`${API_BASE_URL}/api/youtube-summary?id=${encodeURIComponent(item.videoId)}`);
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || 'No se pudo resumir el video.');
       setSummary(data.summary);

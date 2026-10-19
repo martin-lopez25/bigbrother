@@ -35,6 +35,19 @@ MAX_RESPONSE_BYTES = 2_000_000
 TIMEOUT_SECONDS = 12
 MAX_RESULTS_PER_SOURCE = 10
 MAX_QUERY_LENGTH = 180
+PUBLIC_API_MODE = os.environ.get("PUBLIC_API_MODE", "false").lower() == "true"
+PUBLIC_SEARCH_SOURCES = {"news", "hackernews", "wikipedia", "youtube", "bilibili"}
+ALLOWED_API_ORIGINS = frozenset(
+    origin.strip().rstrip("/")
+    for origin in os.environ.get(
+        "ALLOWED_ORIGINS",
+        "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8765,http://127.0.0.1:8765",
+    ).split(",")
+    if origin.strip()
+)
+API_REQUESTS_PER_MINUTE = 30
+_API_RATE_COUNTS: dict[tuple[str, int], int] = {}
+_API_RATE_LOCK = threading.Lock()
 
 SOURCES = {
     "news": "Google News",
@@ -896,6 +909,27 @@ SEARCHERS = {
     "xiaohongshu": search_xiaohongshu,
 }
 
+
+def _requested_sources(value: str) -> list[str]:
+    requested = [key for key in value.split(",") if key in SEARCHERS]
+    if PUBLIC_API_MODE:
+        requested = [key for key in requested if key in PUBLIC_SEARCH_SOURCES]
+    return requested
+
+
+def _allow_api_request(client_ip: str) -> bool:
+    window = int(time.time() // 60)
+    key = (client_ip, window)
+    with _API_RATE_LOCK:
+        count = _API_RATE_COUNTS.get(key, 0)
+        if count >= API_REQUESTS_PER_MINUTE:
+            return False
+        _API_RATE_COUNTS[key] = count + 1
+        if len(_API_RATE_COUNTS) > 10000:
+            for stale_key in [item for item in _API_RATE_COUNTS if item[1] < window]:
+                del _API_RATE_COUNTS[stale_key]
+    return True
+
 FACT_PATTERN = re.compile(
     r"(?<!\w)(?:[$€£]\s?\d[\d.,]*(?:\s?(?:millones?|mil|billones?|billion|million))?"
     r"|\d+(?:[.,]\d+)?\s?(?:%|por ciento|millones?|mil|billones?|billion|million)"
@@ -1089,6 +1123,10 @@ class DashboardHandler(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header("Content-Type", content_type)
         self.send_header("Content-Length", str(len(body)))
+        origin = self.headers.get("Origin")
+        if origin and origin.rstrip("/") in ALLOWED_API_ORIGINS:
+            self.send_header("Access-Control-Allow-Origin", origin)
+            self.send_header("Vary", "Origin")
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Referrer-Policy", "no-referrer")
         self.send_header("Content-Security-Policy", "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self'; img-src 'self' https: data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'")
@@ -1096,8 +1134,47 @@ class DashboardHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _api_access_allowed(self) -> bool:
+        origin = self.headers.get("Origin")
+        if origin and origin.rstrip("/") not in ALLOWED_API_ORIGINS:
+            self._send_json({"error": "Origen no autorizado."}, 403)
+            return False
+
+        client_ip = self.client_address[0]
+        if os.environ.get("TRUST_PROXY_HEADERS", "false").lower() == "true":
+            forwarded_for = self.headers.get("X-Forwarded-For", "")
+            if forwarded_for.strip():
+                client_ip = forwarded_for.split(",", 1)[0].strip()
+        if not _allow_api_request(client_ip):
+            self._send_json({"error": "Demasiadas solicitudes. Intenta de nuevo en un minuto."}, 429)
+            return False
+        return True
+
+    def do_OPTIONS(self) -> None:
+        parsed = urllib.parse.urlsplit(self.path)
+        if parsed.path not in {"/api/search", "/api/youtube-summary"}:
+            self._send_json({"error": "Ruta no encontrada."}, 404)
+            return
+        if not self._api_access_allowed():
+            return
+        self.send_response(204)
+        origin = self.headers.get("Origin")
+        if origin:
+            self.send_header("Access-Control-Allow-Origin", origin)
+            self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+            self.send_header("Access-Control-Allow-Headers", "Content-Type")
+            self.send_header("Access-Control-Max-Age", "600")
+            self.send_header("Vary", "Origin")
+        self.send_header("Content-Length", "0")
+        self.end_headers()
+
     def do_GET(self) -> None:
         parsed = urllib.parse.urlsplit(self.path)
+        if parsed.path.startswith("/api/") and not self._api_access_allowed():
+            return
+        if parsed.path == "/api/health":
+            self._send_json({"status": "ok", "mode": "public" if PUBLIC_API_MODE else "local"})
+            return
         if parsed.path == "/api/youtube-summary":
             params = urllib.parse.parse_qs(parsed.query)
             video_id = (params.get("id") or [""])[0].strip()
@@ -1122,12 +1199,15 @@ class DashboardHandler(BaseHTTPRequestHandler):
             if len(query) > MAX_QUERY_LENGTH:
                 self._send_json({"error": "La búsqueda supera 180 caracteres."}, 400)
                 return
-            requested = (params.get("sources") or [","])[0].split(",")
-            requested = [key for key in requested if key in SEARCHERS]
+            requested = _requested_sources((params.get("sources") or [","])[0])
             if not requested:
-                self._send_json({"error": "Selecciona al menos una fuente."}, 400)
+                self._send_json({"error": "No hay fuentes permitidas para esta API."}, 400)
                 return
             self._send_json(search(query, requested))
+            return
+
+        if parsed.path.startswith("/api/"):
+            self._send_json({"error": "Ruta no encontrada."}, 404)
             return
 
         static_root = FRONTEND_DIST if (FRONTEND_DIST / "index.html").is_file() else STATIC
@@ -1161,8 +1241,8 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Ojo de Dios free search dashboard")
-    parser.add_argument("--host", default="127.0.0.1")
-    parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--host", default=os.environ.get("HOST", "127.0.0.1"))
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8765")))
     args = parser.parse_args()
     server = ThreadingHTTPServer((args.host, args.port), DashboardHandler)
     print(f"Dashboard listo en http://{args.host}:{args.port}")

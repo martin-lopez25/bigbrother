@@ -28,6 +28,11 @@ const setupMessages: Record<string, string> = {
   xiaohongshu: 'XiaoHongShu requiere OpenCLI con una sesión de Chrome ya controlada por ti.',
 };
 
+export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/+$/, '');
+const PUBLIC_API_MODE = import.meta.env.VITE_PUBLIC_API_MODE === 'true';
+const PUBLIC_SOURCES = 'news,hackernews,wikipedia,youtube,bilibili';
+const LOCAL_SOURCES = `${PUBLIC_SOURCES},instagram,reddit,twitter,facebook,xiaohongshu`;
+
 function localizeSourceError(sourceKey: string, status: string, error?: string): string | undefined {
   if (status === 'setup_required') {
     return setupMessages[sourceKey] || 'Este canal requiere configuración local antes de buscar.';
@@ -191,12 +196,12 @@ export function adaptSearchResponse(response: BackendSearchResponse): SearchResu
 export async function searchDashboard(query: string, signal?: AbortSignal): Promise<SearchResultData> {
   const params = new URLSearchParams({
     q: query,
-    sources: 'news,hackernews,wikipedia,youtube,bilibili,instagram,reddit,twitter,facebook,xiaohongshu',
+    sources: PUBLIC_API_MODE ? PUBLIC_SOURCES : LOCAL_SOURCES,
   });
-  const response = await fetch(`/api/search?${params}`, { signal });
+  const response = await fetch(`${API_BASE_URL}/api/search?${params}`, { signal });
   if (!response.headers.get('content-type')?.includes('application/json')) {
     throw new Error(
-      'La búsqueda necesita el servidor Python de BIGBROTHER; esta página pública solo sirve la interfaz.',
+      'El servidor de búsqueda no está disponible. Comprueba la URL de la API y vuelve a intentarlo.',
     );
   }
   const payload = await response.json();

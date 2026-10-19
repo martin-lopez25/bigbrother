@@ -30,7 +30,7 @@ import {
 } from './types';
 
 import { INITIAL_SUGGESTIONS, PRIMARY_SEARCH_QUERY } from './data/suggestions';
-import { searchDashboard } from './data/searchApi';
+import { API_BASE_URL, searchDashboard } from './data/searchApi';
 
 import { Header } from './components/Header';
 import { SearchBar } from './components/SearchBar';
@@ -50,7 +50,7 @@ import { InfoModal } from './components/InfoModal';
 import { Footer } from './components/Footer';
 
 export default function App() {
-  const isStaticPreview = window.location.hostname.endsWith('.github.io');
+  const isStaticPreview = window.location.hostname.endsWith('.github.io') && !API_BASE_URL;
 
   // Navigation & state
   const [activeNavView, setActiveNavView] = useState<
