@@ -7,9 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -18,9 +16,6 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -36,12 +31,16 @@ jobs:
       - name: Build frontend
         run: npm run build
         working-directory: frontend
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: frontend/dist
-      - name: Deploy to Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish static site to main root
+        run: |
+          cp -R frontend/dist/. .
+          touch .nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- index.html assets logo.jpg .nojekyll
+          if git diff --cached --quiet; then
+            echo "No generated site changes to publish."
+          else
+            git commit -m "Build GitHub Pages site"
+            git push origin main
+          fi
