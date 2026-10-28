@@ -91,7 +91,7 @@ export const MorningSummaryCard: React.FC<MorningSummaryCardProps> = ({ result }
           className="group relative block aspect-video overflow-hidden bg-[#1C1C1C] md:aspect-auto md:min-h-64"
         >
           <img
-            src={`https://img.youtube.com/vi/${encodeURIComponent(result.videoId)}/hqdefault.jpg`}
+            src={`https://i.ytimg.com/vi/${encodeURIComponent(result.videoId)}/hqdefault.jpg`}
             alt="Miniatura del video de la mañanera"
             className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
             loading="lazy"
