@@ -23,6 +23,7 @@ interface HeaderProps {
   historyCount: number;
   savedCount: number;
   onOpenInfoModal: () => void;
+  staticMirror?: boolean;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -31,6 +32,7 @@ export const Header: React.FC<HeaderProps> = ({
   historyCount,
   savedCount,
   onOpenInfoModal,
+  staticMirror = false,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -45,10 +47,10 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="bg-[#1C1C1C] text-[#F7F4EE] px-4 py-1 text-[11px] flex items-center justify-between font-sans tracking-wide">
         <div className="flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-[#B99A5B] inline-block animate-pulse"></span>
-          <span>Buscador editorial · fuentes públicas</span>
+          <span>{staticMirror ? 'Copia de la última búsqueda local' : 'Buscador editorial · fuentes públicas'}</span>
         </div>
         <div className="hidden sm:flex items-center gap-3 text-[#E8E4DD]/80">
-          <span>Resultados según canales disponibles</span>
+          <span>{staticMirror ? 'Instantánea pública' : 'Resultados según canales disponibles'}</span>
           <span>·</span>
           <span>Edición digital</span>
         </div>
@@ -81,7 +83,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-1">
+          {!staticMirror && <nav className="hidden lg:flex items-center space-x-1">
             <button
               onClick={() => handleNavClick('home')}
               className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wider rounded transition-colors ${
@@ -143,7 +145,7 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
               )}
             </button>
-          </nav>
+          </nav>}
 
           {/* Right utility actions */}
           <div className="flex items-center space-x-2 sm:space-x-3">
@@ -167,7 +169,7 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             {/* Mobile menu button */}
-            <div className="lg:hidden flex items-center">
+            {!staticMirror && <div className="lg:hidden flex items-center">
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 aria-label="Abrir menú de navegación"
@@ -175,12 +177,12 @@ export const Header: React.FC<HeaderProps> = ({
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
-            </div>
+            </div>}
           </div>
         </div>
 
         {/* Mobile menu dropdown */}
-        {mobileMenuOpen && (
+        {mobileMenuOpen && !staticMirror && (
           <div className="lg:hidden py-4 border-t border-[#E8E4DD] space-y-2 animate-fade-in bg-[#FAF8F5] px-2 rounded-b-lg mb-2 shadow-sm">
             <div className="px-3 pb-2 text-[11px] text-[#777777] font-serif italic border-b border-[#E8E4DD]">
               La información, en perspectiva

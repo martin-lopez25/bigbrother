@@ -30,7 +30,7 @@ import {
 } from './types';
 
 import { INITIAL_SUGGESTIONS, PRIMARY_SEARCH_QUERY } from './data/suggestions';
-import { API_BASE_URL, searchDashboard } from './data/searchApi';
+import { searchDashboard } from './data/searchApi';
 
 import { Header } from './components/Header';
 import { SearchBar } from './components/SearchBar';
@@ -50,7 +50,7 @@ import { InfoModal } from './components/InfoModal';
 import { Footer } from './components/Footer';
 
 export default function App() {
-  const isStaticPreview = window.location.hostname.endsWith('.github.io') && !API_BASE_URL;
+  const isStaticMirror = import.meta.env.VITE_STATIC_MIRROR === 'true';
 
   // Navigation & state
   const [activeNavView, setActiveNavView] = useState<
@@ -58,7 +58,7 @@ export default function App() {
   >('home');
   const [searchState, setSearchState] = useState<
     'idle' | 'loading' | 'results' | 'empty' | 'error'
-  >('idle');
+  >(isStaticMirror ? 'loading' : 'idle');
   const [currentQuery, setCurrentQuery] = useState(PRIMARY_SEARCH_QUERY);
   const [resultsData, setResultsData] = useState<SearchResultData | null>(null);
   const [searchError, setSearchError] = useState('');
@@ -111,10 +111,7 @@ export default function App() {
 
   // Query only the backends exposed by the local Agent Reach dashboard API.
   const handlePerformSearch = async (queryToSearch: string) => {
-    if (isStaticPreview) {
-      showToast('Las búsquedas requieren el servidor local de BIGBROTHER.', 'warning');
-      return;
-    }
+    if (isStaticMirror) return;
     if (!queryToSearch.trim()) return;
 
     const trimmedQuery = queryToSearch.trim();
@@ -160,12 +157,41 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (!isStaticPreview) void handlePerformSearch(PRIMARY_SEARCH_QUERY);
+    if (isStaticMirror) {
+      let cancelled = false;
+      const loadSnapshot = async () => {
+        try {
+          const response = await fetch(`${import.meta.env.BASE_URL}latest-search.json`, {
+            cache: 'no-store',
+          });
+          if (!response.ok) throw new Error('Todavía no hay una búsqueda local publicada en Pages.');
+          const snapshot = await response.json() as SearchResultData;
+          if (typeof snapshot.query !== 'string' || !Array.isArray(snapshot.items)) {
+            throw new Error('La copia publicada no tiene un formato válido.');
+          }
+          if (cancelled) return;
+          setResultsData(snapshot);
+          setCurrentQuery(snapshot.query);
+          setSearchState('results');
+        } catch (error) {
+          if (cancelled) return;
+          setSearchError(error instanceof Error ? error.message : 'No se pudo cargar la copia publicada.');
+          setSearchState('error');
+        }
+      };
+      void loadSnapshot();
+      return () => {
+        cancelled = true;
+        searchController.current?.abort();
+      };
+    }
+    void handlePerformSearch(PRIMARY_SEARCH_QUERY);
     return () => searchController.current?.abort();
   }, []);
 
   // Reset to initial home port
   const handleResetHome = () => {
+    if (isStaticMirror) return;
     searchController.current?.abort();
     searchController.current = null;
     setSearchState('idle');
@@ -274,6 +300,7 @@ export default function App() {
 
   // Navigation controller
   const handleNavigation = (view: 'home' | 'explore' | 'trending' | 'history' | 'saved') => {
+    if (isStaticMirror) return;
     setActiveNavView(view);
     if (view === 'history') {
       setHistoryModalTab('history');
@@ -300,12 +327,18 @@ export default function App() {
         historyCount={history.length}
         savedCount={savedCount}
         onOpenInfoModal={() => setIsInfoModalOpen(true)}
+        staticMirror={isStaticMirror}
       />
 
       {/* Main Content Area */}
       <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         {/* If user is exploring 'trending' without an active search */}
-        {activeNavView === 'trending' && searchState === 'idle' ? (
+        {isStaticMirror && searchState === 'error' ? (
+          <div className="max-w-2xl mx-auto py-16 text-center bg-white border border-[#DDD8CF] p-6 rounded-lg my-8">
+            <h1 className="text-xl font-serif font-bold text-[#1C1C1C]">Copia local pendiente</h1>
+            <p className="text-xs text-[#777777] mt-2">{searchError}</p>
+          </div>
+        ) : activeNavView === 'trending' && searchState === 'idle' ? (
           <div>
             <div className="mb-6">
               <span className="text-xs font-bold uppercase tracking-widest text-[#B99A5B]">
@@ -347,18 +380,15 @@ export default function App() {
             </div>
 
             {/* Central Search Bar with Suggestions */}
-            <div className="pt-2">
-              <SearchBar
-                currentQuery={currentQuery}
-                onSearch={handlePerformSearch}
-                isLoading={false}
-              />
-              {isStaticPreview && (
-                <p className="mt-3 text-center text-xs text-[#777777]">
-                  Previsualización pública: las búsquedas requieren el servidor local de BIGBROTHER.
-                </p>
-              )}
-            </div>
+            {!isStaticMirror && (
+              <div className="pt-2">
+                <SearchBar
+                  currentQuery={currentQuery}
+                  onSearch={handlePerformSearch}
+                  isLoading={false}
+                />
+              </div>
+            )}
 
             {/* Platform Scope Pills */}
             <div className="max-w-2xl mx-auto pt-2">
@@ -403,12 +433,14 @@ export default function App() {
             <p className="text-xs text-[#777777] mt-2 mb-6">
               {searchError || 'No fue posible consultar las fuentes disponibles en este momento.'}
             </p>
-            <button
-              onClick={() => handlePerformSearch(currentQuery || 'Economía mexicana')}
-              className="px-4 py-2 bg-[#6B1F32] text-white text-xs font-semibold rounded hover:bg-[#501725] transition-colors"
-            >
-              Reintentar búsqueda
-            </button>
+            {!isStaticMirror && (
+              <button
+                onClick={() => handlePerformSearch(currentQuery || 'Economía mexicana')}
+                className="px-4 py-2 bg-[#6B1F32] text-white text-xs font-semibold rounded hover:bg-[#501725] transition-colors"
+              >
+                Reintentar búsqueda
+              </button>
+            )}
           </div>
         ) : searchState === 'results' && resultsData ? (
           /* ============================================================ */
@@ -416,14 +448,16 @@ export default function App() {
           /* ============================================================ */
           <div className="w-full space-y-8 animate-fade-in">
             {/* Top Compact Search Bar with quick re-search capability */}
-            <div className="pb-2">
-              <SearchBar
-                currentQuery={currentQuery}
-                onSearch={handlePerformSearch}
-                isLoading={false}
-                compact
-              />
-            </div>
+            {!isStaticMirror && (
+              <div className="pb-2">
+                <SearchBar
+                  currentQuery={currentQuery}
+                  onSearch={handlePerformSearch}
+                  isLoading={false}
+                  compact
+                />
+              </div>
+            )}
 
             {/* Results Title, Meta, and Sort Dropdown */}
             <ResultsHeader
@@ -507,15 +541,17 @@ export default function App() {
 
             {/* Back to top or new search prompt */}
             <div className="pt-6 border-t border-[#DDD8CF] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#777777]">
-              <span>¿Deseas consultar otro tema de interés?</span>
+              {!isStaticMirror && <span>¿Deseas consultar otro tema de interés?</span>}
               <div className="flex gap-2">
-                <button
-                  onClick={handleResetHome}
-                  className="px-3 py-1.5 bg-white border border-[#DDD8CF] hover:border-[#6B1F32] rounded text-[#1C1C1C] transition-colors flex items-center gap-1.5"
-                >
-                  <RotateCcw className="w-3 h-3" />
-                  <span>Nueva búsqueda</span>
-                </button>
+                {!isStaticMirror && (
+                  <button
+                    onClick={handleResetHome}
+                    className="px-3 py-1.5 bg-white border border-[#DDD8CF] hover:border-[#6B1F32] rounded text-[#1C1C1C] transition-colors flex items-center gap-1.5"
+                  >
+                    <RotateCcw className="w-3 h-3" />
+                    <span>Nueva búsqueda</span>
+                  </button>
+                )}
                 <button
                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                   className="px-3 py-1.5 bg-[#6B1F32] text-white rounded hover:bg-[#501725] transition-colors"

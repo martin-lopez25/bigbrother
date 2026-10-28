@@ -42,15 +42,15 @@ Instagram, Reddit, Facebook, X y XiaoHongShu permanecen condicionados a lo que i
 
 ## GitHub Pages
 
-La acción de `.github/workflows/pages.yml` publica la interfaz desde `main` en `https://martin-lopez25.github.io/bigbrother/`. Pages aloja el frontend; la API pública se despliega por separado en Render con `render.yaml`.
+La acción de `.github/workflows/pages.yml` publica una copia estática en `https://martin-lopez25.github.io/bigbrother/`. Pages no realiza búsquedas: muestra los últimos resultados publicados desde el dashboard local, con los mismos enlaces y filtros.
 
-Para activar las búsquedas públicas:
+Para actualizar la copia:
 
-1. En Render, crea un Blueprint desde este repositorio. El servicio `bigbrother-public-api` usa el plan gratuito y expone únicamente noticias, Hacker News, Wikipedia, YouTube y Bilibili.
-2. Copia la URL HTTPS que Render asigne al servicio.
-3. En GitHub, abre **Settings → Secrets and variables → Actions → Variables** y crea `BIGBROTHER_API_URL` con esa URL, sin barra final.
-4. Ejecuta manualmente **Deploy GitHub Pages** desde **Actions → Deploy GitHub Pages → Run workflow** para recompilar Pages con la URL de la API.
+1. Ejecuta el dashboard local y realiza la búsqueda que quieres publicar.
+2. En los resultados, selecciona **Actualizar Pages** y confirma que quieres hacer públicos esos resultados.
+3. La app guarda el snapshot en `frontend/public/latest-search.json`, crea un commit limitado a ese archivo y lo sube a `main`.
+4. GitHub Actions reconstruye y publica Pages. La actualización aparece cuando termina el workflow.
 
-Render puede suspender servicios gratuitos inactivos; la primera búsqueda tras una pausa puede tardar. La API limita a 30 solicitudes por minuto por IP y permite CORS solo desde el sitio de Pages. El modo público excluye Instagram, Reddit, X, Facebook y XiaoHongShu: esos canales requieren sesiones de Chrome y siguen disponibles solo en el servidor local. Nunca configures OpenCLI ni cookies sociales en Render.
+La publicación requiere que el repositorio `bigbrother` esté limpio, en la rama `main`, y que Git tenga acceso de escritura al remoto. El snapshot es público; revisa sus resultados antes de confirmarlo. No se publica automáticamente al buscar ni se despliega una API de búsqueda en Pages.
 
 El workflow genera los archivos estáticos del frontend en la raíz (`index.html`, `assets/` y `logo.jpg`) para la fuente Pages configurada en la rama `main`.
