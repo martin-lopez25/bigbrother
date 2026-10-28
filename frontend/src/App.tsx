@@ -317,6 +317,11 @@ export default function App() {
   };
 
   const savedCount = history.filter((h) => h.isSaved).length;
+  const visibleSourceErrors = Object.entries(resultsData?.sourceStatuses ?? {}).filter(
+    ([sourceKey, source]) =>
+      !['instagram', 'reddit', 'xiaohongshu'].includes(sourceKey)
+      && (source.status === 'setup_required' || source.status === 'error'),
+  );
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F7F4EE] text-[#1C1C1C]">
@@ -487,14 +492,12 @@ export default function App() {
               />
             </div>
 
-            {resultsData.sourceStatuses && Object.values(resultsData.sourceStatuses).some((source) => source.status === 'setup_required' || source.status === 'error') && (
+            {visibleSourceErrors.length > 0 && (
               <div className="bg-white border border-[#DDD8CF] rounded-md px-4 py-3 text-xs text-[#555555]">
                 <p className="font-semibold text-[#1C1C1C] mb-1">Estado de las fuentes</p>
                 <ul className="space-y-1">
-                  {Object.values(resultsData.sourceStatuses)
-                    .filter((source) => source.status === 'setup_required' || source.status === 'error')
-                    .map((source) => (
-                      <li key={source.name}>
+                  {visibleSourceErrors.map(([sourceKey, source]) => (
+                      <li key={sourceKey}>
                         <span className="font-medium">{source.name}:</span> {source.error || 'No disponible'}
                       </li>
                     ))}

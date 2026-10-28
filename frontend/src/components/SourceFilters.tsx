@@ -8,7 +8,6 @@ import { PlatformType, PlatformCounts } from '../types';
 import {
   InternetLogo,
   YouTubeLogo,
-  InstagramLogo,
   MetaLogo,
   XLogo,
 } from './PlatformIcons';
@@ -67,16 +66,6 @@ export const SourceFilters: React.FC<SourceFiltersProps> = ({
       ),
     },
     {
-      id: 'instagram',
-      label: 'Instagram Explore',
-      renderLogo: (isActive) => (
-        <span className="flex items-center gap-1">
-          <InstagramLogo className={`w-3.5 h-3.5 ${isActive ? 'text-white' : 'text-[#C13584]'}`} />
-          <InternetLogo className={`w-2.5 h-2.5 opacity-60 ${isActive ? 'text-white' : 'text-[#777777]'}`} />
-        </span>
-      ),
-    },
-    {
       id: 'meta',
       label: 'Facebook',
       renderLogo: (isActive) => (
@@ -94,13 +83,6 @@ export const SourceFilters: React.FC<SourceFiltersProps> = ({
           <XLogo className={`w-3.5 h-3.5 ${isActive ? 'text-white' : 'text-[#1C1C1C]'}`} />
           <InternetLogo className={`w-2.5 h-2.5 opacity-60 ${isActive ? 'text-white' : 'text-[#777777]'}`} />
         </span>
-      ),
-    },
-    {
-      id: 'reddit',
-      label: 'Reddit',
-      renderLogo: (isActive) => (
-        <span className={`text-[10px] font-black ${isActive ? 'text-white' : 'text-[#D05A2A]'}`}>R</span>
       ),
     },
     {

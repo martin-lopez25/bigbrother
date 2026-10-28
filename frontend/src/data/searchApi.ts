@@ -13,16 +13,12 @@ const platformBySource: Record<string, SourcePlatform> = {
   wikipedia: 'web',
   youtube: 'youtube',
   bilibili: 'bilibili',
-  instagram: 'instagram',
-  reddit: 'reddit',
   twitter: 'x',
   facebook: 'meta',
   xiaohongshu: 'otros',
 };
 
 const setupMessages: Record<string, string> = {
-  instagram: 'Instagram Explore requiere OpenCLI, la extensión de Chrome y una sesión iniciada manualmente. El contenido es personalizado a esa cuenta.',
-  reddit: 'Reddit no tiene búsqueda anónima disponible aquí. Requiere OpenCLI y una sesión iniciada en Chrome.',
   twitter: 'X requiere twitter-cli con credenciales locales o OpenCLI con una sesión de Chrome iniciada.',
   facebook: 'Facebook requiere OpenCLI y una sesión de Chrome iniciada manualmente.',
   xiaohongshu: 'XiaoHongShu requiere OpenCLI con una sesión de Chrome ya controlada por ti.',
@@ -31,7 +27,7 @@ const setupMessages: Record<string, string> = {
 export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/+$/, '');
 const PUBLIC_API_MODE = import.meta.env.VITE_PUBLIC_API_MODE === 'true';
 const PUBLIC_SOURCES = 'news,hackernews,wikipedia,youtube,bilibili';
-const LOCAL_SOURCES = `${PUBLIC_SOURCES},instagram,reddit,twitter,facebook,xiaohongshu`;
+const LOCAL_SOURCES = `${PUBLIC_SOURCES},twitter,facebook,xiaohongshu`;
 
 function localizeSourceError(sourceKey: string, status: string, error?: string): string | undefined {
   if (status === 'setup_required') {

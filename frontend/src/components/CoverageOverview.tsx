@@ -9,7 +9,6 @@ import { PlatformCounts, PlatformType } from '../types';
 import {
   InternetLogo,
   YouTubeLogo,
-  InstagramLogo,
   MetaLogo,
   XLogo,
 } from './PlatformIcons';
@@ -72,20 +71,6 @@ export const CoverageOverview: React.FC<CoverageOverviewProps> = ({
       barColor: 'bg-[#85263E]',
     },
     {
-      id: 'instagram',
-      label: 'Instagram',
-      sublabel: 'Explore de la cuenta',
-      count: distribution.instagram,
-      renderIcon: () => (
-        <div className="flex items-center gap-1.5">
-          <InstagramLogo className="w-4 h-4 text-[#C13584]" />
-          <InternetLogo className="w-3 h-3 text-[#777777]" />
-        </div>
-      ),
-      bgColor: 'bg-[#F7F2E7]',
-      barColor: 'bg-[#B99A5B]',
-    },
-    {
       id: 'meta',
       label: 'Facebook',
       sublabel: 'Contenido visible para la cuenta',
@@ -116,15 +101,6 @@ export const CoverageOverview: React.FC<CoverageOverviewProps> = ({
       renderIcon: () => <span className="text-xs font-black text-[#C13584]">B</span>,
       bgColor: 'bg-[#F7E7EF]',
       barColor: 'bg-[#C13584]',
-    },
-    {
-      id: 'reddit',
-      label: 'Reddit',
-      sublabel: 'Debates con sesión activa',
-      count: distribution.reddit ?? 0,
-      renderIcon: () => <span className="text-xs font-black text-[#D05A2A]">R</span>,
-      bgColor: 'bg-[#FBEDE7]',
-      barColor: 'bg-[#D05A2A]',
     },
   ];
 

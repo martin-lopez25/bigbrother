@@ -30,15 +30,13 @@ Abre `http://127.0.0.1:8765`. El servidor sirve `frontend/dist` si ya fue compil
 - YouTube mediante yt-dlp: búsqueda pública de videos, sin descargar los videos.
 - Resumen de YouTube: extrae subtítulos públicos en español (o inglés como respaldo), limpia el VTT y selecciona fragmentos localmente; no usa transcripción de pago. Solo funciona si el video tiene subtítulos disponibles.
 - Bilibili: búsqueda pública de videos, con relevancia dependiente del idioma y la región.
-- Instagram Explore mediante OpenCLI: muestra el Explore personalizado de la cuenta en la sesión existente de Chrome; no es una clasificación de tendencias global.
-- Reddit mediante OpenCLI: búsqueda de publicaciones, reutilizando una sesión de Chrome ya iniciada en Reddit.
-- X/Twitter mediante twitter-cli/OpenCLI, Facebook mediante OpenCLI y XiaoHongShu mediante OpenCLI cuando Doctor detecta el backend disponible y la sesión correspondiente.
+- X/Twitter mediante twitter-cli/OpenCLI y Facebook mediante OpenCLI cuando Doctor detecta el backend disponible y la sesión correspondiente.
 
 Las fuentes se consultan en paralelo y pueden fallar o limitar solicitudes de forma independiente. Ningún buscador cubre todo internet; los resultados son una muestra de estas fuentes abiertas.
 
 El resumen selecciona fragmentos de los resultados. Las palabras clave, años, porcentajes y cantidades se extraen localmente con reglas simples; no se generan hechos y conviene verificar cifras en la fuente original. La búsqueda se envía a los proveedores públicos para obtener resultados. El dashboard no guarda historial ni envía datos a un modelo.
 
-Instagram, Reddit, Facebook, X y XiaoHongShu permanecen condicionados a lo que indique `agent-reach doctor --json`. OpenCLI requiere extensión de Chrome y sesión iniciada manualmente. El dashboard nunca inicia sesión ni extrae cookies. YouTube funciona con metadatos públicos; los subtítulos y el resumen se obtienen a petición.
+Facebook y X permanecen condicionados a lo que indique `agent-reach doctor --json`. OpenCLI requiere extensión de Chrome y sesión iniciada manualmente. El dashboard nunca inicia sesión ni extrae cookies. YouTube funciona con metadatos públicos; los subtítulos y el resumen se obtienen a petición.
 
 ## GitHub Pages
 
