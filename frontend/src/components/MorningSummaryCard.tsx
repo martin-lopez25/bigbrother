@@ -18,8 +18,17 @@ const cleanMarkdown = (summary: string) => summary.split(/\r?\n/).map((line) => 
   return `**${title}**`;
 }).join('\n');
 
+const renderInlineMarkdown = (text: string) =>
+  text.split(/(\*\*[^*]+\*\*)/g).map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+
 const renderSummary = (summary: string) => cleanMarkdown(summary).split(/\r?\n/).map((line, index) => {
   if (!line.trim()) return <div key={index} className="h-3" />;
+  if (/^-{3,}$/.test(line.trim())) return <hr key={index} className="my-2 border-[#E8E4DD]" />;
 
   const boldHeading = line.match(/^\*\*(.+)\*\*$/);
   if (boldHeading) {
@@ -35,12 +44,12 @@ const renderSummary = (summary: string) => cleanMarkdown(summary).split(/\r?\n/)
     return (
       <p key={index} className="pl-4 text-sm leading-6 text-[#444444]">
         <span className="-ml-4 mr-2" aria-hidden="true">•</span>
-        {bullet[1]}
+        {renderInlineMarkdown(bullet[1])}
       </p>
     );
   }
 
-  return <p key={index} className="text-sm leading-6 text-[#444444]">{line}</p>;
+  return <p key={index} className="text-sm leading-6 text-[#444444]">{renderInlineMarkdown(line)}</p>;
 });
 
 export const MorningSummaryCard: React.FC<MorningSummaryCardProps> = ({ result }) => {
