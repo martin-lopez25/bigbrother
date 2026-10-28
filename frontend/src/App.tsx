@@ -383,11 +383,6 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-        {isStaticMirror && !isMorningOnlyMirror && morningSummary && (
-          <div className="mb-8">
-            <MorningSummaryCard result={morningSummary} />
-          </div>
-        )}
         {/* If user is exploring 'trending' without an active search */}
         {isMorningOnlyMirror ? (
           morningSummary ? (
@@ -547,6 +542,9 @@ export default function App() {
               onToggleSave={handleToggleCurrentSave}
               onCopySummary={handleCopySummary}
               onShare={handleShare}
+              onOpenMorningMirror={isStaticMirror
+                ? () => window.location.assign(`${import.meta.env.BASE_URL}?view=morning-summary`)
+                : undefined}
             />
 
             {/* Source Filters Bar */}

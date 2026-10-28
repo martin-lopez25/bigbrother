@@ -13,6 +13,7 @@ import {
   Bookmark,
   BookmarkCheck,
   Check,
+  Newspaper,
 } from 'lucide-react';
 import { PlatformType } from '../types';
 
@@ -28,6 +29,7 @@ interface ResultsHeaderProps {
   onToggleSave: () => void;
   onCopySummary: () => void;
   onShare: () => void;
+  onOpenMorningMirror?: () => void;
 }
 
 export const ResultsHeader: React.FC<ResultsHeaderProps> = ({
@@ -42,6 +44,7 @@ export const ResultsHeader: React.FC<ResultsHeaderProps> = ({
   onToggleSave,
   onCopySummary,
   onShare,
+  onOpenMorningMirror,
 }) => {
   const filterNames: Record<PlatformType, string> = {
     all: 'Todas las plataformas',
@@ -117,6 +120,17 @@ export const ResultsHeader: React.FC<ResultsHeaderProps> = ({
               </>
             )}
           </button>
+
+          {onOpenMorningMirror && (
+            <button
+              onClick={onOpenMorningMirror}
+              title="Abrir el resumen de la mañanera"
+              className="flex items-center gap-1 px-2.5 py-1 text-xs bg-white border border-[#DDD8CF] hover:border-[#6B1F32] hover:text-[#6B1F32] rounded text-[#1C1C1C] transition-colors shadow-2xs"
+            >
+              <Newspaper className="w-3 h-3" />
+              <span>Mañanera</span>
+            </button>
+          )}
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Download, ExternalLink, FileText } from 'lucide-react';
+import { Download, ExternalLink, FileText } from 'lucide-react';
 import type { MorningSummarySnapshot } from '../types';
 
 interface MorningSummaryCardProps {
@@ -81,64 +81,61 @@ export const MorningSummaryCard: React.FC<MorningSummaryCardProps> = ({ result }
   };
 
   return (
-    <article className="overflow-hidden rounded-md border border-[#DDD8CF] bg-white shadow-sm">
-      <div className="grid md:grid-cols-[minmax(240px,0.8fr)_minmax(0,1.2fr)]">
-        <a
-          href={videoUrl}
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Abrir video original de la mañanera en YouTube"
-          className="group relative block aspect-video overflow-hidden bg-[#1C1C1C] md:aspect-auto md:min-h-64"
-        >
-          <img
-            src={`https://i.ytimg.com/vi/${encodeURIComponent(result.videoId)}/hqdefault.jpg`}
-            alt="Miniatura del video de la mañanera"
-            className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
-            loading="lazy"
-          />
-          <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded bg-black/75 px-2.5 py-1.5 text-xs font-semibold text-white">
-            Ver video <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-          </span>
-        </a>
-
-        <div className="min-w-0 p-5 sm:p-6">
-          <div className="flex flex-wrap items-start justify-between gap-3 border-b border-[#E8E4DD] pb-4">
-            <div>
-              <span className="text-[11px] font-bold uppercase tracking-widest text-[#B99A5B]">
-                Edición de la mañanera
-              </span>
-              <h2 className="mt-1 text-xl font-serif font-black text-[#1C1C1C]">
-                Resumen del video
-              </h2>
-              <p className="mt-1 text-xs text-[#777777]">{dateLabel}</p>
-            </div>
-            <button
-              type="button"
-              onClick={downloadSummary}
-              title="Descargar resumen en Markdown"
-              className="inline-flex h-9 w-9 items-center justify-center rounded border border-[#DDD8CF] text-[#6B1F32] transition hover:border-[#6B1F32] hover:bg-[#F4E8EB]"
-            >
-              <Download className="h-4 w-4" aria-hidden="true" />
-              <span className="sr-only">Descargar resumen</span>
-            </button>
+    <article className="mx-auto max-w-4xl overflow-hidden rounded-md border border-[#DDD8CF] bg-white shadow-sm">
+      <div className="p-5 sm:p-7">
+        <header className="flex flex-wrap items-start justify-between gap-3 border-b border-[#E8E4DD] pb-4">
+          <div>
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#B99A5B]">
+              Edición de la mañanera
+            </span>
+            <h2 className="mt-1 text-xl font-serif font-black text-[#1C1C1C]">
+              Resumen del video
+            </h2>
+            <p className="mt-1 text-xs text-[#777777]">{dateLabel}</p>
           </div>
-
-          <div className="mt-4 flex items-center gap-1.5 text-[11px] text-[#777777]">
-            <FileText className="h-3.5 w-3.5" aria-hidden="true" />
-            <span>Transcripción: {result.transcriptLength.toLocaleString('es-MX')} caracteres</span>
-          </div>
-          <a
-            href={`${import.meta.env.BASE_URL}?view=morning-summary`}
-            className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-[#6B1F32] hover:underline"
+          <button
+            type="button"
+            onClick={downloadSummary}
+            title="Descargar resumen en Markdown"
+            className="inline-flex h-9 w-9 items-center justify-center rounded border border-[#DDD8CF] text-[#6B1F32] transition hover:border-[#6B1F32] hover:bg-[#F4E8EB]"
           >
-            <BookOpen className="h-3.5 w-3.5" aria-hidden="true" />
-            Abrir espejo solo de la mañanera
-          </a>
-          <div className="mt-4 max-h-[34rem] space-y-1 overflow-y-auto pr-2">
-            {renderSummary(result.summary)}
-          </div>
+            <Download className="h-4 w-4" aria-hidden="true" />
+            <span className="sr-only">Descargar resumen</span>
+          </button>
+        </header>
+
+        <div className="mt-4 flex items-center gap-1.5 text-[11px] text-[#777777]">
+          <FileText className="h-3.5 w-3.5" aria-hidden="true" />
+          <span>Transcripción: {result.transcriptLength.toLocaleString('es-MX')} caracteres</span>
         </div>
+        <section className="mt-5 space-y-1" aria-label="Síntesis de la mañanera">
+          {renderSummary(result.summary)}
+        </section>
       </div>
+
+      <a
+        href={videoUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="mx-5 mb-5 grid max-w-xl grid-cols-[140px_minmax(0,1fr)] items-center gap-3 rounded-md border border-[#DDD8CF] bg-[#FAF8F5] p-3 transition hover:border-[#6B1F32] sm:mx-7 sm:mb-7 sm:grid-cols-[180px_minmax(0,1fr)]"
+      >
+        <img
+          src={`https://i.ytimg.com/vi/${encodeURIComponent(result.videoId)}/hqdefault.jpg`}
+          alt="Miniatura horizontal del video de la mañanera"
+          className="aspect-video w-full rounded-sm bg-[#1C1C1C] object-cover"
+        />
+        <span className="min-w-0">
+          <span className="block text-[11px] font-bold uppercase tracking-wider text-[#B99A5B]">
+            Video de origen
+          </span>
+          <span className="mt-1 block text-sm font-semibold text-[#1C1C1C]">
+            Ver video en YouTube
+          </span>
+          <span className="mt-1 inline-flex items-center gap-1 text-xs text-[#6B1F32]">
+            Abrir enlace <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+          </span>
+        </span>
+      </a>
     </article>
   );
 };
