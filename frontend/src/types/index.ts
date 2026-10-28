@@ -142,6 +142,13 @@ export interface SearchResultData {
   };
 }
 
+export interface MorningSummarySnapshot {
+  videoId: string;
+  summary: string;
+  transcriptLength: number;
+  createdAt: string;
+}
+
 export interface SearchHistoryItem {
   id: string;
   query: string;

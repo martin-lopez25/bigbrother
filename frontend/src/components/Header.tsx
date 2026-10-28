@@ -24,6 +24,7 @@ interface HeaderProps {
   savedCount: number;
   onOpenInfoModal: () => void;
   staticMirror?: boolean;
+  staticMorningSummary?: boolean;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -33,6 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
   savedCount,
   onOpenInfoModal,
   staticMirror = false,
+  staticMorningSummary = false,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -47,10 +49,10 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="bg-[#1C1C1C] text-[#F7F4EE] px-4 py-1 text-[11px] flex items-center justify-between font-sans tracking-wide">
         <div className="flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-[#B99A5B] inline-block animate-pulse"></span>
-          <span>{staticMirror ? 'Copia de la última búsqueda local' : 'Buscador editorial · fuentes públicas'}</span>
+          <span>{staticMorningSummary ? 'Espejo de la mañanera' : staticMirror ? 'Copia de la última búsqueda local' : 'Buscador editorial · fuentes públicas'}</span>
         </div>
         <div className="hidden sm:flex items-center gap-3 text-[#E8E4DD]/80">
-          <span>{staticMirror ? 'Instantánea pública' : 'Resultados según canales disponibles'}</span>
+          <span>{staticMorningSummary || staticMirror ? 'Instantánea pública' : 'Resultados según canales disponibles'}</span>
           <span>·</span>
           <span>Edición digital</span>
         </div>

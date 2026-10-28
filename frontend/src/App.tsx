@@ -27,6 +27,7 @@ import {
   SearchHistoryItem,
   PublicationItem,
   SourceReference,
+  MorningSummarySnapshot,
 } from './types';
 
 import { INITIAL_SUGGESTIONS, PRIMARY_SEARCH_QUERY } from './data/suggestions';
@@ -48,9 +49,12 @@ import { EmptyState } from './components/EmptyState';
 import { Toast } from './components/Toast';
 import { InfoModal } from './components/InfoModal';
 import { Footer } from './components/Footer';
+import { MorningSummaryCard } from './components/MorningSummaryCard';
 
 export default function App() {
   const isStaticMirror = import.meta.env.VITE_STATIC_MIRROR === 'true';
+  const isMorningOnlyMirror = isStaticMirror
+    && new URLSearchParams(window.location.search).get('view') === 'morning-summary';
 
   // Navigation & state
   const [activeNavView, setActiveNavView] = useState<
@@ -61,6 +65,7 @@ export default function App() {
   >(isStaticMirror ? 'loading' : 'idle');
   const [currentQuery, setCurrentQuery] = useState(PRIMARY_SEARCH_QUERY);
   const [resultsData, setResultsData] = useState<SearchResultData | null>(null);
+  const [morningSummary, setMorningSummary] = useState<MorningSummarySnapshot | null>(null);
   const [searchError, setSearchError] = useState('');
   const searchController = useRef<AbortController | null>(null);
 
@@ -159,6 +164,13 @@ export default function App() {
   useEffect(() => {
     if (isStaticMirror) {
       let cancelled = false;
+      if (isMorningOnlyMirror) {
+        setSearchState('idle');
+        return () => {
+          cancelled = true;
+          searchController.current?.abort();
+        };
+      }
       const loadSnapshot = async () => {
         try {
           const response = await fetch(`${import.meta.env.BASE_URL}latest-search.json`, {
@@ -170,8 +182,9 @@ export default function App() {
             throw new Error('La copia publicada no tiene un formato válido.');
           }
           if (cancelled) return;
-          setResultsData(snapshot);
-          setCurrentQuery(snapshot.query);
+          const cleanQuery = snapshot.query.replace(/^#\s*/, '');
+          setResultsData({ ...snapshot, query: cleanQuery });
+          setCurrentQuery(cleanQuery);
           setSearchState('results');
         } catch (error) {
           if (cancelled) return;
@@ -188,6 +201,38 @@ export default function App() {
     void handlePerformSearch(PRIMARY_SEARCH_QUERY);
     return () => searchController.current?.abort();
   }, []);
+
+  useEffect(() => {
+    if (!isStaticMirror) return;
+    let cancelled = false;
+
+    const loadMorningSummary = async () => {
+      try {
+        const response = await fetch(
+          `${import.meta.env.BASE_URL}latest-morning-summary.json`,
+          { cache: 'no-store' },
+        );
+        if (!response.ok) return;
+        const snapshot = await response.json() as MorningSummarySnapshot;
+        if (
+          typeof snapshot.videoId !== 'string'
+          || !/^[0-9A-Za-z_-]{11}$/.test(snapshot.videoId)
+          || typeof snapshot.summary !== 'string'
+          || !snapshot.summary.trim()
+          || typeof snapshot.createdAt !== 'string'
+          || !Number.isFinite(snapshot.transcriptLength)
+        ) return;
+        if (!cancelled) setMorningSummary(snapshot);
+      } catch {
+        // The morning summary is optional for the Pages mirror.
+      }
+    };
+
+    void loadMorningSummary();
+    return () => {
+      cancelled = true;
+    };
+  }, [isStaticMirror]);
 
   // Reset to initial home port
   const handleResetHome = () => {
@@ -333,12 +378,33 @@ export default function App() {
         savedCount={savedCount}
         onOpenInfoModal={() => setIsInfoModalOpen(true)}
         staticMirror={isStaticMirror}
+        staticMorningSummary={isMorningOnlyMirror}
       />
 
       {/* Main Content Area */}
       <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+        {isStaticMirror && !isMorningOnlyMirror && morningSummary && (
+          <div className="mb-8">
+            <MorningSummaryCard result={morningSummary} />
+          </div>
+        )}
         {/* If user is exploring 'trending' without an active search */}
-        {isStaticMirror && searchState === 'error' ? (
+        {isMorningOnlyMirror ? (
+          morningSummary ? (
+            <div className="mx-auto max-w-5xl py-4 sm:py-8">
+              <MorningSummaryCard result={morningSummary} />
+            </div>
+          ) : (
+            <section className="mx-auto max-w-3xl py-16 text-center" aria-labelledby="morning-mirror-heading">
+              <h1 id="morning-mirror-heading" className="text-3xl font-serif font-black text-[#1C1C1C]">
+                Resumen de la mañanera
+              </h1>
+              <p className="mt-3 text-sm text-[#777777]">
+                Todavía no hay un resumen publicado para esta edición.
+              </p>
+            </section>
+          )
+        ) : isStaticMirror && searchState === 'error' ? (
           <div className="max-w-2xl mx-auto py-16 text-center bg-white border border-[#DDD8CF] p-6 rounded-lg my-8">
             <h1 className="text-xl font-serif font-bold text-[#1C1C1C]">Copia local pendiente</h1>
             <p className="text-xs text-[#777777] mt-2">{searchError}</p>
@@ -574,10 +640,12 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <Footer
-        onNavigate={handleNavigation}
-        onOpenInfoModal={() => setIsInfoModalOpen(true)}
-      />
+      {!isMorningOnlyMirror && (
+        <Footer
+          onNavigate={handleNavigation}
+          onOpenInfoModal={() => setIsInfoModalOpen(true)}
+        />
+      )}
 
       {/* Article Reader Modal (Simulated preview) */}
       {activeArticleModal && (
