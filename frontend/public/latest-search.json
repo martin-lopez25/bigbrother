@@ -1,61 +1,59 @@
 {
-  "query": "# gira presidencial Claudia Sheinbaum IMSS Bienestar",
-  "timestamp": "27 oct 2026, 6:33 p.m.",
-  "totalResults": 48,
+  "query": "gira presidencial Claudia Sheinbaum IMSS Bienestar",
+  "timestamp": "4 nov 2026, 10:31 a.m.",
+  "totalResults": 47,
   "platformDistribution": {
-    "all": 48,
-    "web": 15,
+    "all": 47,
+    "web": 10,
     "youtube": 10,
-    "instagram": 0,
-    "meta": 3,
+    "meta": 7,
     "x": 10,
     "bilibili": 10,
-    "reddit": 0,
     "otros": 0
   },
   "summary": {
-    "overview": "Se recopilaron 48 resultados de 8 fuentes disponibles. La síntesis siguiente selecciona fragmentos; no verifica afirmaciones de forma independiente.",
+    "overview": "Se recopilaron 47 resultados de 6 fuentes disponibles. La síntesis siguiente selecciona fragmentos; no verifica afirmaciones de forma independiente.",
     "keyPoints": [
       {
         "id": "extract-1",
-        "text": "En Palacio Nacional, nos reunimos con nuestra Presidenta Claudia Sheinbaum Pardo (@Claudiashein) para avanzar en el proceso de modernización del IMSS-Bienestar.",
+        "text": "Sheinbaum anuncia programa de 12 acciones para fortalecer al ISSSTE CDMX.- La Presidenta de México, Claudia Sheinbaum Pardo, anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fortalecer el sistema de salud, el cual ya está puesto en marcha en el Instituto Mexicano del Seguro Social (IMSS) y que próximamente también se llevará al IMSS Bienestar.",
         "citations": [
-          7
+          2
         ],
         "category": "extracto"
       },
       {
         "id": "extract-2",
-        "text": "En Palacio Nacional, supervisamos resultados de Vivienda para el Bienestar junto con gobernadoras, gobernadores y presidentes municipales; acordamos agilizar trámites y reforzar la coordinación de los tres órdenes de gobierno.",
+        "text": "✅ La presidenta de México, Claudia Sheinbaum Pardo (@Claudiashein), anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fortalecer el sistema de salud, el cual ya está puesto en marcha en el Instituto Mexicano del Seguro Social (IMSS) y que próximamente también se llevará al IMSS Bienestar.",
         "citations": [
-          9
+          5
         ],
         "category": "extracto"
       },
       {
         "id": "extract-3",
-        "text": "🔴 YA SE ALISTA UN PORTAL PARA PUBLICAR LOS CONTRATOS DE GOBIERNO, INCLUIDOS LOS DEL INE: SHEINBAUM La presidenta Claudia Sheinbaum dijo este martes 27 de octubre que el gobierno ya alista un sitio web en donde los ciudadanos podrán consultar los contratos públicos de las instituciones, secretarías y organismos federales, así como sus organigramas, información que debería estar disponible ya en la Plataforma Nacional de Transparencia (PNT).",
+        "text": "🛑Presidenta Sheinbaum destaca avances en el IMSS con el plan “12 Acciones en 120 Días” 👉Entre las acciones concretadas, se cubrió el aumento salarial de 8 % a 565 mil 339 trabajadores en activo; para 370 mil 537 jubilados se realiza entre el 1° y el 3 de noviembre ➡️ https://t.co/sgdtzwhB06 #LaMañaneraDelPueblo #salud #IMSS #Consultas #plan 🔴 #Entérate ✏️📖Conoce de cerca la Universidad Nacional Rosario Castellanos en el nuevo episodio de #HansDirectoPodcast 👉Acompáñame: https://t.co/5lX8rnQ7QI 📣¡Los #Jueves son de estreno!",
         "citations": [
           4
         ],
         "category": "extracto"
       }
     ],
-    "context": "Consulta: «# gira presidencial Claudia Sheinbaum IMSS Bienestar». Abre cada publicación para leer el contexto completo y contrastar la información original.",
+    "context": "Consulta: «gira presidencial Claudia Sheinbaum IMSS Bienestar». Abre cada publicación para leer el contexto completo y contrastar la información original.",
     "perspectives": [],
     "unconfirmed": []
   },
   "items": [
     {
-      "id": "twitter:https://x.com/i/status/2115191809744011285",
+      "id": "twitter:https://x.com/i/status/2118008789475504146",
       "platform": "x",
-      "title": "4x5 son 20 en el mundo real. En la 4T fallida tienen otros datos y Claudia Sheinbaum no lo dice muy claro: 4x5 son 50. Con razón todos los números de Morena están inflados, incluyendo al IMSS y así sucesivamente| https://t.co/jaaMDWXOvc",
-      "summary": "4x5 son 20 en el mundo real. En la 4T fallida tienen otros datos y Claudia Sheinbaum no lo dice muy claro: 4x5 son 50. Con razón todos los números de Morena están inflados, incluyendo al IMSS y así sucesivamente| https://t.co/jaaMDWXOvc",
-      "sourceName": "@sabio28",
-      "authorHandle": "@sabio28",
-      "publishedAt": "27 oct 2026",
-      "sortDate": "2026-10-27T21:20:00+00:00",
-      "url": "https://x.com/i/status/2115191809744011285",
+      "title": "#SesiónOrdinaria Se aprueba exhortar al titular de la Dirección General del IMSS-BIENESTAR, de acuerdo con disponibilidad presupuestal continúe impulsando y acompañando acciones orientadas al fortalecimiento de la infraestructura, del personal especializado, y del abastecimiento",
+      "summary": "#SesiónOrdinaria Se aprueba exhortar al titular de la Dirección General del IMSS-BIENESTAR, de acuerdo con disponibilidad presupuestal continúe impulsando y acompañando acciones orientadas al fortalecimiento de la infraestructura, del personal especializado, y del abastecimiento",
+      "sourceName": "@CongresoEdoSLP",
+      "authorHandle": "@CongresoEdoSLP",
+      "publishedAt": "4 nov 2026",
+      "sortDate": "2026-11-04T15:53:40+00:00",
+      "url": "https://x.com/i/status/2118008789475504146",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -63,15 +61,15 @@
       "citationNumber": 1
     },
     {
-      "id": "twitter:https://x.com/i/status/2115187726245081323",
+      "id": "twitter:https://x.com/i/status/2117832720394916103",
       "platform": "x",
-      "title": "Claudia Sheinbaum anunció la implementación de un programa emergente de 12 acciones que se implementarán en 120 días en el IMSS con el objetivo de mejorar la atención a derechohabientes y las condiciones para todas y todos los trabajadores. 📰➡️ https://t.co/zDo3RNa6i5 https://t.co/5IRyM6lrPg",
-      "summary": "Claudia Sheinbaum anunció la implementación de un programa emergente de 12 acciones que se implementarán en 120 días en el IMSS con el objetivo de mejorar la atención a derechohabientes y las condiciones para todas y todos los trabajadores. 📰➡️ https://t.co/zDo3RNa6i5 https://t.co/5IRyM6lrPg",
-      "sourceName": "@nrtmexico_",
-      "authorHandle": "@nrtmexico_",
-      "publishedAt": "27 oct 2026",
-      "sortDate": "2026-10-27T21:03:46+00:00",
-      "url": "https://x.com/i/status/2115187726245081323",
+      "title": "Sheinbaum anuncia programa de 12 acciones para fortalecer al ISSSTE CDMX.- La Presidenta de México, Claudia Sheinbaum Pardo, anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fo",
+      "summary": "Sheinbaum anuncia programa de 12 acciones para fortalecer al ISSSTE CDMX.- La Presidenta de México, Claudia Sheinbaum Pardo, anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fortalecer el sistema de salud, el cual ya está puesto en marcha en el Instituto Mexicano del Seguro Social (IMSS) y que próximamente también se llevará al IMSS Bienestar. ►https://t.co/6uYJi8MFFc",
+      "sourceName": "@La_VerdadSonora",
+      "authorHandle": "@La_VerdadSonora",
+      "publishedAt": "3 nov 2026",
+      "sortDate": "2026-11-04T04:14:02+00:00",
+      "url": "https://x.com/i/status/2117832720394916103",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -79,15 +77,15 @@
       "citationNumber": 2
     },
     {
-      "id": "twitter:https://x.com/i/status/2115156771857686722",
+      "id": "twitter:https://x.com/i/status/2117744243917611406",
       "platform": "x",
-      "title": "🏥👩‍💼 Basificación de trabajadores, contratación de especialistas y compra de equipo médico son algunas de las medidas presentadas hoy por la presidenta Claudia Sheinbaum para mejorar el IMSS en 120 días https://t.co/pSJbhvuHgp",
-      "summary": "🏥👩‍💼 Basificación de trabajadores, contratación de especialistas y compra de equipo médico son algunas de las medidas presentadas hoy por la presidenta Claudia Sheinbaum para mejorar el IMSS en 120 días https://t.co/pSJbhvuHgp",
-      "sourceName": "@SolDeCuernavaca",
-      "authorHandle": "@SolDeCuernavaca",
-      "publishedAt": "27 oct 2026",
-      "sortDate": "2026-10-27T19:00:46+00:00",
-      "url": "https://x.com/i/status/2115156771857686722",
+      "title": "La presidenta Claudia Sheinbaum anunció un programa emergente de 12 acciones para mejorar la atención médica del ISSSTE durante los próximos 120 días, con obras hospitalarias, contratación de personal, equipamiento y abasto de medicamentos. https://t.co/GQ4Zp5U86e",
+      "summary": "La presidenta Claudia Sheinbaum anunció un programa emergente de 12 acciones para mejorar la atención médica del ISSSTE durante los próximos 120 días, con obras hospitalarias, contratación de personal, equipamiento y abasto de medicamentos. https://t.co/GQ4Zp5U86e",
+      "sourceName": "@LavariegaMx",
+      "authorHandle": "@LavariegaMx",
+      "publishedAt": "3 nov 2026",
+      "sortDate": "2026-11-03T22:22:28+00:00",
+      "url": "https://x.com/i/status/2117744243917611406",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -95,15 +93,15 @@
       "citationNumber": 3
     },
     {
-      "id": "twitter:https://x.com/i/status/2115129835840241675",
+      "id": "twitter:https://x.com/i/status/2117718206043615557",
       "platform": "x",
-      "title": "🔴 YA SE ALISTA UN PORTAL PARA PUBLICAR LOS CONTRATOS DE GOBIERNO, INCLUIDOS LOS DEL INE: SHEINBAUM La presidenta Claudia Sheinbaum dijo este martes 27 de octubre que el gobierno ya alista un sitio web en donde los ciudadanos podrán consultar los contratos públicos de las instituciones, secretarías y",
-      "summary": "🔴 YA SE ALISTA UN PORTAL PARA PUBLICAR LOS CONTRATOS DE GOBIERNO, INCLUIDOS LOS DEL INE: SHEINBAUM La presidenta Claudia Sheinbaum dijo este martes 27 de octubre que el gobierno ya alista un sitio web en donde los ciudadanos podrán consultar los contratos públicos de las instituciones, secretarías y organismos federales, así como sus organigramas, información que debería estar disponible ya en la Plataforma Nacional de Transparencia (PNT). \"A mediados de noviembre vamos a presentar una una página de internet, un portal, donde se va a encontrar todo lo del gobierno federal, todo lo que uno quiera: desde quién trabaja dónde hasta los contratos, cada contrato cuánto es, a quién se contrató, los",
-      "sourceName": "@BI_Noticias",
-      "authorHandle": "@BI_Noticias",
-      "publishedAt": "27 oct 2026",
-      "sortDate": "2026-10-27T17:13:44+00:00",
-      "url": "https://x.com/i/status/2115129835840241675",
+      "title": "🛑Presidenta Sheinbaum destaca avances en el IMSS con el plan “12 Acciones en 120 Días” 👉Entre las acciones concretadas, se cubrió el aumento salarial de 8 % a 565 mil 339 trabajadores en activo; para 370 mil 537 jubilados se realiza entre el 1° y el 3 de noviembre ➡️ https://t.co/sgdtzwhB06 #LaMañan",
+      "summary": "🛑Presidenta Sheinbaum destaca avances en el IMSS con el plan “12 Acciones en 120 Días” 👉Entre las acciones concretadas, se cubrió el aumento salarial de 8 % a 565 mil 339 trabajadores en activo; para 370 mil 537 jubilados se realiza entre el 1° y el 3 de noviembre ➡️ https://t.co/sgdtzwhB06 #LaMañaneraDelPueblo #salud #IMSS #Consultas #plan 🔴 #Entérate ✏️📖Conoce de cerca la Universidad Nacional Rosario Castellanos en el nuevo episodio de #HansDirectoPodcast 👉Acompáñame: https://t.co/5lX8rnQ7QI 📣¡Los #Jueves son de estreno! #Podcast #UNRC #universidad #HANSSALAZAR",
+      "sourceName": "@HansDigital2",
+      "authorHandle": "@HansDigital2",
+      "publishedAt": "3 nov 2026",
+      "sortDate": "2026-11-03T20:39:00+00:00",
+      "url": "https://x.com/i/status/2117718206043615557",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -111,15 +109,15 @@
       "citationNumber": 4
     },
     {
-      "id": "twitter:https://x.com/i/status/2115116366013292805",
+      "id": "twitter:https://x.com/i/status/2117682093748572386",
       "platform": "x",
-      "title": "El IMSS tendrá 120 días para implementar 12 acciones de mejora, anunció Claudia Sheinbaum. El plan contempla aumentos salariales, contratación de personal y compra de equipo, mediante la reducción de gastos y la reasignación de recursos a áreas prioritarias. https://t.co/gOsALbQOHj",
-      "summary": "El IMSS tendrá 120 días para implementar 12 acciones de mejora, anunció Claudia Sheinbaum. El plan contempla aumentos salariales, contratación de personal y compra de equipo, mediante la reducción de gastos y la reasignación de recursos a áreas prioritarias. https://t.co/gOsALbQOHj",
-      "sourceName": "@AristeguiOnline",
-      "authorHandle": "@AristeguiOnline",
-      "publishedAt": "27 oct 2026",
-      "sortDate": "2026-10-27T16:20:13+00:00",
-      "url": "https://x.com/i/status/2115116366013292805",
+      "title": "✅ La presidenta de México, Claudia Sheinbaum Pardo (@Claudiashein), anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fortalecer el sistema de salud, el cual ya está puesto en m",
+      "summary": "✅ La presidenta de México, Claudia Sheinbaum Pardo (@Claudiashein), anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fortalecer el sistema de salud, el cual ya está puesto en marcha en el Instituto Mexicano del Seguro Social (IMSS) y que próximamente también se llevará al IMSS Bienestar. “Vamos avanzando (...) Es muy importante que la gente sepa que ya llegó un equipo, que están en mejores condiciones todos los hospitales, centros de salud, que se inaugura un hospital”, puntualizó en la conferencia matutina: “Las mañaneras del pueblo”. #OlivaNoticias #Multimedios",
+      "sourceName": "@OlivaNoticiasX",
+      "authorHandle": "@OlivaNoticiasX",
+      "publishedAt": "3 nov 2026",
+      "sortDate": "2026-11-03T18:15:30+00:00",
+      "url": "https://x.com/i/status/2117682093748572386",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -127,15 +125,15 @@
       "citationNumber": 5
     },
     {
-      "id": "twitter:https://x.com/i/status/2113776933972615589",
+      "id": "twitter:https://x.com/i/status/2117673912368783826",
       "platform": "x",
-      "title": "#ZCN I La gobernadora @delfinagomeza participó en la revisión de los avances de la modernización del IMSS-Bienestar, reunión encabezada por la presidenta Claudia Sheinbaum. https://t.co/ZWoYAgUxiw",
-      "summary": "#ZCN I La gobernadora @delfinagomeza participó en la revisión de los avances de la modernización del IMSS-Bienestar, reunión encabezada por la presidenta Claudia Sheinbaum. https://t.co/ZWoYAgUxiw",
-      "sourceName": "@zonaceroedomex",
-      "authorHandle": "@zonaceroedomex",
-      "publishedAt": "23 oct 2026",
-      "sortDate": "2026-10-23T23:37:47+00:00",
-      "url": "https://x.com/i/status/2113776933972615589",
+      "title": "❤️🏥 ¡La salud es un derecho, no un privilegio! La Presidenta Claudia Sheinbaum anunció 24 acciones para fortalecer el IMSS y el ISSSTE, mejorar hospitales, garantizar medicamentos y ampliar la atención médica para las y los mexicanos. ¡Más salud y bienestar para el pueblo! 🇲🇽 https://t.co/2YRhSaoiuh",
+      "summary": "❤️🏥 ¡La salud es un derecho, no un privilegio! La Presidenta Claudia Sheinbaum anunció 24 acciones para fortalecer el IMSS y el ISSSTE, mejorar hospitales, garantizar medicamentos y ampliar la atención médica para las y los mexicanos. ¡Más salud y bienestar para el pueblo! 🇲🇽 https://t.co/2YRhSaoiuh",
+      "sourceName": "@morenanloficial",
+      "authorHandle": "@morenanloficial",
+      "publishedAt": "3 nov 2026",
+      "sortDate": "2026-11-03T17:42:59+00:00",
+      "url": "https://x.com/i/status/2117673912368783826",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -143,15 +141,15 @@
       "citationNumber": 6
     },
     {
-      "id": "twitter:https://x.com/i/status/2113052021494284350",
+      "id": "twitter:https://x.com/i/status/2115492540308922516",
       "platform": "x",
-      "title": "En Palacio Nacional, nos reunimos con nuestra Presidenta Claudia Sheinbaum Pardo (@Claudiashein) para avanzar en el proceso de modernización del IMSS-Bienestar. Estamos en total coordinación con la Federación para ampliar los servicios de salud, con el objetivo de garantizar una atención médica grat",
-      "summary": "En Palacio Nacional, nos reunimos con nuestra Presidenta Claudia Sheinbaum Pardo (@Claudiashein) para avanzar en el proceso de modernización del IMSS-Bienestar. Estamos en total coordinación con la Federación para ampliar los servicios de salud, con el objetivo de garantizar una atención médica gratuita, universal y de calidad, porque la salud es un derecho que debe estar al alcance de todas y todos.",
-      "sourceName": "@MarinadelPilar",
-      "authorHandle": "@MarinadelPilar",
-      "publishedAt": "21 oct 2026",
-      "sortDate": "2026-10-21T23:37:15+00:00",
-      "url": "https://x.com/i/status/2113052021494284350",
+      "title": "🏥 La presidenta @Claudiashein anunció un programa emergente de 12 acciones que se aplicará durante 120 días en el #IMSS, con el objetivo de mejorar la atención a los derechohabientes y las condiciones laborales del personal. #Noticias #México #Salud https://t.co/FTv4v7XJu8",
+      "summary": "🏥 La presidenta @Claudiashein anunció un programa emergente de 12 acciones que se aplicará durante 120 días en el #IMSS, con el objetivo de mejorar la atención a los derechohabientes y las condiciones laborales del personal. #Noticias #México #Salud https://t.co/FTv4v7XJu8",
+      "sourceName": "@enlace13_",
+      "authorHandle": "@enlace13_",
+      "publishedAt": "28 oct 2026",
+      "sortDate": "2026-10-28T17:15:00+00:00",
+      "url": "https://x.com/i/status/2115492540308922516",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -159,15 +157,15 @@
       "citationNumber": 7
     },
     {
-      "id": "twitter:https://x.com/i/status/2113042940184633369",
+      "id": "twitter:https://x.com/i/status/2115483919197831192",
       "platform": "x",
-      "title": "Recibí en Palacio Nacional a los 24 gobernadores y gobernadoras de estados incorporados a IMSS-Bienestar; revisamos avances en el proceso de modernización. Trabajamos por un sistema de salud universal, gratuito y de calidad para el pueblo de México. https://t.co/ATP87ZnMqc",
-      "summary": "Recibí en Palacio Nacional a los 24 gobernadores y gobernadoras de estados incorporados a IMSS-Bienestar; revisamos avances en el proceso de modernización. Trabajamos por un sistema de salud universal, gratuito y de calidad para el pueblo de México. https://t.co/ATP87ZnMqc",
-      "sourceName": "@Claudiashein",
-      "authorHandle": "@Claudiashein",
-      "publishedAt": "21 oct 2026",
-      "sortDate": "2026-10-21T23:01:10+00:00",
-      "url": "https://x.com/i/status/2113042940184633369",
+      "title": "Supervisar de primera mano las instalaciones, escuchar al personal de salud y responder con soluciones inmediatas es la marca de un gobierno profundamente humanista. 🏥✨Con las 12 acciones del Plan de 120 Días encabezado por la Presidenta @Claudiashein, avanzamos a paso firme hacia una atención médic",
+      "summary": "Supervisar de primera mano las instalaciones, escuchar al personal de salud y responder con soluciones inmediatas es la marca de un gobierno profundamente humanista. 🏥✨Con las 12 acciones del Plan de 120 Días encabezado por la Presidenta @Claudiashein, avanzamos a paso firme hacia una atención médica más digna y oportuna: 🔹 Reducción de tiempos de espera para citas. 🔹 Disponibilidad garantizada de camas y especialistas, incluso en periodos vacacionales. 🔹 Mantenimiento emergente en las instalaciones del IMSS, ISSSTE e IMSS-Bienestar. Garantizar el acceso universal a la salud en cada rincón de México y de nuestro estado es construir patria con justicia social. ¡Seguimos trabajando por el bien",
+      "sourceName": "@esthela_damian",
+      "authorHandle": "@esthela_damian",
+      "publishedAt": "28 oct 2026",
+      "sortDate": "2026-10-28T16:40:44+00:00",
+      "url": "https://x.com/i/status/2115483919197831192",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -175,15 +173,15 @@
       "citationNumber": 8
     },
     {
-      "id": "twitter:https://x.com/i/status/2113003976249553239",
+      "id": "twitter:https://x.com/i/status/2115455044225007637",
       "platform": "x",
-      "title": "En Palacio Nacional, supervisamos resultados de Vivienda para el Bienestar junto con gobernadoras, gobernadores y presidentes municipales; acordamos agilizar trámites y reforzar la coordinación de los tres órdenes de gobierno. Este noble programa avanza en la construcción de 1.8 millones de vivienda",
-      "summary": "En Palacio Nacional, supervisamos resultados de Vivienda para el Bienestar junto con gobernadoras, gobernadores y presidentes municipales; acordamos agilizar trámites y reforzar la coordinación de los tres órdenes de gobierno. Este noble programa avanza en la construcción de 1.8 millones de viviendas durante el sexenio en beneficio de 12 millones de familias mexicanas.",
-      "sourceName": "@Claudiashein",
-      "authorHandle": "@Claudiashein",
-      "publishedAt": "21 oct 2026",
-      "sortDate": "2026-10-21T20:26:20+00:00",
-      "url": "https://x.com/i/status/2113003976249553239",
+      "title": "#México 📽️ | Claudia Sheinbaum anuncia programa emergente de 12 acciones en 120 días para mejorar la atención y las condiciones de los trabajadores en el IMSS https://t.co/uADQxPtszC 👈Nota en Exilio @Claudiashein @GobiernoMX https://t.co/RKKXA7zl9c",
+      "summary": "#México 📽️ | Claudia Sheinbaum anuncia programa emergente de 12 acciones en 120 días para mejorar la atención y las condiciones de los trabajadores en el IMSS https://t.co/uADQxPtszC 👈Nota en Exilio @Claudiashein @GobiernoMX https://t.co/RKKXA7zl9c",
+      "sourceName": "@MxExilio",
+      "authorHandle": "@MxExilio",
+      "publishedAt": "28 oct 2026",
+      "sortDate": "2026-10-28T14:46:00+00:00",
+      "url": "https://x.com/i/status/2115455044225007637",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -191,15 +189,15 @@
       "citationNumber": 9
     },
     {
-      "id": "twitter:https://x.com/i/status/2112970915722256444",
+      "id": "twitter:https://x.com/i/status/2115453584699531591",
       "platform": "x",
-      "title": "Estamos en Palacio Nacional para reunirnos con nuestra Presidenta, Claudia Sheinbaum Pardo (@Claudiashein), y avanzar en coordinación en temas de vivienda y salud para el bienestar de las familias de Baja California… Los mantendremos informados. https://t.co/OKRzbDwk7a",
-      "summary": "Estamos en Palacio Nacional para reunirnos con nuestra Presidenta, Claudia Sheinbaum Pardo (@Claudiashein), y avanzar en coordinación en temas de vivienda y salud para el bienestar de las familias de Baja California… Los mantendremos informados. https://t.co/OKRzbDwk7a",
-      "sourceName": "@MarinadelPilar",
-      "authorHandle": "@MarinadelPilar",
-      "publishedAt": "21 oct 2026",
-      "sortDate": "2026-10-21T18:14:58+00:00",
-      "url": "https://x.com/i/status/2112970915722256444",
+      "title": "Presentan 12 acciones para mejorar el IMSS en 120 días. 🟢 La presidenta Claudia Sheinbaum destacó el aumento salarial del 8%; basificación de 10 mil 939 trabajadores; contratación expedita de 2 mil 500 especialistas; compra de 100 equipos médicos; 18 mil 16 camillas y camas nuevas; mantenimiento a e",
+      "summary": "Presentan 12 acciones para mejorar el IMSS en 120 días. 🟢 La presidenta Claudia Sheinbaum destacó el aumento salarial del 8%; basificación de 10 mil 939 trabajadores; contratación expedita de 2 mil 500 especialistas; compra de 100 equipos médicos; 18 mil 16 camillas y camas nuevas; mantenimiento a equipo e instalaciones; citas de consulta de especialidad sin cierre de agenda por fin de año y garantía de insumos. 🔗 Más en: https://t.co/2LzHBP3jDa",
+      "sourceName": "@DiarioMarcaOax",
+      "authorHandle": "@DiarioMarcaOax",
+      "publishedAt": "28 oct 2026",
+      "sortDate": "2026-10-28T14:40:12+00:00",
+      "url": "https://x.com/i/status/2115453584699531591",
       "contentType": "noticia",
       "tags": [
         "X / Twitter"
@@ -222,7 +220,7 @@
       ],
       "citationNumber": 11,
       "metrics": {
-        "views": 32
+        "views": 37
       }
     },
     {
@@ -242,6 +240,22 @@
       "citationNumber": 12
     },
     {
+      "id": "news:https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "platform": "web",
+      "title": "“Mexicanos al grito de guerra” cantan trabajadores del IMSS en medio de protestas y repliegue policial en CDMX",
+      "summary": "“Mexicanos al grito de guerra” cantan trabajadores del IMSS en medio de protestas y repliegue policial en CDMX",
+      "sourceName": "Infobae",
+      "authorHandle": "Infobae",
+      "publishedAt": "10 oct 2026",
+      "sortDate": "2026-10-10T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 13
+    },
+    {
       "id": "news:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVlBzVHR2MTYxc0pMbHdGWlNsdmpNdTZVN1RVdnNMVzJnMm1GWjBYTTlRMHFNc3hiWVowTnBXTzdncHJGMTBDM210b0NLWUpWbUZaZjNDWlB6U3M3Zi1hcktEMGNuekw1RTRzMm9MZXF0Y281UGt0MXZUSy1FVHVNRkdNY3R2UnUzbVNPLVo2M2hCdkllejhla0lwaFpPal9sdjMySWdkMy03RGNtblZMZU1wRFkxQzBRWkhCbENkaWY0MXYxY3ZfQ3dNcnNvSjN3UW4zMG1oelPSAewBQVVfeXFMTUtxWDlUUW91SHFBRFQ0OTBIUXB3MHlHZU85eEtTR0RnMGJZSGp2aG9yUllzbDVMTll6SjQyZkdITnBtVVd1WVRiejJkOVBVMWlaTGFKVFNzQ0hzXzBKVjZ1RnhOR2JjWTFnNGF6UUhXQ2xiUEFwXzRubG9wbTRReUd4N21WUjVibktBaENUR0dPNXdMbE5ianRYNEhCMXJxbXFTNmhYUWVGX3FRU0ZvVW40bklpVW9KX1pJa3BqMFRRRV95UTBFdzdqNC0tbjMydXozZUl5NEF5OVVJSWpSS2o3VkJjN1JtSlBsVGU?oc=5",
       "platform": "web",
       "title": "Sheinbaum anuncia gira nacional para dar seguimiento al IMSS Bienestar",
@@ -255,7 +269,7 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 13
+      "citationNumber": 14
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMirAFBVV95cUxQTV9EeFdRYTJyLUx6UDZFanlHcFk0dEk1OTQzd1dTM1RHS1lCYS01UmRoakVod180Vm56SjQzRVk4eVBBY0FxaU1BWkwxc1hDSXlQeEZWcVdYZk12QUtRaTk3VkpES0U0NHpXZ1ZyTm9ZUEdpb3V4YUxyRndnc2xDX3JyN2VBMXhZRlJXMVhzNkpQMGJ6bmZ1MG1YVFh5YXNXQ0l1bzU0ZXdLdU4x?oc=5",
@@ -271,23 +285,23 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 14
+      "citationNumber": 15
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "id": "news:https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVpPTC1qZDJaWW9iaURoaVFNY3BsbU5COXo4VVN1d1loN1RfTzV6c3dyWkU2TjY2WWx1T2VCZzZuZ0hMdjUzaHZvMWhyS1ZWeTlUX2VUWlVlWTh1YmNIamJEbUZvQ0ZfVjI3VFFBOWM3WndfTlB0ZkhxWnBmMk5Ec2J1TzA1UjRmX1hkaFJIOTZ3VFdjVnZKZkNPRVowSlRZTTZkNlZaVFNGYVE?oc=5",
       "platform": "web",
-      "title": "Inicia Sheinbaum gira por hospitales del IMSS-Bienestar en Hidalgo",
-      "summary": "Inicia Sheinbaum gira por hospitales del IMSS-Bienestar en Hidalgo",
-      "sourceName": "MVS Noticias",
-      "authorHandle": "MVS Noticias",
+      "title": "Claudia Sheinbaum inicia gira nacional de Salud en Hidalgo",
+      "summary": "Claudia Sheinbaum inicia gira nacional de Salud en Hidalgo",
+      "sourceName": "El Sol de México",
+      "authorHandle": "El Sol de México",
       "publishedAt": "9 oct 2026",
       "sortDate": "2026-10-09T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVpPTC1qZDJaWW9iaURoaVFNY3BsbU5COXo4VVN1d1loN1RfTzV6c3dyWkU2TjY2WWx1T2VCZzZuZ0hMdjUzaHZvMWhyS1ZWeTlUX2VUWlVlWTh1YmNIamJEbUZvQ0ZfVjI3VFFBOWM3WndfTlB0ZkhxWnBmMk5Ec2J1TzA1UjRmX1hkaFJIOTZ3VFdjVnZKZkNPRVowSlRZTTZkNlZaVFNGYVE?oc=5",
       "contentType": "noticia",
       "tags": [
         "Google News"
       ],
-      "citationNumber": 15
+      "citationNumber": 16
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcEZmeG81UHdFamZwdWZDQVVoNlVCYzlLT29sc1FWVXFHWXhsYXRib3pNM2V0VTcwN0gzMDVSQkotZUJLS2ZDR1MxZURnYV8zbzBOTDBZaExLOEppLXNCWjB3U2M1dEtBdG5qZDFFWjJockNqLTZPV19lZzRxVDlFemxWOEJkZjdIOHBZU1RQR291bzdqYWgwRUJobEtFWEhVdnhCMjQyeGw4RklIU3lDY1ZncTVsUGE2T3h0cmY3ZTBRM0I2dDUwc1JscG8zN3BJSmNUdzMzRUp0VEgwWlE?oc=5",
@@ -303,7 +317,42 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 16
+      "citationNumber": 17
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "platform": "web",
+      "title": "Inicia Sheinbaum gira por hospitales del IMSS-Bienestar en Hidalgo",
+      "summary": "Inicia Sheinbaum gira por hospitales del IMSS-Bienestar en Hidalgo",
+      "sourceName": "MVS Noticias",
+      "authorHandle": "MVS Noticias",
+      "publishedAt": "9 oct 2026",
+      "sortDate": "2026-10-09T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 18
+    },
+    {
+      "id": "bilibili:https://www.bilibili.com/video/av117365635291744",
+      "platform": "bilibili",
+      "title": "Iris Rodriguez 西语圈里相当有腕",
+      "summary": "Iris Rodriguez 西语圈里相当有腕",
+      "sourceName": "路横宽二幺",
+      "authorHandle": "路横宽二幺",
+      "publishedAt": "2 oct 2026",
+      "sortDate": "2026-10-03T04:30:00+00:00",
+      "url": "https://www.bilibili.com/video/av117365635291744",
+      "contentType": "video",
+      "tags": [
+        "Bilibili"
+      ],
+      "citationNumber": 19,
+      "metrics": {
+        "views": 959
+      }
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd3BmTTJsNFgxZFZkbzlxRzBDaGlpc3FudVhkUkpULUZaMWtZMkVZRTkydEF1dWpFQ2UyXzFiNkZBZVRBandwVl9FcUQtSWdoR056ZUJyRHFyRjY1M3BCbF92WGhKNkN5Ql9rQjFMQW5WemlEVi1JdExnSzNyMUt0RWhmbUFMdTB1Z01LUHhtMTFNOWYxMzA3cl93ZDNsa0VnOXZsd3M3S1dwZjJuMmMxS0FpY1licXRrLVl5bUFQcG5PelJ3WGxNUW5uU2ctdWljU2hPVm1ZQ0NYYjNidDdMSmt3?oc=5",
@@ -319,39 +368,61 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 17
+      "citationNumber": 20
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
+      "id": "bilibili:https://www.bilibili.com/video/av117224505412159",
+      "platform": "bilibili",
+      "title": "欧美时尚达人一Isa Bella",
+      "summary": "-",
+      "sourceName": "诚信者天下之结也",
+      "authorHandle": "诚信者天下之结也",
+      "publishedAt": "6 sep 2026",
+      "sortDate": "2026-09-06T14:14:57+00:00",
+      "url": "https://www.bilibili.com/video/av117224505412159",
+      "contentType": "video",
+      "tags": [
+        "Bilibili"
+      ],
+      "citationNumber": 21,
+      "metrics": {
+        "views": 3213
+      }
+    },
+    {
+      "id": "bilibili:https://www.bilibili.com/video/av117198735546290",
+      "platform": "bilibili",
+      "title": "Gira de Umbanda com Caboclos na Mata Uma Conexão Com a Natureza",
+      "summary": "#umbanda#caboclo#fé#giradeumbanda#gira",
+      "sourceName": "VovóCambinda",
+      "authorHandle": "VovóCambinda",
+      "publishedAt": "1 sep 2026",
+      "sortDate": "2026-09-02T01:02:54+00:00",
+      "url": "https://www.bilibili.com/video/av117198735546290",
+      "contentType": "video",
+      "tags": [
+        "Bilibili"
+      ],
+      "citationNumber": 22,
+      "metrics": {
+        "views": 17
+      }
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
       "platform": "web",
       "title": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
       "summary": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
-      "sourceName": "Serpientes y Escaleras",
-      "authorHandle": "Serpientes y Escaleras",
-      "publishedAt": "16 ago 2026",
-      "sortDate": "2026-08-16T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
+      "sourceName": "El Economista",
+      "authorHandle": "El Economista",
+      "publishedAt": "17 ago 2026",
+      "sortDate": "2026-08-17T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
       "contentType": "noticia",
       "tags": [
         "Google News"
       ],
-      "citationNumber": 18
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3FLcHhEX0pNSlp5SXVTMzZxNk9pczFjVkU4a1BBck14cnVIVXUyRHFIZ21KZkhtdW1EM1h4a0Iyc3pRLWlaclRJdFV3bHZjVmxVWmd0cnJ4dm9Vek1NVUJ3QW8xZXc1V2NUY3JyWXloRFpieHF4YmdUYkR6bHdOVy1WQ1hlZjRHcDlWSnI5NVJmZ3kxNlNPdllaSW1KM3RjSUdmRFJaakNfUDBQcER3WmhWTUZtYWV0c09DTTdVY2Z2NktUeUVNTXNjQ3RIdU0xVUdZV0IxTlpBQldmaEhyWDdGSE_SAeoBQVVfeXFMUDZHOVM3Q0JhNTQ1SFRXT1BybXRnYU9nbGlya1BDSXctOENPNWEwTUZXOG5nYUNGdzhPWk9LVXAxNXBROW5HbC1MSFB3LVN3TVZWenZ0aVZtVmFWVTlxUEZUTkxGTFJnZ2JnZmpzNmE2T0d5aU5GSHhiaDlpLWE2Q05yNWJtRWUxNC1MUDRUbERYNHBFTUViaVFSUkpkX1ptRHV5T2N6ZTZzckdkZTRocHZJMGhncFNDZU5TV2YxaWM0SUE3RW1mSFV3dGNZVlNTbGFCWkRfTGRmMlc0TVp6Q3VEdDV3bFloMDJ3?oc=5",
-      "platform": "web",
-      "title": "Claudia Sheinbaum: así se vivió la gira presidencial del fin de semana en Morelos y Tabasco",
-      "summary": "Claudia Sheinbaum: así se vivió la gira presidencial del fin de semana en Morelos y Tabasco",
-      "sourceName": "El Heraldo de México",
-      "authorHandle": "El Heraldo de México",
-      "publishedAt": "25 may 2026",
-      "sortDate": "2026-05-25T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3FLcHhEX0pNSlp5SXVTMzZxNk9pczFjVkU4a1BBck14cnVIVXUyRHFIZ21KZkhtdW1EM1h4a0Iyc3pRLWlaclRJdFV3bHZjVmxVWmd0cnJ4dm9Vek1NVUJ3QW8xZXc1V2NUY3JyWXloRFpieHF4YmdUYkR6bHdOVy1WQ1hlZjRHcDlWSnI5NVJmZ3kxNlNPdllaSW1KM3RjSUdmRFJaakNfUDBQcER3WmhWTUZtYWV0c09DTTdVY2Z2NktUeUVNTXNjQ3RIdU0xVUdZV0IxTlpBQldmaEhyWDdGSE_SAeoBQVVfeXFMUDZHOVM3Q0JhNTQ1SFRXT1BybXRnYU9nbGlya1BDSXctOENPNWEwTUZXOG5nYUNGdzhPWk9LVXAxNXBROW5HbC1MSFB3LVN3TVZWenZ0aVZtVmFWVTlxUEZUTkxGTFJnZ2JnZmpzNmE2T0d5aU5GSHhiaDlpLWE2Q05yNWJtRWUxNC1MUDRUbERYNHBFTUViaVFSUkpkX1ptRHV5T2N6ZTZzckdkZTRocHZJMGhncFNDZU5TV2YxaWM0SUE3RW1mSFV3dGNZVlNTbGFCWkRfTGRmMlc0TVp6Q3VEdDV3bFloMDJ3?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 19
+      "citationNumber": 23
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjFYZE1teDNpb3Rvekp4dnZOdnNxa1dkQkpxaDdRZ2c3N0xqYUpjeGpEV3BwcGZkS25FODVYcUNqUVZkTm1FQ29oRVMxVzdZNTFoaE50NE9rY3FLbXN6VGpaZlpteUpZOVFvdjlnX3lFbnFzZmhMeG5meGU4RnByNWdidWJYZ2FMY2hJY0ZucEpWZ1F1MWhIUHNWejZROFJybEVEOE1YaVJ3NXZicEd3RlZpLTFTRGc?oc=5",
@@ -367,269 +438,121 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 20
+      "citationNumber": 24
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av116559590791354",
+      "id": "bilibili:https://www.bilibili.com/video/av116327813481094",
       "platform": "bilibili",
-      "title": "《面试在捷克》女主演 萨琳娜·水殷（Salina Shein ）与经纪人探讨写真作品",
-      "summary": "人物介绍 萨琳娜·水殷（Salina Shein），捷克新生代艾薇女艺人。2023年下海，截止2024年4月底，仅拍摄过13部电影。 她还曾拍摄过《穆斯林迷恋》（SexWithMuslims）、《面试在捷克》（CzechSexCasting）以及《公共经纪人》（PublicAgent ）。她的大腿后侧有纹身红缎带。",
-      "sourceName": "津田真道尚书",
-      "authorHandle": "津田真道尚书",
-      "publishedAt": "11 may 2026",
-      "sortDate": "2026-05-12T04:00:32+00:00",
-      "url": "https://www.bilibili.com/video/av116559590791354",
-      "contentType": "video",
-      "tags": [
-        "Bilibili"
-      ],
-      "citationNumber": 21,
-      "metrics": {
-        "views": 3073
-      }
-    },
-    {
-      "id": "bilibili:https://www.bilibili.com/video/av114990551994365",
-      "platform": "bilibili",
-      "title": "Hannah Palmer - 合辑",
-      "summary": "-",
-      "sourceName": "世界探长",
-      "authorHandle": "世界探长",
-      "publishedAt": "7 ago 2025",
-      "sortDate": "2025-08-08T01:35:38+00:00",
-      "url": "https://www.bilibili.com/video/av114990551994365",
-      "contentType": "video",
-      "tags": [
-        "Bilibili"
-      ],
-      "citationNumber": 22,
-      "metrics": {
-        "views": 33438
-      }
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMif0FVX3lxTE1zX2dsRmM0ZXdtUnEyNGIxTVpyU3dMZXpFb1pmTHRBU2NHbkVpa0kwTWU2cTlUUzFtXzJIN3RPS1Zpd2F6VWhxdVlRVzZLVnVXQUltbTYtT3l6MEFwcldYdmRxRmJSd21RbFFQTUxYbDdtZWZpY1lmamdiN28zWXM?oc=5",
-      "platform": "web",
-      "title": "Gobierno de México fortalece el IMSS Bienestar con hospitales, personal médico y las “Rutas de la Salud”",
-      "summary": "Gobierno de México fortalece el IMSS Bienestar con hospitales, personal médico y las “Rutas de la Salud”",
-      "sourceName": "CONSULTORSALUD",
-      "authorHandle": "CONSULTORSALUD",
-      "publishedAt": "16 jul 2025",
-      "sortDate": "2025-07-16T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zX2dsRmM0ZXdtUnEyNGIxTVpyU3dMZXpFb1pmTHRBU2NHbkVpa0kwTWU2cTlUUzFtXzJIN3RPS1Zpd2F6VWhxdVlRVzZLVnVXQUltbTYtT3l6MEFwcldYdmRxRmJSd21RbFFQTUxYbDdtZWZpY1lmamdiN28zWXM?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 23
-    },
-    {
-      "id": "bilibili:https://www.bilibili.com/video/av114794174613713",
-      "platform": "bilibili",
-      "title": "Party Dresses TRY ON Excinderella",
-      "summary": "Party Dresses TRY ON Excinderella",
-      "sourceName": "挑影工",
-      "authorHandle": "挑影工",
-      "publishedAt": "4 jul 2025",
-      "sortDate": "2025-07-04T09:16:23+00:00",
-      "url": "https://www.bilibili.com/video/av114794174613713",
-      "contentType": "video",
-      "tags": [
-        "Bilibili"
-      ],
-      "citationNumber": 24,
-      "metrics": {
-        "views": 51590
-      }
-    },
-    {
-      "id": "bilibili:https://www.bilibili.com/video/av1552303394",
-      "platform": "bilibili",
-      "title": "【Zoltan Vegh】Elena Lopez格拉纳达写真2",
-      "summary": "明晚9点将发布Elena Lopez充电专属视频，合计4小时46分钟，感谢各位粉丝支持！",
-      "sourceName": "Fitness_Girls",
-      "authorHandle": "Fitness_Girls",
-      "publishedAt": "26 mar 2024",
-      "sortDate": "2024-03-26T11:38:31+00:00",
-      "url": "https://www.bilibili.com/video/av1552303394",
+      "title": "舞蹈专辑 | LA TESTA GIRA - Fred De Palma Anitta | Merengue，5版编舞by AmboLa/Cia Art Da",
+      "summary": "舞蹈专辑 | LA TESTA GIRA - Fred De Palma Anitta | Merengue，5版编舞by AmboLa/Cia Art Da",
+      "sourceName": "口水gaga",
+      "authorHandle": "口水gaga",
+      "publishedAt": "31 mar 2026",
+      "sortDate": "2026-04-01T05:38:55+00:00",
+      "url": "https://www.bilibili.com/video/av116327813481094",
       "contentType": "video",
       "tags": [
         "Bilibili"
       ],
       "citationNumber": 25,
       "metrics": {
-        "views": 28116
+        "views": 262
       }
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av706555248",
+      "id": "bilibili:https://www.bilibili.com/video/av114244519466947",
       "platform": "bilibili",
-      "title": "Shein , Reddit, Rubrik - 2024 IPOs Candidates",
-      "summary": "最喜欢你们的一键三连了！",
-      "sourceName": "云的管理员",
-      "authorHandle": "云的管理员",
-      "publishedAt": "28 nov 2023",
-      "sortDate": "2023-11-29T03:20:36+00:00",
-      "url": "https://www.bilibili.com/video/av706555248",
+      "title": "【个人翻译】 GIRA GIRA STAR（完整版） ~ 琦角色曲",
+      "summary": "【个人翻译】 GIRA GIRA STAR（完整版） ~ 琦角色曲",
+      "sourceName": "大萌音音",
+      "authorHandle": "大萌音音",
+      "publishedAt": "29 mar 2025",
+      "sortDate": "2025-03-29T07:28:01+00:00",
+      "url": "https://www.bilibili.com/video/av114244519466947",
       "contentType": "video",
       "tags": [
         "Bilibili"
       ],
       "citationNumber": 26,
       "metrics": {
-        "views": 224
+        "views": 988
       }
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av320075584",
+      "id": "bilibili:https://www.bilibili.com/video/av900344562",
       "platform": "bilibili",
-      "title": "著名球星nicolette shea 大街上秀身材",
-      "summary": "-",
-      "sourceName": "账号已注销",
-      "authorHandle": "账号已注销",
-      "publishedAt": "23 ago 2023",
-      "sortDate": "2023-08-23T10:30:48+00:00",
-      "url": "https://www.bilibili.com/video/av320075584",
+      "title": "Bellissima - Annalisa",
+      "summary": "Bellissima - Annalisa",
+      "sourceName": "华纳音乐国际",
+      "authorHandle": "华纳音乐国际",
+      "publishedAt": "8 sep 2022",
+      "sortDate": "2022-09-08T16:00:00+00:00",
+      "url": "https://www.bilibili.com/video/av900344562",
       "contentType": "video",
       "tags": [
         "Bilibili"
       ],
       "citationNumber": 27,
       "metrics": {
-        "views": 37234
+        "views": 3403
       }
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av757117834",
+      "id": "bilibili:https://www.bilibili.com/video/av383717001",
       "platform": "bilibili",
-      "title": "SHEIN 和Romwe衣服开箱试穿！质量怎么样？留学生国外党必看！国外购物app",
-      "summary": "-",
-      "sourceName": "萨爷的蘑菇和世界Yoga",
-      "authorHandle": "萨爷的蘑菇和世界Yoga",
-      "publishedAt": "12 mar 2021",
-      "sortDate": "2021-03-13T00:12:38+00:00",
-      "url": "https://www.bilibili.com/video/av757117834",
+      "title": "升维音乐 | 油管播放超7000万 电音版 Deixa A Gira Girar 情绪稳定 老僧入定 来自非洲神的庇佑",
+      "summary": "https://www.youtube.com/watch?v=3xt8Mp8oWzc Ye, o Ye, o Ih, o My father came from Aruanda And Yansa is our mother Oh, let the ritual turn Meu pai veio da Aruanda1 e a nossa mãe é Iansã2 Ô, gira, deixa a gira girá3 https://lyricstranslate.com",
+      "sourceName": "跳蛙居士",
+      "authorHandle": "跳蛙居士",
+      "publishedAt": "30 abr 2022",
+      "sortDate": "2022-04-30T05:50:55+00:00",
+      "url": "https://www.bilibili.com/video/av383717001",
       "contentType": "video",
       "tags": [
         "Bilibili"
       ],
       "citationNumber": 28,
       "metrics": {
-        "views": 1941
+        "views": 783
       }
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av75491071",
+      "id": "bilibili:https://www.bilibili.com/video/av752694768",
       "platform": "bilibili",
-      "title": "【Carlota Gonzalez】 SHEIN 、ZAFUL、ROMWE 三品牌物美价廉试穿",
-      "summary": "https://www.youtube.com/watch?v=lLRGtMAq3JY 努力做一只优秀的搬运UP 希望大家多多关注、收藏、点赞，可以的话记得投B 本视频内容仅用于交流与学习，请双手打字证明清白",
-      "sourceName": "油土山车手",
-      "authorHandle": "油土山车手",
-      "publishedAt": "14 nov 2019",
-      "sortDate": "2019-11-14T12:10:16+00:00",
-      "url": "https://www.bilibili.com/video/av75491071",
+      "title": "Cristian Castro - Volver a Amar #西班牙语歌曲",
+      "summary": "-",
+      "sourceName": "BlueAzul",
+      "authorHandle": "BlueAzul",
+      "publishedAt": "7 abr 2020",
+      "sortDate": "2020-04-07T09:23:22+00:00",
+      "url": "https://www.bilibili.com/video/av752694768",
       "contentType": "video",
       "tags": [
         "Bilibili"
       ],
       "citationNumber": 29,
       "metrics": {
-        "views": 1359
+        "views": 752
       }
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av10516643",
+      "id": "bilibili:https://www.bilibili.com/video/av33601845",
       "platform": "bilibili",
-      "title": "AA, F21, Sephora, Shein , Romwe, MakeMeChic购物分享",
-      "summary": "转自：https://www.youtube.com/watch?v=ppi6oCNt1GU&t=335s Collective Haul AA, F21, Sephora, Shein, Romwe, MakeMeChic + more - YouTube——原po#leahsfieldnotes#",
-      "sourceName": "Yasminaaaaa",
-      "authorHandle": "Yasminaaaaa",
-      "publishedAt": "12 may 2017",
-      "sortDate": "2017-05-13T00:46:52+00:00",
-      "url": "https://www.bilibili.com/video/av10516643",
+      "title": "Prima Oara-Kamelia",
+      "summary": "转载自《酷狗音乐》…… 官方MV 英语 Kamelia Prima Oara Prima Oara-Kamelia-官方MV",
+      "sourceName": "改名了还能变欧吗",
+      "authorHandle": "改名了还能变欧吗",
+      "publishedAt": "11 oct 2018",
+      "sortDate": "2018-10-11T05:44:45+00:00",
+      "url": "https://www.bilibili.com/video/av33601845",
       "contentType": "video",
       "tags": [
         "Bilibili"
       ],
       "citationNumber": 30,
       "metrics": {
-        "views": 1197
+        "views": 1842
       }
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Claudia_Sheinbaum",
-      "platform": "web",
-      "title": "Claudia Sheinbaum",
-      "summary": "Claudia Sheinbaum Pardo (Ciudad de México, 24 de junio de 1962) es una política, científica y académica mexicana. Es la presidenta de México desde el",
-      "sourceName": "es.wikipedia.org",
-      "authorHandle": "es.wikipedia.org",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Claudia_Sheinbaum",
-      "contentType": "noticia",
-      "tags": [
-        "Wikipedia ES"
-      ],
-      "citationNumber": 31
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Gobierno_de_Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "platform": "web",
-      "title": "Gobierno de Andrés Manuel López Obrador",
-      "summary": "IMSS - Bienestar . Consultado el 28 de septiembre de 2024. «Gobierno federal invierte más de 11 mil mdp en conservación de unidades médicas del IMSS -Bienestar»",
-      "sourceName": "es.wikipedia.org",
-      "authorHandle": "es.wikipedia.org",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Gobierno_de_Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "contentType": "noticia",
-      "tags": [
-        "Wikipedia ES"
-      ],
-      "citationNumber": 32
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "platform": "web",
-      "title": "Andrés Manuel López Obrador",
-      "summary": "IMSS - Bienestar . Consultado el 28 de septiembre de 2024. «Gobierno federal invierte más de 11 mil mdp en conservación de unidades médicas del IMSS -Bienestar»",
-      "sourceName": "es.wikipedia.org",
-      "authorHandle": "es.wikipedia.org",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "contentType": "noticia",
-      "tags": [
-        "Wikipedia ES"
-      ],
-      "citationNumber": 33
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Consulta_de_revocaci%C3%B3n_de_mandato_de_M%C3%A9xico_de_2022",
-      "platform": "web",
-      "title": "Consulta de revocación de mandato de México de 2022",
-      "summary": "como la jefa de Gobierno de Ciudad de México, Claudia Sheinbaum .​ Adicionalmente, según el tribunal, Sheinbaum y otros quince gobernadores violaron la ley",
-      "sourceName": "es.wikipedia.org",
-      "authorHandle": "es.wikipedia.org",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Consulta_de_revocaci%C3%B3n_de_mandato_de_M%C3%A9xico_de_2022",
-      "contentType": "noticia",
-      "tags": [
-        "Wikipedia ES"
-      ],
-      "citationNumber": 34
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Historia_de_M%C3%A9xico",
-      "platform": "web",
-      "title": "Historia de México",
-      "summary": "228 millones de dosis.​ Claudia Sheinbaum , sucesora política del presidente López Obrador, ganó las elecciones presidenciales de 2024 y al asumir el cargo",
-      "sourceName": "es.wikipedia.org",
-      "authorHandle": "es.wikipedia.org",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Historia_de_M%C3%A9xico",
-      "contentType": "noticia",
-      "tags": [
-        "Wikipedia ES"
-      ],
-      "citationNumber": 35
     },
     {
       "id": "youtube:https://www.youtube.com/watch?v=Fu-RmKuSFIY",
@@ -644,29 +567,10 @@
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 36,
+      "citationNumber": 31,
       "videoId": "Fu-RmKuSFIY",
       "metrics": {
-        "views": 77907
-      }
-    },
-    {
-      "id": "youtube:https://www.youtube.com/watch?v=55UcgLVqHcU",
-      "platform": "youtube",
-      "title": "Sheinbaum to now tour to review IMSS-Bienestar",
-      "summary": "President Claudia Sheinbaum announced that she will tour the country to learn about problems with the IMSS-Bienestar program ...",
-      "sourceName": "Grupo REFORMA",
-      "authorHandle": "Grupo REFORMA",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=55UcgLVqHcU",
-      "contentType": "video",
-      "tags": [
-        "YouTube"
-      ],
-      "citationNumber": 37,
-      "videoId": "55UcgLVqHcU",
-      "metrics": {
-        "views": 620
+        "views": 78690
       }
     },
     {
@@ -682,10 +586,10 @@
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 38,
+      "citationNumber": 32,
       "videoId": "nChl143e9uo",
       "metrics": {
-        "views": 50238
+        "views": 50269
       }
     },
     {
@@ -701,67 +605,48 @@
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 39,
+      "citationNumber": 33,
       "videoId": "2FZ2CaLipNQ",
       "metrics": {
-        "views": 24549
+        "views": 25198
       }
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=M0quhahw7HU",
+      "id": "youtube:https://www.youtube.com/watch?v=55UcgLVqHcU",
       "platform": "youtube",
-      "title": "Live Morning Press Conference. Thursday, September 3, 2026 | President Claudia Sheinbaum",
-      "summary": "Live morning press conference. Thursday, September 3, 2026 | President Claudia Sheinbaum",
-      "sourceName": "Claudia Sheinbaum Pardo",
-      "authorHandle": "Claudia Sheinbaum Pardo",
+      "title": "Sheinbaum to now tour to review IMSS-Bienestar",
+      "summary": "President Claudia Sheinbaum announced that she will tour the country to learn about problems with the IMSS-Bienestar program ...",
+      "sourceName": "Grupo REFORMA",
+      "authorHandle": "Grupo REFORMA",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=M0quhahw7HU",
+      "url": "https://www.youtube.com/watch?v=55UcgLVqHcU",
       "contentType": "video",
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 40,
-      "videoId": "M0quhahw7HU",
+      "citationNumber": 34,
+      "videoId": "55UcgLVqHcU",
       "metrics": {
-        "views": 427280
+        "views": 620
       }
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=0MxZmyOZwsA",
+      "id": "youtube:https://www.youtube.com/watch?v=5ZJ3nM-JF80",
       "platform": "youtube",
-      "title": "Claudia Sheinbaum announces a tour of the 24 states where IMSS-Bienestar operates",
-      "summary": "President Claudia Sheinbaum announced that she will tour the 24 states where the IMSS-Bienestar program operates between now ...",
-      "sourceName": "La Onda Oaxaca",
-      "authorHandle": "La Onda Oaxaca",
+      "title": "Sheinbaum anuncia histórica contratación de 14 mil médicos especialistas | Noticias con Crystal",
+      "summary": "Más de 14 mil médicos y médicas fueron contratados en los tres sistemas de salud pública del país: IMSS, IMSS Bienestar e ...",
+      "sourceName": "Imagen Noticias",
+      "authorHandle": "Imagen Noticias",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=0MxZmyOZwsA",
+      "url": "https://www.youtube.com/watch?v=5ZJ3nM-JF80",
       "contentType": "video",
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 41,
-      "videoId": "0MxZmyOZwsA",
+      "citationNumber": 35,
+      "videoId": "5ZJ3nM-JF80",
       "metrics": {
-        "views": 2
-      }
-    },
-    {
-      "id": "youtube:https://www.youtube.com/watch?v=OqkiFAyf6_A",
-      "platform": "youtube",
-      "title": "Gira de la Presidenta Claudia Sheinbaum",
-      "summary": "Del 4 al 6 de julio, la Presidenta Claudia Sheinbaum Pardo, visitó los estados de Tamaulipas, San Luis Potosí y Veracruz donde ...",
-      "sourceName": "Instante Metropolitano",
-      "authorHandle": "Instante Metropolitano",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=OqkiFAyf6_A",
-      "contentType": "video",
-      "tags": [
-        "YouTube"
-      ],
-      "citationNumber": 42,
-      "videoId": "OqkiFAyf6_A",
-      "metrics": {
-        "views": 178
+        "views": 829
       }
     },
     {
@@ -777,215 +662,313 @@
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 43,
+      "citationNumber": 36,
       "videoId": "r86bYnTbEDU",
       "metrics": {
         "views": 23
       }
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=Tzo1cLCsm7w",
+      "id": "youtube:https://www.youtube.com/watch?v=OqkiFAyf6_A",
       "platform": "youtube",
-      "title": "Morning press conference. Wednesday, August 19, 2026 | President Claudia Sheinbaum",
-      "summary": "Morning press conference. Wednesday, August 19, 2026 | President Claudia Sheinbaum",
+      "title": "Gira de la Presidenta Claudia Sheinbaum",
+      "summary": "Del 4 al 6 de julio, la Presidenta Claudia Sheinbaum Pardo, visitó los estados de Tamaulipas, San Luis Potosí y Veracruz donde ...",
+      "sourceName": "Instante Metropolitano",
+      "authorHandle": "Instante Metropolitano",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.youtube.com/watch?v=OqkiFAyf6_A",
+      "contentType": "video",
+      "tags": [
+        "YouTube"
+      ],
+      "citationNumber": 37,
+      "videoId": "OqkiFAyf6_A",
+      "metrics": {
+        "views": 178
+      }
+    },
+    {
+      "id": "youtube:https://www.youtube.com/watch?v=brpELJazSiM",
+      "platform": "youtube",
+      "title": "La presidenta Sheinbaum inaugura hospital en Tamaulipas y destaca avance de IMSS-Bienestar | Crystal",
+      "summary": "Con la apertura del hospital general del IMSS Bienestar en Ciudad Madero, Tamaulipas, el gobierno de México suma 32 nuevos ...",
+      "sourceName": "Imagen Noticias",
+      "authorHandle": "Imagen Noticias",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.youtube.com/watch?v=brpELJazSiM",
+      "contentType": "video",
+      "tags": [
+        "YouTube"
+      ],
+      "citationNumber": 38,
+      "videoId": "brpELJazSiM",
+      "metrics": {
+        "views": 538
+      }
+    },
+    {
+      "id": "youtube:https://www.youtube.com/watch?v=M0quhahw7HU",
+      "platform": "youtube",
+      "title": "Live Morning Press Conference. Thursday, September 3, 2026 | President Claudia Sheinbaum",
+      "summary": "Live morning press conference. Thursday, September 3, 2026 | President Claudia Sheinbaum",
       "sourceName": "Claudia Sheinbaum Pardo",
       "authorHandle": "Claudia Sheinbaum Pardo",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=Tzo1cLCsm7w",
+      "url": "https://www.youtube.com/watch?v=M0quhahw7HU",
       "contentType": "video",
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 44,
-      "videoId": "Tzo1cLCsm7w",
+      "citationNumber": 39,
+      "videoId": "M0quhahw7HU",
       "metrics": {
-        "views": 335248
+        "views": 431620
       }
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=nt_dhBqL1t8",
+      "id": "youtube:https://www.youtube.com/watch?v=JeHPoUFl9cw",
       "platform": "youtube",
-      "title": "Conferencia matutina de Claudia Sheinbaum | Viernes 9 de octubre",
-      "summary": "Sigue la conferencia mañanera de la presidenta Claudia Sheinbaum. #ClaudiaSheinbaum #Mañanera #unotv ¡Suscríbete y ...",
-      "sourceName": "UnoTV",
-      "authorHandle": "UnoTV",
+      "title": "Claudia Sheinbaum: IMSS-Bienestar increased consultations and medication coverage - The News",
+      "summary": "President Claudia Sheinbaum stated that the Mexican Social Security Institute (IMSS) increased consultations by 15% and the ...",
+      "sourceName": "NMás",
+      "authorHandle": "NMás",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=nt_dhBqL1t8",
+      "url": "https://www.youtube.com/watch?v=JeHPoUFl9cw",
       "contentType": "video",
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 45,
-      "videoId": "nt_dhBqL1t8",
+      "citationNumber": 40,
+      "videoId": "JeHPoUFl9cw",
       "metrics": {
-        "views": 12923
+        "views": 1548
       }
     },
     {
-      "id": "facebook:https://www.facebook.com/groups/420929763806069/",
+      "id": "facebook:https://www.facebook.com/groups/apuntesdemedicinayenfermeria/",
       "platform": "meta",
-      "title": "Claudia Sheinbaum",
-      "summary": "Claudia Sheinbaum",
+      "title": "Basificados del IMSS Bienestar",
+      "summary": "Basificados del IMSS Bienestar",
       "sourceName": "Facebook",
       "authorHandle": "Facebook",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.facebook.com/groups/420929763806069/",
-      "contentType": "noticia",
+      "url": "https://www.facebook.com/groups/apuntesdemedicinayenfermeria/",
+      "contentType": "social",
+      "tags": [
+        "Facebook"
+      ],
+      "citationNumber": 41
+    },
+    {
+      "id": "facebook:https://www.facebook.com/groups/596083902178849/",
+      "platform": "meta",
+      "title": "Trabajadores del Sector Salud (IMSS Bienestar-Secretaria de Salud)",
+      "summary": "Trabajadores del Sector Salud (IMSS Bienestar-Secretaria de Salud)",
+      "sourceName": "Facebook",
+      "authorHandle": "Facebook",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.facebook.com/groups/596083902178849/",
+      "contentType": "social",
+      "tags": [
+        "Facebook"
+      ],
+      "citationNumber": 42
+    },
+    {
+      "id": "facebook:https://www.facebook.com/groups/628629786623002/",
+      "platform": "meta",
+      "title": "Trabajadores IMSS BIENESTAR OPD",
+      "summary": "Trabajadores IMSS BIENESTAR OPD",
+      "sourceName": "Facebook",
+      "authorHandle": "Facebook",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.facebook.com/groups/628629786623002/",
+      "contentType": "social",
+      "tags": [
+        "Facebook"
+      ],
+      "citationNumber": 43
+    },
+    {
+      "id": "facebook:https://www.facebook.com/ClaudiaSheinbaumPardo",
+      "platform": "meta",
+      "title": "Claudia Sheinbaum Pardo",
+      "summary": "Claudia Sheinbaum Pardo",
+      "sourceName": "Facebook",
+      "authorHandle": "Facebook",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.facebook.com/ClaudiaSheinbaumPardo",
+      "contentType": "social",
+      "tags": [
+        "Facebook"
+      ],
+      "citationNumber": 44
+    },
+    {
+      "id": "facebook:https://www.facebook.com/LordMoleculaOficial",
+      "platform": "meta",
+      "title": "Lord Molécula Oficial",
+      "summary": "Lord Molécula Oficial",
+      "sourceName": "Facebook",
+      "authorHandle": "Facebook",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.facebook.com/LordMoleculaOficial",
+      "contentType": "social",
+      "tags": [
+        "Facebook"
+      ],
+      "citationNumber": 45
+    },
+    {
+      "id": "facebook:https://www.facebook.com/SSIMSSBIENESTAR",
+      "platform": "meta",
+      "title": "Indicador de estado onlineActivo",
+      "summary": "Indicador de estado onlineActivo",
+      "sourceName": "Facebook",
+      "authorHandle": "Facebook",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.facebook.com/SSIMSSBIENESTAR",
+      "contentType": "social",
       "tags": [
         "Facebook"
       ],
       "citationNumber": 46
     },
     {
-      "id": "facebook:https://www.facebook.com/groups/576644752747291/",
+      "id": "facebook:https://www.facebook.com/photo/",
       "platform": "meta",
-      "title": "Bienestar Social Claudia Sheinbaum",
-      "summary": "Bienestar Social Claudia Sheinbaum",
+      "title": "+10",
+      "summary": "Puede ser una imagen de una o varias personas y texto. Puede ser una imagen de una o varias personas, hospital y texto. Puede ser una imagen de hospit",
       "sourceName": "Facebook",
       "authorHandle": "Facebook",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.facebook.com/groups/576644752747291/",
-      "contentType": "noticia",
+      "url": "https://www.facebook.com/photo/",
+      "contentType": "social",
       "tags": [
         "Facebook"
       ],
       "citationNumber": 47
-    },
-    {
-      "id": "facebook:https://www.facebook.com/groups/2144476465772192/",
-      "platform": "meta",
-      "title": "Claudia Sheinbaum Pardo PRESIDENTA DE MÉXICO 🇲🇽",
-      "summary": "Claudia Sheinbaum Pardo PRESIDENTA DE MÉXICO 🇲🇽",
-      "sourceName": "Facebook",
-      "authorHandle": "Facebook",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://www.facebook.com/groups/2144476465772192/",
-      "contentType": "noticia",
-      "tags": [
-        "Facebook"
-      ],
-      "citationNumber": 48
     }
   ],
   "sources": [
     {
-      "id": "twitter:https://x.com/i/status/2115191809744011285",
+      "id": "twitter:https://x.com/i/status/2118008789475504146",
       "citationIndex": 1,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "4x5 son 20 en el mundo real. En la 4T fallida tienen otros datos y Claudia Sheinbaum no lo dice muy claro: 4x5 son 50. Con razón todos los números de Morena están inflados, incluyendo al IMSS y así sucesivamente| https://t.co/jaaMDWXOvc",
-      "date": "27 oct 2026",
-      "url": "https://x.com/i/status/2115191809744011285",
+      "title": "#SesiónOrdinaria Se aprueba exhortar al titular de la Dirección General del IMSS-BIENESTAR, de acuerdo con disponibilidad presupuestal continúe impulsando y acompañando acciones orientadas al fortalecimiento de la infraestructura, del personal especializado, y del abastecimiento",
+      "date": "4 nov 2026",
+      "url": "https://x.com/i/status/2118008789475504146",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@sabio28",
+      "authorOrOutlet": "@CongresoEdoSLP",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2115187726245081323",
+      "id": "twitter:https://x.com/i/status/2117832720394916103",
       "citationIndex": 2,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "Claudia Sheinbaum anunció la implementación de un programa emergente de 12 acciones que se implementarán en 120 días en el IMSS con el objetivo de mejorar la atención a derechohabientes y las condiciones para todas y todos los trabajadores. 📰➡️ https://t.co/zDo3RNa6i5 https://t.co/5IRyM6lrPg",
-      "date": "27 oct 2026",
-      "url": "https://x.com/i/status/2115187726245081323",
+      "title": "Sheinbaum anuncia programa de 12 acciones para fortalecer al ISSSTE CDMX.- La Presidenta de México, Claudia Sheinbaum Pardo, anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fo",
+      "date": "3 nov 2026",
+      "url": "https://x.com/i/status/2117832720394916103",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@nrtmexico_",
+      "authorOrOutlet": "@La_VerdadSonora",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2115156771857686722",
+      "id": "twitter:https://x.com/i/status/2117744243917611406",
       "citationIndex": 3,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "🏥👩‍💼 Basificación de trabajadores, contratación de especialistas y compra de equipo médico son algunas de las medidas presentadas hoy por la presidenta Claudia Sheinbaum para mejorar el IMSS en 120 días https://t.co/pSJbhvuHgp",
-      "date": "27 oct 2026",
-      "url": "https://x.com/i/status/2115156771857686722",
+      "title": "La presidenta Claudia Sheinbaum anunció un programa emergente de 12 acciones para mejorar la atención médica del ISSSTE durante los próximos 120 días, con obras hospitalarias, contratación de personal, equipamiento y abasto de medicamentos. https://t.co/GQ4Zp5U86e",
+      "date": "3 nov 2026",
+      "url": "https://x.com/i/status/2117744243917611406",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@SolDeCuernavaca",
+      "authorOrOutlet": "@LavariegaMx",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2115129835840241675",
+      "id": "twitter:https://x.com/i/status/2117718206043615557",
       "citationIndex": 4,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "🔴 YA SE ALISTA UN PORTAL PARA PUBLICAR LOS CONTRATOS DE GOBIERNO, INCLUIDOS LOS DEL INE: SHEINBAUM La presidenta Claudia Sheinbaum dijo este martes 27 de octubre que el gobierno ya alista un sitio web en donde los ciudadanos podrán consultar los contratos públicos de las instituciones, secretarías y",
-      "date": "27 oct 2026",
-      "url": "https://x.com/i/status/2115129835840241675",
+      "title": "🛑Presidenta Sheinbaum destaca avances en el IMSS con el plan “12 Acciones en 120 Días” 👉Entre las acciones concretadas, se cubrió el aumento salarial de 8 % a 565 mil 339 trabajadores en activo; para 370 mil 537 jubilados se realiza entre el 1° y el 3 de noviembre ➡️ https://t.co/sgdtzwhB06 #LaMañan",
+      "date": "3 nov 2026",
+      "url": "https://x.com/i/status/2117718206043615557",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@BI_Noticias",
+      "authorOrOutlet": "@HansDigital2",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2115116366013292805",
+      "id": "twitter:https://x.com/i/status/2117682093748572386",
       "citationIndex": 5,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "El IMSS tendrá 120 días para implementar 12 acciones de mejora, anunció Claudia Sheinbaum. El plan contempla aumentos salariales, contratación de personal y compra de equipo, mediante la reducción de gastos y la reasignación de recursos a áreas prioritarias. https://t.co/gOsALbQOHj",
-      "date": "27 oct 2026",
-      "url": "https://x.com/i/status/2115116366013292805",
+      "title": "✅ La presidenta de México, Claudia Sheinbaum Pardo (@Claudiashein), anunció que en el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE), se implementará el programa emergente de 12 acciones en 120 días para fortalecer el sistema de salud, el cual ya está puesto en m",
+      "date": "3 nov 2026",
+      "url": "https://x.com/i/status/2117682093748572386",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@AristeguiOnline",
+      "authorOrOutlet": "@OlivaNoticiasX",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2113776933972615589",
+      "id": "twitter:https://x.com/i/status/2117673912368783826",
       "citationIndex": 6,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "#ZCN I La gobernadora @delfinagomeza participó en la revisión de los avances de la modernización del IMSS-Bienestar, reunión encabezada por la presidenta Claudia Sheinbaum. https://t.co/ZWoYAgUxiw",
-      "date": "23 oct 2026",
-      "url": "https://x.com/i/status/2113776933972615589",
+      "title": "❤️🏥 ¡La salud es un derecho, no un privilegio! La Presidenta Claudia Sheinbaum anunció 24 acciones para fortalecer el IMSS y el ISSSTE, mejorar hospitales, garantizar medicamentos y ampliar la atención médica para las y los mexicanos. ¡Más salud y bienestar para el pueblo! 🇲🇽 https://t.co/2YRhSaoiuh",
+      "date": "3 nov 2026",
+      "url": "https://x.com/i/status/2117673912368783826",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@zonaceroedomex",
+      "authorOrOutlet": "@morenanloficial",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2113052021494284350",
+      "id": "twitter:https://x.com/i/status/2115492540308922516",
       "citationIndex": 7,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "En Palacio Nacional, nos reunimos con nuestra Presidenta Claudia Sheinbaum Pardo (@Claudiashein) para avanzar en el proceso de modernización del IMSS-Bienestar. Estamos en total coordinación con la Federación para ampliar los servicios de salud, con el objetivo de garantizar una atención médica grat",
-      "date": "21 oct 2026",
-      "url": "https://x.com/i/status/2113052021494284350",
+      "title": "🏥 La presidenta @Claudiashein anunció un programa emergente de 12 acciones que se aplicará durante 120 días en el #IMSS, con el objetivo de mejorar la atención a los derechohabientes y las condiciones laborales del personal. #Noticias #México #Salud https://t.co/FTv4v7XJu8",
+      "date": "28 oct 2026",
+      "url": "https://x.com/i/status/2115492540308922516",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@MarinadelPilar",
+      "authorOrOutlet": "@enlace13_",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2113042940184633369",
+      "id": "twitter:https://x.com/i/status/2115483919197831192",
       "citationIndex": 8,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "Recibí en Palacio Nacional a los 24 gobernadores y gobernadoras de estados incorporados a IMSS-Bienestar; revisamos avances en el proceso de modernización. Trabajamos por un sistema de salud universal, gratuito y de calidad para el pueblo de México. https://t.co/ATP87ZnMqc",
-      "date": "21 oct 2026",
-      "url": "https://x.com/i/status/2113042940184633369",
+      "title": "Supervisar de primera mano las instalaciones, escuchar al personal de salud y responder con soluciones inmediatas es la marca de un gobierno profundamente humanista. 🏥✨Con las 12 acciones del Plan de 120 Días encabezado por la Presidenta @Claudiashein, avanzamos a paso firme hacia una atención médic",
+      "date": "28 oct 2026",
+      "url": "https://x.com/i/status/2115483919197831192",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@Claudiashein",
+      "authorOrOutlet": "@esthela_damian",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2113003976249553239",
+      "id": "twitter:https://x.com/i/status/2115455044225007637",
       "citationIndex": 9,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "En Palacio Nacional, supervisamos resultados de Vivienda para el Bienestar junto con gobernadoras, gobernadores y presidentes municipales; acordamos agilizar trámites y reforzar la coordinación de los tres órdenes de gobierno. Este noble programa avanza en la construcción de 1.8 millones de vivienda",
-      "date": "21 oct 2026",
-      "url": "https://x.com/i/status/2113003976249553239",
+      "title": "#México 📽️ | Claudia Sheinbaum anuncia programa emergente de 12 acciones en 120 días para mejorar la atención y las condiciones de los trabajadores en el IMSS https://t.co/uADQxPtszC 👈Nota en Exilio @Claudiashein @GobiernoMX https://t.co/RKKXA7zl9c",
+      "date": "28 oct 2026",
+      "url": "https://x.com/i/status/2115455044225007637",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@Claudiashein",
+      "authorOrOutlet": "@MxExilio",
       "reputation": "No evaluada"
     },
     {
-      "id": "twitter:https://x.com/i/status/2112970915722256444",
+      "id": "twitter:https://x.com/i/status/2115453584699531591",
       "citationIndex": 10,
       "name": "X / Twitter",
       "platform": "x",
-      "title": "Estamos en Palacio Nacional para reunirnos con nuestra Presidenta, Claudia Sheinbaum Pardo (@Claudiashein), y avanzar en coordinación en temas de vivienda y salud para el bienestar de las familias de Baja California… Los mantendremos informados. https://t.co/OKRzbDwk7a",
-      "date": "21 oct 2026",
-      "url": "https://x.com/i/status/2112970915722256444",
+      "title": "Presentan 12 acciones para mejorar el IMSS en 120 días. 🟢 La presidenta Claudia Sheinbaum destacó el aumento salarial del 8%; basificación de 10 mil 939 trabajadores; contratación expedita de 2 mil 500 especialistas; compra de 100 equipos médicos; 18 mil 16 camillas y camas nuevas; mantenimiento a e",
+      "date": "28 oct 2026",
+      "url": "https://x.com/i/status/2115453584699531591",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "@MarinadelPilar",
+      "authorOrOutlet": "@DiarioMarcaOax",
       "reputation": "No evaluada"
     },
     {
@@ -1013,8 +996,20 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVlBzVHR2MTYxc0pMbHdGWlNsdmpNdTZVN1RVdnNMVzJnMm1GWjBYTTlRMHFNc3hiWVowTnBXTzdncHJGMTBDM210b0NLWUpWbUZaZjNDWlB6U3M3Zi1hcktEMGNuekw1RTRzMm9MZXF0Y281UGt0MXZUSy1FVHVNRkdNY3R2UnUzbVNPLVo2M2hCdkllejhla0lwaFpPal9sdjMySWdkMy03RGNtblZMZU1wRFkxQzBRWkhCbENkaWY0MXYxY3ZfQ3dNcnNvSjN3UW4zMG1oelPSAewBQVVfeXFMTUtxWDlUUW91SHFBRFQ0OTBIUXB3MHlHZU85eEtTR0RnMGJZSGp2aG9yUllzbDVMTll6SjQyZkdITnBtVVd1WVRiejJkOVBVMWlaTGFKVFNzQ0hzXzBKVjZ1RnhOR2JjWTFnNGF6UUhXQ2xiUEFwXzRubG9wbTRReUd4N21WUjVibktBaENUR0dPNXdMbE5ianRYNEhCMXJxbXFTNmhYUWVGX3FRU0ZvVW40bklpVW9KX1pJa3BqMFRRRV95UTBFdzdqNC0tbjMydXozZUl5NEF5OVVJSWpSS2o3VkJjN1JtSlBsVGU?oc=5",
+      "id": "news:https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
       "citationIndex": 13,
+      "name": "Google News",
+      "platform": "web",
+      "title": "“Mexicanos al grito de guerra” cantan trabajadores del IMSS en medio de protestas y repliegue policial en CDMX",
+      "date": "10 oct 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Infobae",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVlBzVHR2MTYxc0pMbHdGWlNsdmpNdTZVN1RVdnNMVzJnMm1GWjBYTTlRMHFNc3hiWVowTnBXTzdncHJGMTBDM210b0NLWUpWbUZaZjNDWlB6U3M3Zi1hcktEMGNuekw1RTRzMm9MZXF0Y281UGt0MXZUSy1FVHVNRkdNY3R2UnUzbVNPLVo2M2hCdkllejhla0lwaFpPal9sdjMySWdkMy03RGNtblZMZU1wRFkxQzBRWkhCbENkaWY0MXYxY3ZfQ3dNcnNvSjN3UW4zMG1oelPSAewBQVVfeXFMTUtxWDlUUW91SHFBRFQ0OTBIUXB3MHlHZU85eEtTR0RnMGJZSGp2aG9yUllzbDVMTll6SjQyZkdITnBtVVd1WVRiejJkOVBVMWlaTGFKVFNzQ0hzXzBKVjZ1RnhOR2JjWTFnNGF6UUhXQ2xiUEFwXzRubG9wbTRReUd4N21WUjVibktBaENUR0dPNXdMbE5ianRYNEhCMXJxbXFTNmhYUWVGX3FRU0ZvVW40bklpVW9KX1pJa3BqMFRRRV95UTBFdzdqNC0tbjMydXozZUl5NEF5OVVJSWpSS2o3VkJjN1JtSlBsVGU?oc=5",
+      "citationIndex": 14,
       "name": "Google News",
       "platform": "web",
       "title": "Sheinbaum anuncia gira nacional para dar seguimiento al IMSS Bienestar",
@@ -1026,7 +1021,7 @@
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMirAFBVV95cUxQTV9EeFdRYTJyLUx6UDZFanlHcFk0dEk1OTQzd1dTM1RHS1lCYS01UmRoakVod180Vm56SjQzRVk4eVBBY0FxaU1BWkwxc1hDSXlQeEZWcVdYZk12QUtRaTk3VkpES0U0NHpXZ1ZyTm9ZUEdpb3V4YUxyRndnc2xDX3JyN2VBMXhZRlJXMVhzNkpQMGJ6bmZ1MG1YVFh5YXNXQ0l1bzU0ZXdLdU4x?oc=5",
-      "citationIndex": 14,
+      "citationIndex": 15,
       "name": "Google News",
       "platform": "web",
       "title": "Claudia Sheinbaum anuncia gira por 23 estados para evaluar el IMSS-Bienestar",
@@ -1037,20 +1032,20 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
-      "citationIndex": 15,
+      "id": "news:https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVpPTC1qZDJaWW9iaURoaVFNY3BsbU5COXo4VVN1d1loN1RfTzV6c3dyWkU2TjY2WWx1T2VCZzZuZ0hMdjUzaHZvMWhyS1ZWeTlUX2VUWlVlWTh1YmNIamJEbUZvQ0ZfVjI3VFFBOWM3WndfTlB0ZkhxWnBmMk5Ec2J1TzA1UjRmX1hkaFJIOTZ3VFdjVnZKZkNPRVowSlRZTTZkNlZaVFNGYVE?oc=5",
+      "citationIndex": 16,
       "name": "Google News",
       "platform": "web",
-      "title": "Inicia Sheinbaum gira por hospitales del IMSS-Bienestar en Hidalgo",
+      "title": "Claudia Sheinbaum inicia gira nacional de Salud en Hidalgo",
       "date": "9 oct 2026",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVpPTC1qZDJaWW9iaURoaVFNY3BsbU5COXo4VVN1d1loN1RfTzV6c3dyWkU2TjY2WWx1T2VCZzZuZ0hMdjUzaHZvMWhyS1ZWeTlUX2VUWlVlWTh1YmNIamJEbUZvQ0ZfVjI3VFFBOWM3WndfTlB0ZkhxWnBmMk5Ec2J1TzA1UjRmX1hkaFJIOTZ3VFdjVnZKZkNPRVowSlRZTTZkNlZaVFNGYVE?oc=5",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "MVS Noticias",
+      "authorOrOutlet": "El Sol de México",
       "reputation": "No evaluada"
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcEZmeG81UHdFamZwdWZDQVVoNlVCYzlLT29sc1FWVXFHWXhsYXRib3pNM2V0VTcwN0gzMDVSQkotZUJLS2ZDR1MxZURnYV8zbzBOTDBZaExLOEppLXNCWjB3U2M1dEtBdG5qZDFFWjJockNqLTZPV19lZzRxVDlFemxWOEJkZjdIOHBZU1RQR291bzdqYWgwRUJobEtFWEhVdnhCMjQyeGw4RklIU3lDY1ZncTVsUGE2T3h0cmY3ZTBRM0I2dDUwc1JscG8zN3BJSmNUdzMzRUp0VEgwWlE?oc=5",
-      "citationIndex": 16,
+      "citationIndex": 17,
       "name": "Google News",
       "platform": "web",
       "title": "Sheinbaum visitará hospitales IMSS-Bienestar en Veracruz; anuncia gira en 24 estados",
@@ -1061,8 +1056,32 @@
       "reputation": "No evaluada"
     },
     {
+      "id": "news:https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "citationIndex": 18,
+      "name": "Google News",
+      "platform": "web",
+      "title": "Inicia Sheinbaum gira por hospitales del IMSS-Bienestar en Hidalgo",
+      "date": "9 oct 2026",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNam1QajNPdFJkbWlhR1MxcW02aTJYRXFaXzZaV0F5VHExa3paZVE1cExhangtZFNDYmpxZlA0N0dQbkZYancxZ2wtemhOZVdiWUhHRFhNa0xUanFEdE9iRDZtdUFrU09lVVl4OGVwRDJ6ZGZDMjk3SUFZbnJxVjc3eEV5MHdhRG5STDZSVmE2N3I5RWdaVmxMVkdrdURGSmRSUXpTb2s5T1JKSWxLQjBRQmNwUVJvTUZWMFNNOWxR?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "MVS Noticias",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "bilibili:https://www.bilibili.com/video/av117365635291744",
+      "citationIndex": 19,
+      "name": "Bilibili",
+      "platform": "bilibili",
+      "title": "Iris Rodriguez 西语圈里相当有腕",
+      "date": "2 oct 2026",
+      "url": "https://www.bilibili.com/video/av117365635291744",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "路横宽二幺",
+      "reputation": "No evaluada"
+    },
+    {
       "id": "news:https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd3BmTTJsNFgxZFZkbzlxRzBDaGlpc3FudVhkUkpULUZaMWtZMkVZRTkydEF1dWpFQ2UyXzFiNkZBZVRBandwVl9FcUQtSWdoR056ZUJyRHFyRjY1M3BCbF92WGhKNkN5Ql9rQjFMQW5WemlEVi1JdExnSzNyMUt0RWhmbUFMdTB1Z01LUHhtMTFNOWYxMzA3cl93ZDNsa0VnOXZsd3M3S1dwZjJuMmMxS0FpY1licXRrLVl5bUFQcG5PelJ3WGxNUW5uU2ctdWljU2hPVm1ZQ0NYYjNidDdMSmt3?oc=5",
-      "citationIndex": 17,
+      "citationIndex": 20,
       "name": "Google News",
       "platform": "web",
       "title": "Claudia Sheinbaum dará cierre a su gira Honestidad y Resultados desde el Zócalo de la CDMX",
@@ -1073,32 +1092,44 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
-      "citationIndex": 18,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
-      "date": "16 ago 2026",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
+      "id": "bilibili:https://www.bilibili.com/video/av117224505412159",
+      "citationIndex": 21,
+      "name": "Bilibili",
+      "platform": "bilibili",
+      "title": "欧美时尚达人一Isa Bella",
+      "date": "6 sep 2026",
+      "url": "https://www.bilibili.com/video/av117224505412159",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Serpientes y Escaleras",
+      "authorOrOutlet": "诚信者天下之结也",
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3FLcHhEX0pNSlp5SXVTMzZxNk9pczFjVkU4a1BBck14cnVIVXUyRHFIZ21KZkhtdW1EM1h4a0Iyc3pRLWlaclRJdFV3bHZjVmxVWmd0cnJ4dm9Vek1NVUJ3QW8xZXc1V2NUY3JyWXloRFpieHF4YmdUYkR6bHdOVy1WQ1hlZjRHcDlWSnI5NVJmZ3kxNlNPdllaSW1KM3RjSUdmRFJaakNfUDBQcER3WmhWTUZtYWV0c09DTTdVY2Z2NktUeUVNTXNjQ3RIdU0xVUdZV0IxTlpBQldmaEhyWDdGSE_SAeoBQVVfeXFMUDZHOVM3Q0JhNTQ1SFRXT1BybXRnYU9nbGlya1BDSXctOENPNWEwTUZXOG5nYUNGdzhPWk9LVXAxNXBROW5HbC1MSFB3LVN3TVZWenZ0aVZtVmFWVTlxUEZUTkxGTFJnZ2JnZmpzNmE2T0d5aU5GSHhiaDlpLWE2Q05yNWJtRWUxNC1MUDRUbERYNHBFTUViaVFSUkpkX1ptRHV5T2N6ZTZzckdkZTRocHZJMGhncFNDZU5TV2YxaWM0SUE3RW1mSFV3dGNZVlNTbGFCWkRfTGRmMlc0TVp6Q3VEdDV3bFloMDJ3?oc=5",
-      "citationIndex": 19,
+      "id": "bilibili:https://www.bilibili.com/video/av117198735546290",
+      "citationIndex": 22,
+      "name": "Bilibili",
+      "platform": "bilibili",
+      "title": "Gira de Umbanda com Caboclos na Mata Uma Conexão Com a Natureza",
+      "date": "1 sep 2026",
+      "url": "https://www.bilibili.com/video/av117198735546290",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "VovóCambinda",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
+      "citationIndex": 23,
       "name": "Google News",
       "platform": "web",
-      "title": "Claudia Sheinbaum: así se vivió la gira presidencial del fin de semana en Morelos y Tabasco",
-      "date": "25 may 2026",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3FLcHhEX0pNSlp5SXVTMzZxNk9pczFjVkU4a1BBck14cnVIVXUyRHFIZ21KZkhtdW1EM1h4a0Iyc3pRLWlaclRJdFV3bHZjVmxVWmd0cnJ4dm9Vek1NVUJ3QW8xZXc1V2NUY3JyWXloRFpieHF4YmdUYkR6bHdOVy1WQ1hlZjRHcDlWSnI5NVJmZ3kxNlNPdllaSW1KM3RjSUdmRFJaakNfUDBQcER3WmhWTUZtYWV0c09DTTdVY2Z2NktUeUVNTXNjQ3RIdU0xVUdZV0IxTlpBQldmaEhyWDdGSE_SAeoBQVVfeXFMUDZHOVM3Q0JhNTQ1SFRXT1BybXRnYU9nbGlya1BDSXctOENPNWEwTUZXOG5nYUNGdzhPWk9LVXAxNXBROW5HbC1MSFB3LVN3TVZWenZ0aVZtVmFWVTlxUEZUTkxGTFJnZ2JnZmpzNmE2T0d5aU5GSHhiaDlpLWE2Q05yNWJtRWUxNC1MUDRUbERYNHBFTUViaVFSUkpkX1ptRHV5T2N6ZTZzckdkZTRocHZJMGhncFNDZU5TV2YxaWM0SUE3RW1mSFV3dGNZVlNTbGFCWkRfTGRmMlc0TVp6Q3VEdDV3bFloMDJ3?oc=5",
+      "title": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
+      "date": "17 ago 2026",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "El Heraldo de México",
+      "authorOrOutlet": "El Economista",
       "reputation": "No evaluada"
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjFYZE1teDNpb3Rvekp4dnZOdnNxa1dkQkpxaDdRZ2c3N0xqYUpjeGpEV3BwcGZkS25FODVYcUNqUVZkTm1FQ29oRVMxVzdZNTFoaE50NE9rY3FLbXN6VGpaZlpteUpZOVFvdjlnX3lFbnFzZmhMeG5meGU4RnByNWdidWJYZ2FMY2hJY0ZucEpWZ1F1MWhIUHNWejZROFJybEVEOE1YaVJ3NXZicEd3RlZpLTFTRGc?oc=5",
-      "citationIndex": 20,
+      "citationIndex": 24,
       "name": "Google News",
       "platform": "web",
       "title": "Gira presidencial deja “buenas noticias y de mucho provecho para Tabasco”; visita de Claudia Sheinbaum consolida impulso al bienestar, fortalecimiento al campo y a la infraestructura",
@@ -1109,188 +1140,80 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av116559590791354",
-      "citationIndex": 21,
-      "name": "Bilibili",
-      "platform": "bilibili",
-      "title": "《面试在捷克》女主演 萨琳娜·水殷（Salina Shein ）与经纪人探讨写真作品",
-      "date": "11 may 2026",
-      "url": "https://www.bilibili.com/video/av116559590791354",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "津田真道尚书",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "bilibili:https://www.bilibili.com/video/av114990551994365",
-      "citationIndex": 22,
-      "name": "Bilibili",
-      "platform": "bilibili",
-      "title": "Hannah Palmer - 合辑",
-      "date": "7 ago 2025",
-      "url": "https://www.bilibili.com/video/av114990551994365",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "世界探长",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMif0FVX3lxTE1zX2dsRmM0ZXdtUnEyNGIxTVpyU3dMZXpFb1pmTHRBU2NHbkVpa0kwTWU2cTlUUzFtXzJIN3RPS1Zpd2F6VWhxdVlRVzZLVnVXQUltbTYtT3l6MEFwcldYdmRxRmJSd21RbFFQTUxYbDdtZWZpY1lmamdiN28zWXM?oc=5",
-      "citationIndex": 23,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Gobierno de México fortalece el IMSS Bienestar con hospitales, personal médico y las “Rutas de la Salud”",
-      "date": "16 jul 2025",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zX2dsRmM0ZXdtUnEyNGIxTVpyU3dMZXpFb1pmTHRBU2NHbkVpa0kwTWU2cTlUUzFtXzJIN3RPS1Zpd2F6VWhxdVlRVzZLVnVXQUltbTYtT3l6MEFwcldYdmRxRmJSd21RbFFQTUxYbDdtZWZpY1lmamdiN28zWXM?oc=5",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "CONSULTORSALUD",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "bilibili:https://www.bilibili.com/video/av114794174613713",
-      "citationIndex": 24,
-      "name": "Bilibili",
-      "platform": "bilibili",
-      "title": "Party Dresses TRY ON Excinderella",
-      "date": "4 jul 2025",
-      "url": "https://www.bilibili.com/video/av114794174613713",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "挑影工",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "bilibili:https://www.bilibili.com/video/av1552303394",
+      "id": "bilibili:https://www.bilibili.com/video/av116327813481094",
       "citationIndex": 25,
       "name": "Bilibili",
       "platform": "bilibili",
-      "title": "【Zoltan Vegh】Elena Lopez格拉纳达写真2",
-      "date": "26 mar 2024",
-      "url": "https://www.bilibili.com/video/av1552303394",
+      "title": "舞蹈专辑 | LA TESTA GIRA - Fred De Palma Anitta | Merengue，5版编舞by AmboLa/Cia Art Da",
+      "date": "31 mar 2026",
+      "url": "https://www.bilibili.com/video/av116327813481094",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Fitness_Girls",
+      "authorOrOutlet": "口水gaga",
       "reputation": "No evaluada"
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av706555248",
+      "id": "bilibili:https://www.bilibili.com/video/av114244519466947",
       "citationIndex": 26,
       "name": "Bilibili",
       "platform": "bilibili",
-      "title": "Shein , Reddit, Rubrik - 2024 IPOs Candidates",
-      "date": "28 nov 2023",
-      "url": "https://www.bilibili.com/video/av706555248",
+      "title": "【个人翻译】 GIRA GIRA STAR（完整版） ~ 琦角色曲",
+      "date": "29 mar 2025",
+      "url": "https://www.bilibili.com/video/av114244519466947",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "云的管理员",
+      "authorOrOutlet": "大萌音音",
       "reputation": "No evaluada"
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av320075584",
+      "id": "bilibili:https://www.bilibili.com/video/av900344562",
       "citationIndex": 27,
       "name": "Bilibili",
       "platform": "bilibili",
-      "title": "著名球星nicolette shea 大街上秀身材",
-      "date": "23 ago 2023",
-      "url": "https://www.bilibili.com/video/av320075584",
+      "title": "Bellissima - Annalisa",
+      "date": "8 sep 2022",
+      "url": "https://www.bilibili.com/video/av900344562",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "账号已注销",
+      "authorOrOutlet": "华纳音乐国际",
       "reputation": "No evaluada"
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av757117834",
+      "id": "bilibili:https://www.bilibili.com/video/av383717001",
       "citationIndex": 28,
       "name": "Bilibili",
       "platform": "bilibili",
-      "title": "SHEIN 和Romwe衣服开箱试穿！质量怎么样？留学生国外党必看！国外购物app",
-      "date": "12 mar 2021",
-      "url": "https://www.bilibili.com/video/av757117834",
+      "title": "升维音乐 | 油管播放超7000万 电音版 Deixa A Gira Girar 情绪稳定 老僧入定 来自非洲神的庇佑",
+      "date": "30 abr 2022",
+      "url": "https://www.bilibili.com/video/av383717001",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "萨爷的蘑菇和世界Yoga",
+      "authorOrOutlet": "跳蛙居士",
       "reputation": "No evaluada"
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av75491071",
+      "id": "bilibili:https://www.bilibili.com/video/av752694768",
       "citationIndex": 29,
       "name": "Bilibili",
       "platform": "bilibili",
-      "title": "【Carlota Gonzalez】 SHEIN 、ZAFUL、ROMWE 三品牌物美价廉试穿",
-      "date": "14 nov 2019",
-      "url": "https://www.bilibili.com/video/av75491071",
+      "title": "Cristian Castro - Volver a Amar #西班牙语歌曲",
+      "date": "7 abr 2020",
+      "url": "https://www.bilibili.com/video/av752694768",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "油土山车手",
+      "authorOrOutlet": "BlueAzul",
       "reputation": "No evaluada"
     },
     {
-      "id": "bilibili:https://www.bilibili.com/video/av10516643",
+      "id": "bilibili:https://www.bilibili.com/video/av33601845",
       "citationIndex": 30,
       "name": "Bilibili",
       "platform": "bilibili",
-      "title": "AA, F21, Sephora, Shein , Romwe, MakeMeChic购物分享",
-      "date": "12 may 2017",
-      "url": "https://www.bilibili.com/video/av10516643",
+      "title": "Prima Oara-Kamelia",
+      "date": "11 oct 2018",
+      "url": "https://www.bilibili.com/video/av33601845",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Yasminaaaaa",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Claudia_Sheinbaum",
-      "citationIndex": 31,
-      "name": "Wikipedia ES",
-      "platform": "web",
-      "title": "Claudia Sheinbaum",
-      "date": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Claudia_Sheinbaum",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "es.wikipedia.org",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Gobierno_de_Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "citationIndex": 32,
-      "name": "Wikipedia ES",
-      "platform": "web",
-      "title": "Gobierno de Andrés Manuel López Obrador",
-      "date": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Gobierno_de_Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "es.wikipedia.org",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "citationIndex": 33,
-      "name": "Wikipedia ES",
-      "platform": "web",
-      "title": "Andrés Manuel López Obrador",
-      "date": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "es.wikipedia.org",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Consulta_de_revocaci%C3%B3n_de_mandato_de_M%C3%A9xico_de_2022",
-      "citationIndex": 34,
-      "name": "Wikipedia ES",
-      "platform": "web",
-      "title": "Consulta de revocación de mandato de México de 2022",
-      "date": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Consulta_de_revocaci%C3%B3n_de_mandato_de_M%C3%A9xico_de_2022",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "es.wikipedia.org",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "wikipedia:https://es.wikipedia.org/wiki/Historia_de_M%C3%A9xico",
-      "citationIndex": 35,
-      "name": "Wikipedia ES",
-      "platform": "web",
-      "title": "Historia de México",
-      "date": "Fecha no disponible",
-      "url": "https://es.wikipedia.org/wiki/Historia_de_M%C3%A9xico",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "es.wikipedia.org",
+      "authorOrOutlet": "改名了还能变欧吗",
       "reputation": "No evaluada"
     },
     {
       "id": "youtube:https://www.youtube.com/watch?v=Fu-RmKuSFIY",
-      "citationIndex": 36,
+      "citationIndex": 31,
       "name": "YouTube",
       "platform": "youtube",
       "title": "Hoy inicié una gira para supervisar la operación de hospitales y centros de salud del IMSS Bienestar",
@@ -1301,20 +1224,8 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=55UcgLVqHcU",
-      "citationIndex": 37,
-      "name": "YouTube",
-      "platform": "youtube",
-      "title": "Sheinbaum to now tour to review IMSS-Bienestar",
-      "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=55UcgLVqHcU",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Grupo REFORMA",
-      "reputation": "No evaluada"
-    },
-    {
       "id": "youtube:https://www.youtube.com/watch?v=nChl143e9uo",
-      "citationIndex": 38,
+      "citationIndex": 32,
       "name": "YouTube",
       "platform": "youtube",
       "title": "Inauguration of the IMSS-Bienestar General Hospital. Jiutepec, Morelos",
@@ -1326,7 +1237,7 @@
     },
     {
       "id": "youtube:https://www.youtube.com/watch?v=2FZ2CaLipNQ",
-      "citationIndex": 39,
+      "citationIndex": 33,
       "name": "YouTube",
       "platform": "youtube",
       "title": "Sheinbaum announces surprise hospital visits and acknowledges medicine supply shortages",
@@ -1337,44 +1248,32 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=M0quhahw7HU",
-      "citationIndex": 40,
+      "id": "youtube:https://www.youtube.com/watch?v=55UcgLVqHcU",
+      "citationIndex": 34,
       "name": "YouTube",
       "platform": "youtube",
-      "title": "Live Morning Press Conference. Thursday, September 3, 2026 | President Claudia Sheinbaum",
+      "title": "Sheinbaum to now tour to review IMSS-Bienestar",
       "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=M0quhahw7HU",
+      "url": "https://www.youtube.com/watch?v=55UcgLVqHcU",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Claudia Sheinbaum Pardo",
+      "authorOrOutlet": "Grupo REFORMA",
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=0MxZmyOZwsA",
-      "citationIndex": 41,
+      "id": "youtube:https://www.youtube.com/watch?v=5ZJ3nM-JF80",
+      "citationIndex": 35,
       "name": "YouTube",
       "platform": "youtube",
-      "title": "Claudia Sheinbaum announces a tour of the 24 states where IMSS-Bienestar operates",
+      "title": "Sheinbaum anuncia histórica contratación de 14 mil médicos especialistas | Noticias con Crystal",
       "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=0MxZmyOZwsA",
+      "url": "https://www.youtube.com/watch?v=5ZJ3nM-JF80",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "La Onda Oaxaca",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "youtube:https://www.youtube.com/watch?v=OqkiFAyf6_A",
-      "citationIndex": 42,
-      "name": "YouTube",
-      "platform": "youtube",
-      "title": "Gira de la Presidenta Claudia Sheinbaum",
-      "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=OqkiFAyf6_A",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Instante Metropolitano",
+      "authorOrOutlet": "Imagen Noticias",
       "reputation": "No evaluada"
     },
     {
       "id": "youtube:https://www.youtube.com/watch?v=r86bYnTbEDU",
-      "citationIndex": 43,
+      "citationIndex": 36,
       "name": "YouTube",
       "platform": "youtube",
       "title": "WELL-BEING TOURS! Sheinbaum TO VISIT hospitals in 24 states. Ignores IMSS conflict!",
@@ -1385,61 +1284,133 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=Tzo1cLCsm7w",
-      "citationIndex": 44,
+      "id": "youtube:https://www.youtube.com/watch?v=OqkiFAyf6_A",
+      "citationIndex": 37,
       "name": "YouTube",
       "platform": "youtube",
-      "title": "Morning press conference. Wednesday, August 19, 2026 | President Claudia Sheinbaum",
+      "title": "Gira de la Presidenta Claudia Sheinbaum",
       "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=Tzo1cLCsm7w",
+      "url": "https://www.youtube.com/watch?v=OqkiFAyf6_A",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Instante Metropolitano",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "youtube:https://www.youtube.com/watch?v=brpELJazSiM",
+      "citationIndex": 38,
+      "name": "YouTube",
+      "platform": "youtube",
+      "title": "La presidenta Sheinbaum inaugura hospital en Tamaulipas y destaca avance de IMSS-Bienestar | Crystal",
+      "date": "Fecha no disponible",
+      "url": "https://www.youtube.com/watch?v=brpELJazSiM",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Imagen Noticias",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "youtube:https://www.youtube.com/watch?v=M0quhahw7HU",
+      "citationIndex": 39,
+      "name": "YouTube",
+      "platform": "youtube",
+      "title": "Live Morning Press Conference. Thursday, September 3, 2026 | President Claudia Sheinbaum",
+      "date": "Fecha no disponible",
+      "url": "https://www.youtube.com/watch?v=M0quhahw7HU",
       "type": "Resultado público de búsqueda",
       "authorOrOutlet": "Claudia Sheinbaum Pardo",
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=nt_dhBqL1t8",
-      "citationIndex": 45,
+      "id": "youtube:https://www.youtube.com/watch?v=JeHPoUFl9cw",
+      "citationIndex": 40,
       "name": "YouTube",
       "platform": "youtube",
-      "title": "Conferencia matutina de Claudia Sheinbaum | Viernes 9 de octubre",
+      "title": "Claudia Sheinbaum: IMSS-Bienestar increased consultations and medication coverage - The News",
       "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=nt_dhBqL1t8",
+      "url": "https://www.youtube.com/watch?v=JeHPoUFl9cw",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "UnoTV",
+      "authorOrOutlet": "NMás",
       "reputation": "No evaluada"
     },
     {
-      "id": "facebook:https://www.facebook.com/groups/420929763806069/",
+      "id": "facebook:https://www.facebook.com/groups/apuntesdemedicinayenfermeria/",
+      "citationIndex": 41,
+      "name": "Facebook",
+      "platform": "meta",
+      "title": "Basificados del IMSS Bienestar",
+      "date": "Fecha no disponible",
+      "url": "https://www.facebook.com/groups/apuntesdemedicinayenfermeria/",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Facebook",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "facebook:https://www.facebook.com/groups/596083902178849/",
+      "citationIndex": 42,
+      "name": "Facebook",
+      "platform": "meta",
+      "title": "Trabajadores del Sector Salud (IMSS Bienestar-Secretaria de Salud)",
+      "date": "Fecha no disponible",
+      "url": "https://www.facebook.com/groups/596083902178849/",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Facebook",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "facebook:https://www.facebook.com/groups/628629786623002/",
+      "citationIndex": 43,
+      "name": "Facebook",
+      "platform": "meta",
+      "title": "Trabajadores IMSS BIENESTAR OPD",
+      "date": "Fecha no disponible",
+      "url": "https://www.facebook.com/groups/628629786623002/",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Facebook",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "facebook:https://www.facebook.com/ClaudiaSheinbaumPardo",
+      "citationIndex": 44,
+      "name": "Facebook",
+      "platform": "meta",
+      "title": "Claudia Sheinbaum Pardo",
+      "date": "Fecha no disponible",
+      "url": "https://www.facebook.com/ClaudiaSheinbaumPardo",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Facebook",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "facebook:https://www.facebook.com/LordMoleculaOficial",
+      "citationIndex": 45,
+      "name": "Facebook",
+      "platform": "meta",
+      "title": "Lord Molécula Oficial",
+      "date": "Fecha no disponible",
+      "url": "https://www.facebook.com/LordMoleculaOficial",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Facebook",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "facebook:https://www.facebook.com/SSIMSSBIENESTAR",
       "citationIndex": 46,
       "name": "Facebook",
       "platform": "meta",
-      "title": "Claudia Sheinbaum",
+      "title": "Indicador de estado onlineActivo",
       "date": "Fecha no disponible",
-      "url": "https://www.facebook.com/groups/420929763806069/",
+      "url": "https://www.facebook.com/SSIMSSBIENESTAR",
       "type": "Resultado público de búsqueda",
       "authorOrOutlet": "Facebook",
       "reputation": "No evaluada"
     },
     {
-      "id": "facebook:https://www.facebook.com/groups/576644752747291/",
+      "id": "facebook:https://www.facebook.com/photo/",
       "citationIndex": 47,
       "name": "Facebook",
       "platform": "meta",
-      "title": "Bienestar Social Claudia Sheinbaum",
+      "title": "+10",
       "date": "Fecha no disponible",
-      "url": "https://www.facebook.com/groups/576644752747291/",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Facebook",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "facebook:https://www.facebook.com/groups/2144476465772192/",
-      "citationIndex": 48,
-      "name": "Facebook",
-      "platform": "meta",
-      "title": "Claudia Sheinbaum Pardo PRESIDENTA DE MÉXICO 🇲🇽",
-      "date": "Fecha no disponible",
-      "url": "https://www.facebook.com/groups/2144476465772192/",
+      "url": "https://www.facebook.com/photo/",
       "type": "Resultado público de búsqueda",
       "authorOrOutlet": "Facebook",
       "reputation": "No evaluada"
@@ -1449,7 +1420,7 @@
     {
       "step": 1,
       "title": "Consulta de fuentes",
-      "description": "Google News: 10 · Hacker News: 0 · Wikipedia ES: 5 · YouTube: 10 · Bilibili: 10 · Instagram Explore: 0 · X / Twitter: 10 · Facebook: 3"
+      "description": "Google News: 10 · Hacker News: 0 · YouTube: 10 · Bilibili: 10 · X / Twitter: 10 · Facebook: 7"
     },
     {
       "step": 2,
@@ -1478,11 +1449,6 @@
       "status": "ok",
       "count": 0
     },
-    "wikipedia": {
-      "name": "Wikipedia ES",
-      "status": "ok",
-      "count": 5
-    },
     "youtube": {
       "name": "YouTube",
       "status": "ok",
@@ -1493,17 +1459,6 @@
       "status": "ok",
       "count": 10
     },
-    "instagram": {
-      "name": "Instagram Explore",
-      "status": "ok",
-      "count": 0
-    },
-    "reddit": {
-      "name": "Reddit",
-      "status": "error",
-      "count": 0,
-      "error": "El backend de reddit no respondió. Revisa su estado con agent-reach doctor --json."
-    },
     "twitter": {
       "name": "X / Twitter",
       "status": "ok",
@@ -1512,7 +1467,7 @@
     "facebook": {
       "name": "Facebook",
       "status": "ok",
-      "count": 3
+      "count": 7
     },
     "xiaohongshu": {
       "name": "XiaoHongShu",
@@ -1522,8 +1477,8 @@
     }
   },
   "sourceDiversity": {
-    "independentOutlets": 6,
-    "distinctDomains": 6,
+    "independentOutlets": 5,
+    "distinctDomains": 5,
     "platformCount": 5,
     "diversityRating": "Alta",
     "summaryNote": "Se cuentan dominios y plataformas; no se evalúa independencia ni reputación editorial."
