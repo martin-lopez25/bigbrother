@@ -1,6 +1,6 @@
 {
   "query": "gira presidencial Claudia Sheinbaum IMSS Bienestar",
-  "timestamp": "25 nov 2026, 10:12 a.m.",
+  "timestamp": "25 nov 2026, 10:17 a.m.",
   "totalResults": 40,
   "platformDistribution": {
     "all": 40,
@@ -16,6 +16,14 @@
     "keyPoints": [
       {
         "id": "extract-1",
+        "text": "Con la apertura del hospital general del IMSS Bienestar en Ciudad Madero, Tamaulipas, el gobierno de México suma 32 nuevos ...",
+        "citations": [
+          28
+        ],
+        "category": "extracto"
+      },
+      {
+        "id": "extract-2",
         "text": "President Claudia Sheinbaum announced that she will tour the country to learn about problems with the IMSS-Bienestar program ...",
         "citations": [
           23
@@ -23,18 +31,10 @@
         "category": "extracto"
       },
       {
-        "id": "extract-2",
-        "text": "President Claudia Sheinbaum announced a direct, unannounced tour of hospitals and health centers in the 24 states integrated ...",
-        "citations": [
-          22
-        ],
-        "category": "extracto"
-      },
-      {
         "id": "extract-3",
         "text": "Del 4 al 6 de julio, la Presidenta Claudia Sheinbaum Pardo, visitó los estados de Tamaulipas, San Luis Potosí y Veracruz donde ...",
         "citations": [
-          26
+          25
         ],
         "category": "extracto"
       }
@@ -61,38 +61,6 @@
       "citationNumber": 1
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMiogFBVV95cUxNcFJzcDY4SmJQaWNIWEtoNmI2NlVqeVJKNVpSSWVDMXZKQmF0NXJXaW1QYWtqTEdRSDFVMFM1VkhGbXNZcU5ENjNCemFyaVFZWVZLeVd4T2E4U0V0eHhsZ1ZzWVdOdnFqNk41cTFabmdfNnZaaUszUW00bG5pR2pSY0JJb1BSZWJXTDd2UHBMMXRObU1SVmJtZnNMN0VMcXN0Rmc?oc=5",
-      "platform": "web",
-      "title": "Hospital Universitario, becas y deporte marcan gira de Sheinbaum en Puebla",
-      "summary": "Hospital Universitario, becas y deporte marcan gira de Sheinbaum en Puebla",
-      "sourceName": "Sucesos Puebla",
-      "authorHandle": "Sucesos Puebla",
-      "publishedAt": "15 nov 2026",
-      "sortDate": "2026-11-16T00:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcFJzcDY4SmJQaWNIWEtoNmI2NlVqeVJKNVpSSWVDMXZKQmF0NXJXaW1QYWtqTEdRSDFVMFM1VkhGbXNZcU5ENjNCemFyaVFZWVZLeVd4T2E4U0V0eHhsZ1ZzWVdOdnFqNk41cTFabmdfNnZaaUszUW00bG5pR2pSY0JJb1BSZWJXTDd2UHBMMXRObU1SVmJtZnNMN0VMcXN0Rmc?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 2
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUU1Tk9DczBHWGRtb1dPQ3NXUVluRmctT3RzNWg4ZTVzb0VWTU13TzFMTU5IYTlmR2huOGxac284aGxUY19DYmNYdE1tc2NYeGxraWN5c2kyN3hoVzRwS2Y1MG5tR2JZUDVCZUxmU3Q0bmY1WWVFZjB1ZUg0eXVLeDk2SXZOR0V1WjVj?oc=5",
-      "platform": "web",
-      "title": "Sheinbaum en Puebla inaugura Universidad del Deporte",
-      "summary": "Sheinbaum en Puebla inaugura Universidad del Deporte",
-      "sourceName": "Amexi",
-      "authorHandle": "Amexi",
-      "publishedAt": "13 nov 2026",
-      "sortDate": "2026-11-13T08:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUU1Tk9DczBHWGRtb1dPQ3NXUVluRmctT3RzNWg4ZTVzb0VWTU13TzFMTU5IYTlmR2huOGxac284aGxUY19DYmNYdE1tc2NYeGxraWN5c2kyN3hoVzRwS2Y1MG5tR2JZUDVCZUxmU3Q0bmY1WWVFZjB1ZUg0eXVLeDk2SXZOR0V1WjVj?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 3
-    },
-    {
       "id": "bilibili:https://www.bilibili.com/video/av117602026326353",
       "platform": "bilibili",
       "title": "Helene Segara - Il attend la pluie",
@@ -106,58 +74,10 @@
       "tags": [
         "Bilibili"
       ],
-      "citationNumber": 4,
+      "citationNumber": 2,
       "metrics": {
         "views": 27
       }
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTEM1Vm05QzBqODh1cVd5aEJRWnJ6bUliM2xaOVVYWkliUE85bEMzREpsTlF2Q2I2WWxfeUE4T0c2ck1DX1hUOHNSazRLX3hXOS1IZGFlMjNiWE96SFd5TXpzaTlRS0pva0ExUFJYQ2haUEdRUnctSTZGWTRrZi1LY3lRRWhNTFNvLXNSV0F4UlJVWEdMdkNrZkV3ajhBb0xRTzJEQnJENEFfUXNpMnVWYXBTSFFIbXAx?oc=5",
-      "platform": "web",
-      "title": "Sheinbaum concluye gira por Hidalgo, Edomex y Guanajuato; supervisa trenes y entrega apoyos",
-      "summary": "Sheinbaum concluye gira por Hidalgo, Edomex y Guanajuato; supervisa trenes y entrega apoyos",
-      "sourceName": "24-horas",
-      "authorHandle": "24-horas",
-      "publishedAt": "2 nov 2026",
-      "sortDate": "2026-11-02T08:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTEM1Vm05QzBqODh1cVd5aEJRWnJ6bUliM2xaOVVYWkliUE85bEMzREpsTlF2Q2I2WWxfeUE4T0c2ck1DX1hUOHNSazRLX3hXOS1IZGFlMjNiWE96SFd5TXpzaTlRS0pva0ExUFJYQ2haUEdRUnctSTZGWTRrZi1LY3lRRWhNTFNvLXNSV0F4UlJVWEdMdkNrZkV3ajhBb0xRTzJEQnJENEFfUXNpMnVWYXBTSFFIbXAx?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 5
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ1R6T0hUMDZhaTJmUVo3ckI0Qml1MlI4d1BFdjBtaDA0emVROUxCM1lfUllDRDlzUFAwbktKcllNSm1HSDUwU04yVW5lNjVZWGdvYjhuMVEyQlFyVlBrSlJLZnhyZll6R2NsQXdjc2FTUV92aUcxY3lHRVN4Ml9qMWsweDlIWVRxa3ZhcERscjNoYWxtWW9vdXdfcEFfUEFFbmNmeC01SXg4Wk8wRlRCOWFGNDdFOVI5OW04?oc=5",
-      "platform": "web",
-      "title": "Sheinbaum inicia gira nacional para modernizar los hospitales del IMSS Bienestar",
-      "summary": "Sheinbaum inicia gira nacional para modernizar los hospitales del IMSS Bienestar",
-      "sourceName": "Cadena Politica",
-      "authorHandle": "Cadena Politica",
-      "publishedAt": "18 oct 2026",
-      "sortDate": "2026-10-18T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ1R6T0hUMDZhaTJmUVo3ckI0Qml1MlI4d1BFdjBtaDA0emVROUxCM1lfUllDRDlzUFAwbktKcllNSm1HSDUwU04yVW5lNjVZWGdvYjhuMVEyQlFyVlBrSlJLZnhyZll6R2NsQXdjc2FTUV92aUcxY3lHRVN4Ml9qMWsweDlIWVRxa3ZhcERscjNoYWxtWW9vdXdfcEFfUEFFbmNmeC01SXg4Wk8wRlRCOWFGNDdFOVI5OW04?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 6
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSGZiNWFYdXhUYUlxa3pkc2YxYS0yMk9hRXVuRDBJbFFxU0NTOWlycFN0N3VnblRON1RwUXRpM29zQzhzZDdZT0NYOGRNdjhBeE9uM21PWldxMXI2SUVOWjE2R3pITGsxQmxqaHVBSWVfSW5SSVZnVWFjVlBFdURUZFJBMDRKdndlRFc4VVZuNjhNem9CdU1GcWRveVBVei1VNHNIejRGaDhzVURUb2NDYzRvOElGT2ptNjU0SVFwMXk?oc=5",
-      "platform": "web",
-      "title": "Presidenta Claudia Sheinbaum y Gobernadora Delfina Gómez supervisan atención médica y abasto de medicamentos en el oriente del Edomex",
-      "summary": "Presidenta Claudia Sheinbaum y Gobernadora Delfina Gómez supervisan atención médica y abasto de medicamentos en el oriente del Edomex",
-      "sourceName": "Voces y Jarillas",
-      "authorHandle": "Voces y Jarillas",
-      "publishedAt": "11 oct 2026",
-      "sortDate": "2026-10-11T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSGZiNWFYdXhUYUlxa3pkc2YxYS0yMk9hRXVuRDBJbFFxU0NTOWlycFN0N3VnblRON1RwUXRpM29zQzhzZDdZT0NYOGRNdjhBeE9uM21PWldxMXI2SUVOWjE2R3pITGsxQmxqaHVBSWVfSW5SSVZnVWFjVlBFdURUZFJBMDRKdndlRFc4VVZuNjhNem9CdU1GcWRveVBVei1VNHNIejRGaDhzVURUb2NDYzRvOElGT2ptNjU0SVFwMXk?oc=5",
-      "contentType": "noticia",
-      "tags": [
-        "Google News"
-      ],
-      "citationNumber": 7
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVlBzVHR2MTYxc0pMbHdGWlNsdmpNdTZVN1RVdnNMVzJnMm1GWjBYTTlRMHFNc3hiWVowTnBXTzdncHJGMTBDM210b0NLWUpWbUZaZjNDWlB6U3M3Zi1hcktEMGNuekw1RTRzMm9MZXF0Y281UGt0MXZUSy1FVHVNRkdNY3R2UnUzbVNPLVo2M2hCdkllejhla0lwaFpPal9sdjMySWdkMy03RGNtblZMZU1wRFkxQzBRWkhCbENkaWY0MXYxY3ZfQ3dNcnNvSjN3UW4zMG1oelPSAewBQVVfeXFMTUtxWDlUUW91SHFBRFQ0OTBIUXB3MHlHZU85eEtTR0RnMGJZSGp2aG9yUllzbDVMTll6SjQyZkdITnBtVVd1WVRiejJkOVBVMWlaTGFKVFNzQ0hzXzBKVjZ1RnhOR2JjWTFnNGF6UUhXQ2xiUEFwXzRubG9wbTRReUd4N21WUjVibktBaENUR0dPNXdMbE5ianRYNEhCMXJxbXFTNmhYUWVGX3FRU0ZvVW40bklpVW9KX1pJa3BqMFRRRV95UTBFdzdqNC0tbjMydXozZUl5NEF5OVVJSWpSS2o3VkJjN1JtSlBsVGU?oc=5",
@@ -173,7 +93,7 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 8
+      "citationNumber": 3
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMirAFBVV95cUxQTV9EeFdRYTJyLUx6UDZFanlHcFk0dEk1OTQzd1dTM1RHS1lCYS01UmRoakVod180Vm56SjQzRVk4eVBBY0FxaU1BWkwxc1hDSXlQeEZWcVdYZk12QUtRaTk3VkpES0U0NHpXZ1ZyTm9ZUEdpb3V4YUxyRndnc2xDX3JyN2VBMXhZRlJXMVhzNkpQMGJ6bmZ1MG1YVFh5YXNXQ0l1bzU0ZXdLdU4x?oc=5",
@@ -189,7 +109,7 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 9
+      "citationNumber": 4
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVpPTC1qZDJaWW9iaURoaVFNY3BsbU5COXo4VVN1d1loN1RfTzV6c3dyWkU2TjY2WWx1T2VCZzZuZ0hMdjUzaHZvMWhyS1ZWeTlUX2VUWlVlWTh1YmNIamJEbUZvQ0ZfVjI3VFFBOWM3WndfTlB0ZkhxWnBmMk5Ec2J1TzA1UjRmX1hkaFJIOTZ3VFdjVnZKZkNPRVowSlRZTTZkNlZaVFNGYVE?oc=5",
@@ -205,18 +125,98 @@
       "tags": [
         "Google News"
       ],
-      "citationNumber": 10
+      "citationNumber": 5
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
+      "id": "news:https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "platform": "web",
+      "title": "“Mexicanos al grito de guerra” cantan trabajadores del IMSS en medio de protestas y repliegue policial en CDMX",
+      "summary": "“Mexicanos al grito de guerra” cantan trabajadores del IMSS en medio de protestas y repliegue policial en CDMX",
+      "sourceName": "Infobae",
+      "authorHandle": "Infobae",
+      "publishedAt": "9 oct 2026",
+      "sortDate": "2026-10-09T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 6
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN2VESkxjbXVTQXAzSEtvWkdnQ2k0S3BtbldBOW9TWkZONHJTMU1QMVduSkxrUmNTbDd1VU52MEF4VGNoWUZKZFBPaGNkMnR3RHRQWkVKVDByaGJhcnVDZldzYUs0SFdoVU9RMHQ2MUNIQnF0UWdpcGU4V0I1RGlWZmo4WjhILU5yRDZWemh2UUxsSkVxTkw0OUcxUVVwZkQ3blRRalM0aHNYc214WXFFRjZTUGJmOWt2Yl9hSnJPU1JBV1VwVDFZbE5KQ2x4MWtRMXM4TEM0bzBWTXgyT1VjZ2RBcW9UZDktV19N0gGGAkFVX3lxTE93eldnXzdIa2ZMZmp0dFl2YW5UNUowY0pzZm1TTWJ1eWZoZmRBbk9naUtuVVZDWHgybFdISE1YSW1FbFZJU01Sb1c0WWcydFhCNm1yV3g2bUJVWlN0LWhzUTRDWUkzUWRtN2RlVnp5X1p3dUtFUVg3b19FNXg5YzdnUmctVGxzaGdkRUlYMDNKMkNmTmV3LXl1Nk5ISFZNQVJRSmJZX21ubnIxOS1aRmpXalN5TElzZmxjZ2s1WmhGWGtPQXkxT2l3czlfRXhQNGNFbTN6S0Y1cEQ3TzM2aUhjRUptaFk5UExoaFR4bm1aNXBBTVM5MDFfaG5nSm1iNHp0VzJIaXc?oc=5",
+      "platform": "web",
+      "title": "Morena respalda gira de Sheinbaum en las 32 entidades y atribuye caída de 53% en homicidios dolosos a su gobierno",
+      "summary": "Morena respalda gira de Sheinbaum en las 32 entidades y atribuye caída de 53% en homicidios dolosos a su gobierno",
+      "sourceName": "Infobae",
+      "authorHandle": "Infobae",
+      "publishedAt": "27 sep 2026",
+      "sortDate": "2026-09-27T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN2VESkxjbXVTQXAzSEtvWkdnQ2k0S3BtbldBOW9TWkZONHJTMU1QMVduSkxrUmNTbDd1VU52MEF4VGNoWUZKZFBPaGNkMnR3RHRQWkVKVDByaGJhcnVDZldzYUs0SFdoVU9RMHQ2MUNIQnF0UWdpcGU4V0I1RGlWZmo4WjhILU5yRDZWemh2UUxsSkVxTkw0OUcxUVVwZkQ3blRRalM0aHNYc214WXFFRjZTUGJmOWt2Yl9hSnJPU1JBV1VwVDFZbE5KQ2x4MWtRMXM4TEM0bzBWTXgyT1VjZ2RBcW9UZDktV19N0gGGAkFVX3lxTE93eldnXzdIa2ZMZmp0dFl2YW5UNUowY0pzZm1TTWJ1eWZoZmRBbk9naUtuVVZDWHgybFdISE1YSW1FbFZJU01Sb1c0WWcydFhCNm1yV3g2bUJVWlN0LWhzUTRDWUkzUWRtN2RlVnp5X1p3dUtFUVg3b19FNXg5YzdnUmctVGxzaGdkRUlYMDNKMkNmTmV3LXl1Nk5ISFZNQVJRSmJZX21ubnIxOS1aRmpXalN5TElzZmxjZ2s1WmhGWGtPQXkxT2l3czlfRXhQNGNFbTN6S0Y1cEQ3TzM2aUhjRUptaFk5UExoaFR4bm1aNXBBTVM5MDFfaG5nSm1iNHp0VzJIaXc?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 7
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
       "platform": "web",
       "title": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
       "summary": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
-      "sourceName": "Serpientes y Escaleras",
-      "authorHandle": "Serpientes y Escaleras",
+      "sourceName": "El Economista",
+      "authorHandle": "El Economista",
+      "publishedAt": "17 ago 2026",
+      "sortDate": "2026-08-17T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 8
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEtqaGJ4UkRHd2FrSTN5UEpSMWo4SlUwczFRZ0VvRWRzVHlnRFF0YzlVa1ExRkstREJpMUdCanNNWklSZ3ZIdjM1WV9jOFNxZWVTVndLWV9YdHBrNk91bDRaSW5qOWRrdi1MM3ppem1KbEVzN0hQZUlzc2lyVHVSdFRnUjJLVjg1U2x0RThzVENOMWFPUlJ1V09aNHQwOU8zTG9wbWtUUzdiNVg0cXJYUUZ3?oc=5",
+      "platform": "web",
+      "title": "Destinan más de 1,000 mdp a nuevo hospital IMSS-Bienestar en Ciudad Madero, Tamaulipas",
+      "summary": "Destinan más de 1,000 mdp a nuevo hospital IMSS-Bienestar en Ciudad Madero, Tamaulipas",
+      "sourceName": "EL CEO",
+      "authorHandle": "EL CEO",
       "publishedAt": "16 ago 2026",
       "sortDate": "2026-08-16T07:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEtqaGJ4UkRHd2FrSTN5UEpSMWo4SlUwczFRZ0VvRWRzVHlnRFF0YzlVa1ExRkstREJpMUdCanNNWklSZ3ZIdjM1WV9jOFNxZWVTVndLWV9YdHBrNk91bDRaSW5qOWRrdi1MM3ppem1KbEVzN0hQZUlzc2lyVHVSdFRnUjJLVjg1U2x0RThzVENOMWFPUlJ1V09aNHQwOU8zTG9wbWtUUzdiNVg0cXJYUUZ3?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 9
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMiswFBVV95cUxNU01wZHBJMVFJQXBiNnJKUmY2N3VVa205Q2QwS0EwQUFWaU5vZEdkOFBZX2pMdTlwS1VyNWFmLVhBcjJDSjBOTkd1aXh0YlhpcDFQRDh3UDROdEFsU2c3d2t3WGNmSkl3bjlwQk9DR19PSVl2SVU1b1pWTVJaWGwybHRUUFJXeEFCd24zZGNuM082d2pfZmtwTTl3RzYzVW1xUHRScmp0NUJJSS0yNEJxOVZNdw?oc=5",
+      "platform": "web",
+      "title": "Sheinbaum inaugura Hospital General IMSS Bienestar Ciudad Madero",
+      "summary": "Sheinbaum inaugura Hospital General IMSS Bienestar Ciudad Madero",
+      "sourceName": "El Horizonte",
+      "authorHandle": "El Horizonte",
+      "publishedAt": "16 ago 2026",
+      "sortDate": "2026-08-16T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU01wZHBJMVFJQXBiNnJKUmY2N3VVa205Q2QwS0EwQUFWaU5vZEdkOFBZX2pMdTlwS1VyNWFmLVhBcjJDSjBOTkd1aXh0YlhpcDFQRDh3UDROdEFsU2c3d2t3WGNmSkl3bjlwQk9DR19PSVl2SVU1b1pWTVJaWGwybHRUUFJXeEFCd24zZGNuM082d2pfZmtwTTl3RzYzVW1xUHRScmp0NUJJSS0yNEJxOVZNdw?oc=5",
+      "contentType": "noticia",
+      "tags": [
+        "Google News"
+      ],
+      "citationNumber": 10
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjFYZE1teDNpb3Rvekp4dnZOdnNxa1dkQkpxaDdRZ2c3N0xqYUpjeGpEV3BwcGZkS25FODVYcUNqUVZkTm1FQ29oRVMxVzdZNTFoaE50NE9rY3FLbXN6VGpaZlpteUpZOVFvdjlnX3lFbnFzZmhMeG5meGU4RnByNWdidWJYZ2FMY2hJY0ZucEpWZ1F1MWhIUHNWejZROFJybEVEOE1YaVJ3NXZicEd3RlZpLTFTRGc?oc=5",
+      "platform": "web",
+      "title": "Gira presidencial deja “buenas noticias y de mucho provecho para Tabasco”; visita de Claudia Sheinbaum consolida impulso al bienestar, fortalecimiento al campo y a la infraestructura",
+      "summary": "Gira presidencial deja “buenas noticias y de mucho provecho para Tabasco”; visita de Claudia Sheinbaum consolida impulso al bienestar, fortalecimiento al campo y a la infraestructura",
+      "sourceName": "Portal Tabasco",
+      "authorHandle": "Portal Tabasco",
+      "publishedAt": "24 may 2026",
+      "sortDate": "2026-05-24T07:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjFYZE1teDNpb3Rvekp4dnZOdnNxa1dkQkpxaDdRZ2c3N0xqYUpjeGpEV3BwcGZkS25FODVYcUNqUVZkTm1FQ29oRVMxVzdZNTFoaE50NE9rY3FLbXN6VGpaZlpteUpZOVFvdjlnX3lFbnFzZmhMeG5meGU4RnByNWdidWJYZ2FMY2hJY0ZucEpWZ1F1MWhIUHNWejZROFJybEVEOE1YaVJ3NXZicEd3RlZpLTFTRGc?oc=5",
       "contentType": "noticia",
       "tags": [
         "Google News"
@@ -296,7 +296,7 @@
       ],
       "citationNumber": 15,
       "metrics": {
-        "views": 36694
+        "views": 36695
       }
     },
     {
@@ -471,25 +471,6 @@
       }
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=zCY708v_Lyo",
-      "platform": "youtube",
-      "title": "Avanza diagnóstico en hospitales IMSS. Conferencia presidenta Sheinbaum",
-      "summary": "00:00:00 Inicio de transmisión 00:14:38 Comienza conferencia de prensa 00:17:08 Informe de seguridad 01:07:45 Sesión ...",
-      "sourceName": "Gobierno de México",
-      "authorHandle": "Gobierno de México",
-      "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=zCY708v_Lyo",
-      "contentType": "video",
-      "tags": [
-        "YouTube"
-      ],
-      "citationNumber": 25,
-      "videoId": "zCY708v_Lyo",
-      "metrics": {
-        "views": 71485
-      }
-    },
-    {
       "id": "youtube:https://www.youtube.com/watch?v=OqkiFAyf6_A",
       "platform": "youtube",
       "title": "Gira de la Presidenta Claudia Sheinbaum",
@@ -502,7 +483,7 @@
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 26,
+      "citationNumber": 25,
       "videoId": "OqkiFAyf6_A",
       "metrics": {
         "views": 178
@@ -521,10 +502,29 @@
       "tags": [
         "YouTube"
       ],
-      "citationNumber": 27,
+      "citationNumber": 26,
       "videoId": "n7k9PcSoNvo",
       "metrics": {
         "views": 98
+      }
+    },
+    {
+      "id": "youtube:https://www.youtube.com/watch?v=r86bYnTbEDU",
+      "platform": "youtube",
+      "title": "WELL-BEING TOURS! Sheinbaum TO VISIT hospitals in 24 states. Ignores IMSS conflict!",
+      "summary": "Subscribe to @InformateconGloria President Claudia Sheinbaum Pardo announced that, between now and December, she will conduct ...",
+      "sourceName": "Infórmate con Gloria",
+      "authorHandle": "Infórmate con Gloria",
+      "publishedAt": "Fecha no disponible",
+      "url": "https://www.youtube.com/watch?v=r86bYnTbEDU",
+      "contentType": "video",
+      "tags": [
+        "YouTube"
+      ],
+      "citationNumber": 27,
+      "videoId": "r86bYnTbEDU",
+      "metrics": {
+        "views": 23
       }
     },
     {
@@ -543,26 +543,26 @@
       "citationNumber": 28,
       "videoId": "brpELJazSiM",
       "metrics": {
-        "views": 630
+        "views": 631
       }
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=BoPf_TumcPg",
+      "id": "youtube:https://www.youtube.com/watch?v=zCY708v_Lyo",
       "platform": "youtube",
-      "title": "Sheinbaum's plan for Yucatán hospitals following direct site visits",
-      "summary": "Claudia Sheinbaum visited hospitals in Yucatán to listen to patients and medical staff regarding the lack of medications; she ...",
-      "sourceName": "NMás",
-      "authorHandle": "NMás",
+      "title": "Avanza diagnóstico en hospitales IMSS. Conferencia presidenta Sheinbaum",
+      "summary": "00:00:00 Inicio de transmisión 00:14:38 Comienza conferencia de prensa 00:17:08 Informe de seguridad 01:07:45 Sesión ...",
+      "sourceName": "Gobierno de México",
+      "authorHandle": "Gobierno de México",
       "publishedAt": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=BoPf_TumcPg",
+      "url": "https://www.youtube.com/watch?v=zCY708v_Lyo",
       "contentType": "video",
       "tags": [
         "YouTube"
       ],
       "citationNumber": 29,
-      "videoId": "BoPf_TumcPg",
+      "videoId": "zCY708v_Lyo",
       "metrics": {
-        "views": 13100
+        "views": 71485
       }
     },
     {
@@ -769,32 +769,8 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMiogFBVV95cUxNcFJzcDY4SmJQaWNIWEtoNmI2NlVqeVJKNVpSSWVDMXZKQmF0NXJXaW1QYWtqTEdRSDFVMFM1VkhGbXNZcU5ENjNCemFyaVFZWVZLeVd4T2E4U0V0eHhsZ1ZzWVdOdnFqNk41cTFabmdfNnZaaUszUW00bG5pR2pSY0JJb1BSZWJXTDd2UHBMMXRObU1SVmJtZnNMN0VMcXN0Rmc?oc=5",
-      "citationIndex": 2,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Hospital Universitario, becas y deporte marcan gira de Sheinbaum en Puebla",
-      "date": "15 nov 2026",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcFJzcDY4SmJQaWNIWEtoNmI2NlVqeVJKNVpSSWVDMXZKQmF0NXJXaW1QYWtqTEdRSDFVMFM1VkhGbXNZcU5ENjNCemFyaVFZWVZLeVd4T2E4U0V0eHhsZ1ZzWVdOdnFqNk41cTFabmdfNnZaaUszUW00bG5pR2pSY0JJb1BSZWJXTDd2UHBMMXRObU1SVmJtZnNMN0VMcXN0Rmc?oc=5",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Sucesos Puebla",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUU1Tk9DczBHWGRtb1dPQ3NXUVluRmctT3RzNWg4ZTVzb0VWTU13TzFMTU5IYTlmR2huOGxac284aGxUY19DYmNYdE1tc2NYeGxraWN5c2kyN3hoVzRwS2Y1MG5tR2JZUDVCZUxmU3Q0bmY1WWVFZjB1ZUg0eXVLeDk2SXZOR0V1WjVj?oc=5",
-      "citationIndex": 3,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Sheinbaum en Puebla inaugura Universidad del Deporte",
-      "date": "13 nov 2026",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUU1Tk9DczBHWGRtb1dPQ3NXUVluRmctT3RzNWg4ZTVzb0VWTU13TzFMTU5IYTlmR2huOGxac284aGxUY19DYmNYdE1tc2NYeGxraWN5c2kyN3hoVzRwS2Y1MG5tR2JZUDVCZUxmU3Q0bmY1WWVFZjB1ZUg0eXVLeDk2SXZOR0V1WjVj?oc=5",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Amexi",
-      "reputation": "No evaluada"
-    },
-    {
       "id": "bilibili:https://www.bilibili.com/video/av117602026326353",
-      "citationIndex": 4,
+      "citationIndex": 2,
       "name": "Bilibili",
       "platform": "bilibili",
       "title": "Helene Segara - Il attend la pluie",
@@ -805,44 +781,8 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTEM1Vm05QzBqODh1cVd5aEJRWnJ6bUliM2xaOVVYWkliUE85bEMzREpsTlF2Q2I2WWxfeUE4T0c2ck1DX1hUOHNSazRLX3hXOS1IZGFlMjNiWE96SFd5TXpzaTlRS0pva0ExUFJYQ2haUEdRUnctSTZGWTRrZi1LY3lRRWhNTFNvLXNSV0F4UlJVWEdMdkNrZkV3ajhBb0xRTzJEQnJENEFfUXNpMnVWYXBTSFFIbXAx?oc=5",
-      "citationIndex": 5,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Sheinbaum concluye gira por Hidalgo, Edomex y Guanajuato; supervisa trenes y entrega apoyos",
-      "date": "2 nov 2026",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTEM1Vm05QzBqODh1cVd5aEJRWnJ6bUliM2xaOVVYWkliUE85bEMzREpsTlF2Q2I2WWxfeUE4T0c2ck1DX1hUOHNSazRLX3hXOS1IZGFlMjNiWE96SFd5TXpzaTlRS0pva0ExUFJYQ2haUEdRUnctSTZGWTRrZi1LY3lRRWhNTFNvLXNSV0F4UlJVWEdMdkNrZkV3ajhBb0xRTzJEQnJENEFfUXNpMnVWYXBTSFFIbXAx?oc=5",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "24-horas",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ1R6T0hUMDZhaTJmUVo3ckI0Qml1MlI4d1BFdjBtaDA0emVROUxCM1lfUllDRDlzUFAwbktKcllNSm1HSDUwU04yVW5lNjVZWGdvYjhuMVEyQlFyVlBrSlJLZnhyZll6R2NsQXdjc2FTUV92aUcxY3lHRVN4Ml9qMWsweDlIWVRxa3ZhcERscjNoYWxtWW9vdXdfcEFfUEFFbmNmeC01SXg4Wk8wRlRCOWFGNDdFOVI5OW04?oc=5",
-      "citationIndex": 6,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Sheinbaum inicia gira nacional para modernizar los hospitales del IMSS Bienestar",
-      "date": "18 oct 2026",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ1R6T0hUMDZhaTJmUVo3ckI0Qml1MlI4d1BFdjBtaDA0emVROUxCM1lfUllDRDlzUFAwbktKcllNSm1HSDUwU04yVW5lNjVZWGdvYjhuMVEyQlFyVlBrSlJLZnhyZll6R2NsQXdjc2FTUV92aUcxY3lHRVN4Ml9qMWsweDlIWVRxa3ZhcERscjNoYWxtWW9vdXdfcEFfUEFFbmNmeC01SXg4Wk8wRlRCOWFGNDdFOVI5OW04?oc=5",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Cadena Politica",
-      "reputation": "No evaluada"
-    },
-    {
-      "id": "news:https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSGZiNWFYdXhUYUlxa3pkc2YxYS0yMk9hRXVuRDBJbFFxU0NTOWlycFN0N3VnblRON1RwUXRpM29zQzhzZDdZT0NYOGRNdjhBeE9uM21PWldxMXI2SUVOWjE2R3pITGsxQmxqaHVBSWVfSW5SSVZnVWFjVlBFdURUZFJBMDRKdndlRFc4VVZuNjhNem9CdU1GcWRveVBVei1VNHNIejRGaDhzVURUb2NDYzRvOElGT2ptNjU0SVFwMXk?oc=5",
-      "citationIndex": 7,
-      "name": "Google News",
-      "platform": "web",
-      "title": "Presidenta Claudia Sheinbaum y Gobernadora Delfina Gómez supervisan atención médica y abasto de medicamentos en el oriente del Edomex",
-      "date": "11 oct 2026",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSGZiNWFYdXhUYUlxa3pkc2YxYS0yMk9hRXVuRDBJbFFxU0NTOWlycFN0N3VnblRON1RwUXRpM29zQzhzZDdZT0NYOGRNdjhBeE9uM21PWldxMXI2SUVOWjE2R3pITGsxQmxqaHVBSWVfSW5SSVZnVWFjVlBFdURUZFJBMDRKdndlRFc4VVZuNjhNem9CdU1GcWRveVBVei1VNHNIejRGaDhzVURUb2NDYzRvOElGT2ptNjU0SVFwMXk?oc=5",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Voces y Jarillas",
-      "reputation": "No evaluada"
-    },
-    {
       "id": "news:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVlBzVHR2MTYxc0pMbHdGWlNsdmpNdTZVN1RVdnNMVzJnMm1GWjBYTTlRMHFNc3hiWVowTnBXTzdncHJGMTBDM210b0NLWUpWbUZaZjNDWlB6U3M3Zi1hcktEMGNuekw1RTRzMm9MZXF0Y281UGt0MXZUSy1FVHVNRkdNY3R2UnUzbVNPLVo2M2hCdkllejhla0lwaFpPal9sdjMySWdkMy03RGNtblZMZU1wRFkxQzBRWkhCbENkaWY0MXYxY3ZfQ3dNcnNvSjN3UW4zMG1oelPSAewBQVVfeXFMTUtxWDlUUW91SHFBRFQ0OTBIUXB3MHlHZU85eEtTR0RnMGJZSGp2aG9yUllzbDVMTll6SjQyZkdITnBtVVd1WVRiejJkOVBVMWlaTGFKVFNzQ0hzXzBKVjZ1RnhOR2JjWTFnNGF6UUhXQ2xiUEFwXzRubG9wbTRReUd4N21WUjVibktBaENUR0dPNXdMbE5ianRYNEhCMXJxbXFTNmhYUWVGX3FRU0ZvVW40bklpVW9KX1pJa3BqMFRRRV95UTBFdzdqNC0tbjMydXozZUl5NEF5OVVJSWpSS2o3VkJjN1JtSlBsVGU?oc=5",
-      "citationIndex": 8,
+      "citationIndex": 3,
       "name": "Google News",
       "platform": "web",
       "title": "Sheinbaum anuncia gira nacional para dar seguimiento al IMSS Bienestar",
@@ -854,7 +794,7 @@
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMirAFBVV95cUxQTV9EeFdRYTJyLUx6UDZFanlHcFk0dEk1OTQzd1dTM1RHS1lCYS01UmRoakVod180Vm56SjQzRVk4eVBBY0FxaU1BWkwxc1hDSXlQeEZWcVdYZk12QUtRaTk3VkpES0U0NHpXZ1ZyTm9ZUEdpb3V4YUxyRndnc2xDX3JyN2VBMXhZRlJXMVhzNkpQMGJ6bmZ1MG1YVFh5YXNXQ0l1bzU0ZXdLdU4x?oc=5",
-      "citationIndex": 9,
+      "citationIndex": 4,
       "name": "Google News",
       "platform": "web",
       "title": "Claudia Sheinbaum anuncia gira por 23 estados para evaluar el IMSS-Bienestar",
@@ -866,7 +806,7 @@
     },
     {
       "id": "news:https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVpPTC1qZDJaWW9iaURoaVFNY3BsbU5COXo4VVN1d1loN1RfTzV6c3dyWkU2TjY2WWx1T2VCZzZuZ0hMdjUzaHZvMWhyS1ZWeTlUX2VUWlVlWTh1YmNIamJEbUZvQ0ZfVjI3VFFBOWM3WndfTlB0ZkhxWnBmMk5Ec2J1TzA1UjRmX1hkaFJIOTZ3VFdjVnZKZkNPRVowSlRZTTZkNlZaVFNGYVE?oc=5",
-      "citationIndex": 10,
+      "citationIndex": 5,
       "name": "Google News",
       "platform": "web",
       "title": "Claudia Sheinbaum inicia gira nacional de Salud en Hidalgo",
@@ -877,15 +817,75 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "news:https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
-      "citationIndex": 11,
+      "id": "news:https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "citationIndex": 6,
+      "name": "Google News",
+      "platform": "web",
+      "title": "“Mexicanos al grito de guerra” cantan trabajadores del IMSS en medio de protestas y repliegue policial en CDMX",
+      "date": "9 oct 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU56T2NJMG9jVENwc2ZWY2VBVDJLRVRzTUFpOHlvU0xQS2FzSlVRV1pNLTgzYW02a3ZMR1RJRGlXOEM4QzVtTDNoS0UwMWxzSkxrSzR3WUhQNVVKZXFKcVgwalA0VEF5dlNCZ1JuZ1hWYUpnZUtJbHBUajJ3SlVDbGNaVDNMbGJfc1lVdHVROFUzYjgyWkdhbnNJem9teXk2UVBFazdocGlzd0FFS2pNTnBtX05BcUc3aGlzeEc1M21PNjVKX3JHUW1Pb0hkTmtwem9zNWlaa9IB8gFBVV95cUxPSlpBd3c4OW5HVUlPOHNQR3BBcklpbzNaOGhCalhuX21VWTFjUlA1NHhOclJuSFJSUE5aalpvaVRnTWthcWJaN1RCQTcyTmhfbm5xUjZPd25Ld21qU1JGRXRURWZMa3V5V0RWQ0pRN3hXcExYS3A5UUZ1LXdlZ2FKMVlqQ085OC1rcHZybWozWUxfZGd5ejFTMGNEOUFiMW96dGtyeHJ3UjU3b3NZeXlWZENPdjRBODRIUGlvTXNDX2lSRFlBdVhNTFNNWDhyOTBEZ2NCVVo4VWlvSEt5SnNFSkZXS013RTFocFFyV3lmWV9YUQ?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Infobae",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN2VESkxjbXVTQXAzSEtvWkdnQ2k0S3BtbldBOW9TWkZONHJTMU1QMVduSkxrUmNTbDd1VU52MEF4VGNoWUZKZFBPaGNkMnR3RHRQWkVKVDByaGJhcnVDZldzYUs0SFdoVU9RMHQ2MUNIQnF0UWdpcGU4V0I1RGlWZmo4WjhILU5yRDZWemh2UUxsSkVxTkw0OUcxUVVwZkQ3blRRalM0aHNYc214WXFFRjZTUGJmOWt2Yl9hSnJPU1JBV1VwVDFZbE5KQ2x4MWtRMXM4TEM0bzBWTXgyT1VjZ2RBcW9UZDktV19N0gGGAkFVX3lxTE93eldnXzdIa2ZMZmp0dFl2YW5UNUowY0pzZm1TTWJ1eWZoZmRBbk9naUtuVVZDWHgybFdISE1YSW1FbFZJU01Sb1c0WWcydFhCNm1yV3g2bUJVWlN0LWhzUTRDWUkzUWRtN2RlVnp5X1p3dUtFUVg3b19FNXg5YzdnUmctVGxzaGdkRUlYMDNKMkNmTmV3LXl1Nk5ISFZNQVJRSmJZX21ubnIxOS1aRmpXalN5TElzZmxjZ2s1WmhGWGtPQXkxT2l3czlfRXhQNGNFbTN6S0Y1cEQ3TzM2aUhjRUptaFk5UExoaFR4bm1aNXBBTVM5MDFfaG5nSm1iNHp0VzJIaXc?oc=5",
+      "citationIndex": 7,
+      "name": "Google News",
+      "platform": "web",
+      "title": "Morena respalda gira de Sheinbaum en las 32 entidades y atribuye caída de 53% en homicidios dolosos a su gobierno",
+      "date": "27 sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN2VESkxjbXVTQXAzSEtvWkdnQ2k0S3BtbldBOW9TWkZONHJTMU1QMVduSkxrUmNTbDd1VU52MEF4VGNoWUZKZFBPaGNkMnR3RHRQWkVKVDByaGJhcnVDZldzYUs0SFdoVU9RMHQ2MUNIQnF0UWdpcGU4V0I1RGlWZmo4WjhILU5yRDZWemh2UUxsSkVxTkw0OUcxUVVwZkQ3blRRalM0aHNYc214WXFFRjZTUGJmOWt2Yl9hSnJPU1JBV1VwVDFZbE5KQ2x4MWtRMXM4TEM0bzBWTXgyT1VjZ2RBcW9UZDktV19N0gGGAkFVX3lxTE93eldnXzdIa2ZMZmp0dFl2YW5UNUowY0pzZm1TTWJ1eWZoZmRBbk9naUtuVVZDWHgybFdISE1YSW1FbFZJU01Sb1c0WWcydFhCNm1yV3g2bUJVWlN0LWhzUTRDWUkzUWRtN2RlVnp5X1p3dUtFUVg3b19FNXg5YzdnUmctVGxzaGdkRUlYMDNKMkNmTmV3LXl1Nk5ISFZNQVJRSmJZX21ubnIxOS1aRmpXalN5TElzZmxjZ2s1WmhGWGtPQXkxT2l3czlfRXhQNGNFbTN6S0Y1cEQ3TzM2aUhjRUptaFk5UExoaFR4bm1aNXBBTVM5MDFfaG5nSm1iNHp0VzJIaXc?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Infobae",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
+      "citationIndex": 8,
       "name": "Google News",
       "platform": "web",
       "title": "Américo Villarreal reconoce apoyo de la presidenta Claudia Sheinbaum a Tamaulipas",
-      "date": "16 ago 2026",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEs5eWE3MWFQX2s2UmJuOXFqVnlGVjVrR0FzdWJiTzVGN3U3VWhjQ25ndllmVVBWMkZMME80anoxQjJYc1M0eW05N3NqSkRlbXpHaXY1aExCandsdTBZc040MVE3QjRzTmV2UVhPNTlfOTBCYXB5Z2x2S1BDcWpZSmJmUjJZWUdWRHNqRG4yYzR2WXVFdnR2N0xPQVpGd2ZqRWNZeElOb0NMcVBhV3BYajhzUjc?oc=5",
+      "date": "17 ago 2026",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGQzWDY3VlBaMmJBZTgzVk4yVWpQdi1nUFI5dFRIaEwzTjdRYXFZODdMY0haRUpxWTQwS3NDaEYyNUM1b2NmdHdWTFBfM0pJUzdKaktDU3RNN0xpWDRGdnZPNVhMWXhFdDlySVBRT2U5OGdheE5RZ1BmTjhleEVLd3AxUjIteGJ5Ykk2cVl4MHp6dFNzLUtwOTlhc2c0aEk5a0ZqcEZpSWNYZEkxS1R1M3NGQXdUMnJtclVPT2ZrV19OVWtqdW9VOTR1SVZOMGJl0gHWAUFVX3lxTE1VOUQxOWcwZlpYRzVOWXpwc3psa1c5ck9DYXhIaFc0LWxJYjY5LUdaZUpnaXBXLVBlZXVHTEZuT2RkNlpOQnhrSVJRV0hDNDB5SXVtZk4taG8yUGxmbnFpSTRWNlBPYV9PUVQ0cnZFUXVHNjZSZmtRWmowcExLcXlfLWtuS3ZWdUlIOUt4RnN0dDZyWmRWMUJoWjZiVUNkQTlfTXd5Qkl3V2NybUFGMGNMV3cxRnRjTWdvcjFwck5XVkJWZThfbzdVN05fVGdDQ0h1cGlXT2c?oc=5",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Serpientes y Escaleras",
+      "authorOrOutlet": "El Economista",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEtqaGJ4UkRHd2FrSTN5UEpSMWo4SlUwczFRZ0VvRWRzVHlnRFF0YzlVa1ExRkstREJpMUdCanNNWklSZ3ZIdjM1WV9jOFNxZWVTVndLWV9YdHBrNk91bDRaSW5qOWRrdi1MM3ppem1KbEVzN0hQZUlzc2lyVHVSdFRnUjJLVjg1U2x0RThzVENOMWFPUlJ1V09aNHQwOU8zTG9wbWtUUzdiNVg0cXJYUUZ3?oc=5",
+      "citationIndex": 9,
+      "name": "Google News",
+      "platform": "web",
+      "title": "Destinan más de 1,000 mdp a nuevo hospital IMSS-Bienestar en Ciudad Madero, Tamaulipas",
+      "date": "16 ago 2026",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEtqaGJ4UkRHd2FrSTN5UEpSMWo4SlUwczFRZ0VvRWRzVHlnRFF0YzlVa1ExRkstREJpMUdCanNNWklSZ3ZIdjM1WV9jOFNxZWVTVndLWV9YdHBrNk91bDRaSW5qOWRrdi1MM3ppem1KbEVzN0hQZUlzc2lyVHVSdFRnUjJLVjg1U2x0RThzVENOMWFPUlJ1V09aNHQwOU8zTG9wbWtUUzdiNVg0cXJYUUZ3?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "EL CEO",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMiswFBVV95cUxNU01wZHBJMVFJQXBiNnJKUmY2N3VVa205Q2QwS0EwQUFWaU5vZEdkOFBZX2pMdTlwS1VyNWFmLVhBcjJDSjBOTkd1aXh0YlhpcDFQRDh3UDROdEFsU2c3d2t3WGNmSkl3bjlwQk9DR19PSVl2SVU1b1pWTVJaWGwybHRUUFJXeEFCd24zZGNuM082d2pfZmtwTTl3RzYzVW1xUHRScmp0NUJJSS0yNEJxOVZNdw?oc=5",
+      "citationIndex": 10,
+      "name": "Google News",
+      "platform": "web",
+      "title": "Sheinbaum inaugura Hospital General IMSS Bienestar Ciudad Madero",
+      "date": "16 ago 2026",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU01wZHBJMVFJQXBiNnJKUmY2N3VVa205Q2QwS0EwQUFWaU5vZEdkOFBZX2pMdTlwS1VyNWFmLVhBcjJDSjBOTkd1aXh0YlhpcDFQRDh3UDROdEFsU2c3d2t3WGNmSkl3bjlwQk9DR19PSVl2SVU1b1pWTVJaWGwybHRUUFJXeEFCd24zZGNuM082d2pfZmtwTTl3RzYzVW1xUHRScmp0NUJJSS0yNEJxOVZNdw?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "El Horizonte",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "news:https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjFYZE1teDNpb3Rvekp4dnZOdnNxa1dkQkpxaDdRZ2c3N0xqYUpjeGpEV3BwcGZkS25FODVYcUNqUVZkTm1FQ29oRVMxVzdZNTFoaE50NE9rY3FLbXN6VGpaZlpteUpZOVFvdjlnX3lFbnFzZmhMeG5meGU4RnByNWdidWJYZ2FMY2hJY0ZucEpWZ1F1MWhIUHNWejZROFJybEVEOE1YaVJ3NXZicEd3RlZpLTFTRGc?oc=5",
+      "citationIndex": 11,
+      "name": "Google News",
+      "platform": "web",
+      "title": "Gira presidencial deja “buenas noticias y de mucho provecho para Tabasco”; visita de Claudia Sheinbaum consolida impulso al bienestar, fortalecimiento al campo y a la infraestructura",
+      "date": "24 may 2026",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZjFYZE1teDNpb3Rvekp4dnZOdnNxa1dkQkpxaDdRZ2c3N0xqYUpjeGpEV3BwcGZkS25FODVYcUNqUVZkTm1FQ29oRVMxVzdZNTFoaE50NE9rY3FLbXN6VGpaZlpteUpZOVFvdjlnX3lFbnFzZmhMeG5meGU4RnByNWdidWJYZ2FMY2hJY0ZucEpWZ1F1MWhIUHNWejZROFJybEVEOE1YaVJ3NXZicEd3RlZpLTFTRGc?oc=5",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Portal Tabasco",
       "reputation": "No evaluada"
     },
     {
@@ -1045,20 +1045,8 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=zCY708v_Lyo",
-      "citationIndex": 25,
-      "name": "YouTube",
-      "platform": "youtube",
-      "title": "Avanza diagnóstico en hospitales IMSS. Conferencia presidenta Sheinbaum",
-      "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=zCY708v_Lyo",
-      "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "Gobierno de México",
-      "reputation": "No evaluada"
-    },
-    {
       "id": "youtube:https://www.youtube.com/watch?v=OqkiFAyf6_A",
-      "citationIndex": 26,
+      "citationIndex": 25,
       "name": "YouTube",
       "platform": "youtube",
       "title": "Gira de la Presidenta Claudia Sheinbaum",
@@ -1070,7 +1058,7 @@
     },
     {
       "id": "youtube:https://www.youtube.com/watch?v=n7k9PcSoNvo",
-      "citationIndex": 27,
+      "citationIndex": 26,
       "name": "YouTube",
       "platform": "youtube",
       "title": "Sheinbaum announces tour of Chiapas from Friday to Sunday: Rizo de Oro Bridge, scholarships, and ...",
@@ -1078,6 +1066,18 @@
       "url": "https://www.youtube.com/watch?v=n7k9PcSoNvo",
       "type": "Resultado público de búsqueda",
       "authorOrOutlet": "El Mediático",
+      "reputation": "No evaluada"
+    },
+    {
+      "id": "youtube:https://www.youtube.com/watch?v=r86bYnTbEDU",
+      "citationIndex": 27,
+      "name": "YouTube",
+      "platform": "youtube",
+      "title": "WELL-BEING TOURS! Sheinbaum TO VISIT hospitals in 24 states. Ignores IMSS conflict!",
+      "date": "Fecha no disponible",
+      "url": "https://www.youtube.com/watch?v=r86bYnTbEDU",
+      "type": "Resultado público de búsqueda",
+      "authorOrOutlet": "Infórmate con Gloria",
       "reputation": "No evaluada"
     },
     {
@@ -1093,15 +1093,15 @@
       "reputation": "No evaluada"
     },
     {
-      "id": "youtube:https://www.youtube.com/watch?v=BoPf_TumcPg",
+      "id": "youtube:https://www.youtube.com/watch?v=zCY708v_Lyo",
       "citationIndex": 29,
       "name": "YouTube",
       "platform": "youtube",
-      "title": "Sheinbaum's plan for Yucatán hospitals following direct site visits",
+      "title": "Avanza diagnóstico en hospitales IMSS. Conferencia presidenta Sheinbaum",
       "date": "Fecha no disponible",
-      "url": "https://www.youtube.com/watch?v=BoPf_TumcPg",
+      "url": "https://www.youtube.com/watch?v=zCY708v_Lyo",
       "type": "Resultado público de búsqueda",
-      "authorOrOutlet": "NMás",
+      "authorOrOutlet": "Gobierno de México",
       "reputation": "No evaluada"
     },
     {
